@@ -1,0 +1,12 @@
+#!/bin/awk -f
+
+BEGIN {
+
+	CPU_MHZ_CMD = "cat /proc/cpuinfo |grep MHz"; # CPU MHz
+	CPU_MHZ_CMD | getline;
+	close(CPU_MHZ_CMD);
+
+	mhz = sprintf("%1.1f", ($4 / 1000));
+	print mhz;
+
+      }

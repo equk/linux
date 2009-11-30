@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>
+					terminal
+				</execute>
+			</action>
+		</item>
+		<item label="File Manager">
+			<action name="Execute">
+				<execute>
+					Thunar
+				</execute>
+			</action>
+		</item>
+		<item label="FireFox">
+			<action name="Execute">
+				<execute>
+					firefox
+				</execute>
+			</action>
+		</item>
+		<item label="Thunderbird">
+			<action name="Execute">
+				<execute>
+					thunderbird
+				</execute>
+			</action>
+		</item>
+		<item label="Sonata Media Player">
+			<action name="Execute">
+				<execute>
+					sonata
+				</execute>
+			</action>
+		</item>
+		<item label="VirtualBox">
+			<action name="Execute">
+				<execute>
+					VirtualBox
+				</execute>
+			</action>
+		</item>
+		<item label="Scite">
+			<action name="Execute">
+				<execute>
+					scite
+				</execute>
+			</action>
+		</item>
+		<item label="Pidgin Internet Messenger">
+			<action name="Execute">
+				<execute>
+					pidgin
+				</execute>
+			</action>
+		</item>
+		<item label="FileZilla FTP client">
+			<action name="Execute">
+				<execute>
+					filezilla
+				</execute>
+			</action>
+		</item>
+		<item label="GIMP Image Editor">
+			<action name="Execute">
+				<execute>
+					gimp
+				</execute>
+			</action>
+		</item>
+		<item label="TrueCrypt">
+			<action name="Execute">
+				<execute>
+					truecrypt
+				</execute>
+			</action>
+		</item>
+		<item label="Text editor">
+			<action name="Execute">
+				<execute>
+					scite
+				</execute>
+			</action>
+		</item>
+		<item label="Task Manager">
+			<action name="Execute">
+				<execute>
+					xfce4-taskmanager
+				</execute>
+			</action>
+		</item>
+		<item label="MPD Update Library">
+			<action name="Execute">
+				<execute>
+					~/mpd_upd.sh
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="28" label="Games">
+			<item label="Heroes Of Newerth">
+				<action name="Execute">
+					<execute>
+						/home/bradley/HoN/hon.sh
+					</execute>
+				</action>
+			</item>
+			<item label="Torchlight">
+				<action name="Execute">
+					<execute>
+						/home/bradley/torchlight.sh
+					</execute>
+				</action>
+			</item>
+			<item label="Steam">
+				<action name="Execute">
+					<execute>
+						/home/bradley/steam.sh
+					</execute>
+				</action>
+			</item>
+			<item label="GuildWars">
+				<action name="Execute">
+					<execute>
+						/home/bradley/gw.sh
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="30" label="Network Security Tools">
+			<item label="Metasploit Framework UI">
+				<action name="Execute">
+					<execute>
+						/usr/bin/msfgui
+					</execute>
+				</action>
+			</item>
+			<item label="Wireshark">
+				<action name="Execute">
+					<execute>
+						wireshark
+					</execute>
+				</action>
+			</item>
+			<item label="ARP Watch">
+				<action name="Execute">
+					<execute>
+						arpwatch
+					</execute>
+				</action>
+			</item>
+			<item label="Port Bunny">
+				<action name="Execute">
+					<execute>
+						portbunny
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu execute="python ~/.wallmenu.py" id="31" label="Wallpaper"/>
+		<menu id="35" label="Settings">
+			<item label="obmenu">
+				<action name="Execute">
+					<execute>
+						obmenu
+					</execute>
+				</action>
+			</item>
+			<item label="User Interface Settings">
+				<action name="Execute">
+					<execute>
+						lxappearance
+					</execute>
+				</action>
+			</item>
+			<item label="Nvidia Control Center">
+				<action name="Execute">
+					<execute>
+						nvidia-settings
+					</execute>
+				</action>
+			</item>
+			<item label="Openbox Configuration Manager">
+				<action name="Execute">
+					<execute>
+						obconf
+					</execute>
+				</action>
+			</item>
+			<item label="Screensaver">
+				<action name="Execute">
+					<execute>
+						xscreensaver-demo
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<separator/>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+			<item label="Edit Openbox Menu">
+				<action name="Execute">
+					<execute>
+						scite ~/.config/openbox/menu.xml
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="Screenshot">
+			<action name="Execute">
+				<execute>
+					scrot /home/bradley/screenshot.png --delay 3
+				</execute>
+			</action>
+		</item>
+		<item label="Lock Screen">
+			<action name="Execute">
+				<execute>
+					xscreensaver-command -lock
+				</execute>
+			</action>
+		</item>
+		<item label="Exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
