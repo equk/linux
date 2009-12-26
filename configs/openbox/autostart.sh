@@ -25,5 +25,7 @@ sleep 2 && pypanel &
 eval `cat $HOME/.fehbg` &
 # start conky
 sleep 3 && conky &
+# start adeskbar
+sleep 3 && adeskbar &
 # start composite manager for effects
 xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &

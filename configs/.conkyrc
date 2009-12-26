@@ -1,5 +1,5 @@
 use_xft yes
-xftfont cure:terminus=14
+xftfont profont:pixelsize=11
 update_interval 1
 own_window_colour black
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
@@ -9,14 +9,14 @@ own_window yes
 double_buffer yes
 maximum_width 1850
 minimum_size 1850
-draw_shades yes
+draw_shades no
 draw_borders no
-draw_outline no
+draw_outline yes
 stippled_borders 0
 border_margin 5
 border_width 1
 default_color FFFFFF
-color1 009cff
+color1 ff7000
 alignment bottom_left
 gap_x 20
 gap_y 3

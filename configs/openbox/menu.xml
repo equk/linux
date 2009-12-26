@@ -15,21 +15,21 @@
 				</execute>
 			</action>
 		</item>
-		<item label="FireFox">
+		<item label="Web Browser">
 			<action name="Execute">
 				<execute>
 					firefox
 				</execute>
 			</action>
 		</item>
-		<item label="Thunderbird">
+		<item label="Email Client">
 			<action name="Execute">
 				<execute>
 					thunderbird
 				</execute>
 			</action>
 		</item>
-		<item label="Sonata Media Player">
+		<item label="Music Player">
 			<action name="Execute">
 				<execute>
 					sonata
@@ -43,7 +43,7 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Scite">
+		<item label="Text Editor">
 			<action name="Execute">
 				<execute>
 					scite
@@ -71,17 +71,17 @@
 				</execute>
 			</action>
 		</item>
+		<item label="Putty">
+			<action name="Execute">
+				<execute>
+					putty
+				</execute>
+			</action>
+		</item>
 		<item label="TrueCrypt">
 			<action name="Execute">
 				<execute>
 					truecrypt
-				</execute>
-			</action>
-		</item>
-		<item label="Text editor">
-			<action name="Execute">
-				<execute>
-					scite
 				</execute>
 			</action>
 		</item>
@@ -95,7 +95,7 @@
 		<item label="MPD Update Library">
 			<action name="Execute">
 				<execute>
-					~/mpd_upd.sh
+					/home/bradley/mpd_upd.sh
 				</execute>
 			</action>
 		</item>
@@ -149,13 +149,6 @@
 				<action name="Execute">
 					<execute>
 						arpwatch
-					</execute>
-				</action>
-			</item>
-			<item label="Port Bunny">
-				<action name="Execute">
-					<execute>
-						portbunny
 					</execute>
 				</action>
 			</item>
