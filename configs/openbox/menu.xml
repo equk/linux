@@ -18,14 +18,7 @@
 		<item label="Web Browser">
 			<action name="Execute">
 				<execute>
-					firefox
-				</execute>
-			</action>
-		</item>
-		<item label="Email Client">
-			<action name="Execute">
-				<execute>
-					thunderbird
+					chromium
 				</execute>
 			</action>
 		</item>
@@ -33,13 +26,6 @@
 			<action name="Execute">
 				<execute>
 					sonata
-				</execute>
-			</action>
-		</item>
-		<item label="VirtualBox">
-			<action name="Execute">
-				<execute>
-					VirtualBox
 				</execute>
 			</action>
 		</item>
@@ -68,6 +54,13 @@
 			<action name="Execute">
 				<execute>
 					gimp
+				</execute>
+			</action>
+		</item>
+		<item label="Keepass Password DB">
+			<action name="Execute">
+				<execute>
+					gtkpass
 				</execute>
 			</action>
 		</item>
@@ -129,33 +122,124 @@
 					</execute>
 				</action>
 			</item>
-		</menu>
-		<menu id="30" label="Network Security Tools">
-			<item label="Metasploit Framework UI">
+			<item label="Hedgewars">
 				<action name="Execute">
 					<execute>
-						/usr/bin/msfgui
+							hedgewars
 					</execute>
 				</action>
 			</item>
-			<item label="Wireshark">
+			<item label="TeeWorlds">
+				<action name="Execute">
+					<execute>
+							teeworlds
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="30" label="Network">
+			<item label="Avahi SSH Server Browser">
+				<action name="Execute">
+					<execute>
+						bssh
+					</execute>
+				</action>
+			</item>
+			<item label="Avahi VNC Server Browser">
+				<action name="Execute">
+					<execute>
+						bvnc
+					</execute>
+				</action>
+			</item>
+			<item label="Chromium">
+				<action name="Execute">
+					<execute>
+						chromium
+					</execute>
+				</action>
+			</item>
+			<item label="FileZilla">
+				<action name="Execute">
+					<execute>
+						filezilla
+					</execute>
+				</action>
+			</item>
+			<item label="Irssi">
+				<action name="Execute">
+					<execute>
+						xterm -e irssi
+					</execute>
+				</action>
+			</item>
+			<item label="Mumble">
+				<action name="Execute">
+					<execute>
+						mumble
+					</execute>
+				</action>
+			</item>
+			<item label="Mumble (1.1.X compatible)">
+				<action name="Execute">
+					<execute>
+						mumble11x
+					</execute>
+				</action>
+			</item>
+			<item label="Pidgin Internet Messenger">
+				<action name="Execute">
+					<execute>
+						pidgin
+					</execute>
+				</action>
+			</item>
+			<item label="TkVNC">
+				<action name="Execute">
+					<execute>
+						xterm -e tkvnc
+					</execute>
+				</action>
+			</item>
+			<item label="wireshark">
 				<action name="Execute">
 					<execute>
 						wireshark
 					</execute>
 				</action>
 			</item>
-			<item label="ARP Watch">
+			<item label="Xbiff">
 				<action name="Execute">
 					<execute>
-						arpwatch
+						xbiff
+					</execute>
+				</action>
+			</item>
+			<item label="Zenmap">
+				<action name="Execute">
+					<execute>
+						zenmap
+					</execute>
+				</action>
+			</item>
+			<item label="Zenmap (as root)">
+				<action name="Execute">
+					<execute>
+						/usr/share/zenmap/su-to-zenmap.sh
 					</execute>
 				</action>
 			</item>
 		</menu>
 		<menu execute="python ~/.wallmenu.py" id="31" label="Wallpaper"/>
 		<menu id="35" label="Settings">
-			<item label="obmenu">
+			<item label="Tint2 Config">
+				<action name="Execute">
+					<execute>
+						tint2conf
+					</execute>
+				</action>
+			</item>
+			<item label="Openbox Menu Editor">
 				<action name="Execute">
 					<execute>
 						obmenu
@@ -183,7 +267,7 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Screensaver">
+			<item label="Screensaver Settings">
 				<action name="Execute">
 					<execute>
 						xscreensaver-demo

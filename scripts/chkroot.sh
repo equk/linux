@@ -33,5 +33,5 @@ echo -e "$blue:: Starting rkhunter check $reset"
 echo -e "$green:: rkhunter scan complete please see log located $log $reset"
 
 # mail the log
-su -c "echo see attached | mutt -s \"Root Kit Check\" -a \"$log\" -- user@gmail.com" username
-echo -e "$blue:: mailing rkhunter log to administrator $reset"
+# su -c "echo see attached | mutt -s \"Root Kit Check\" -a \"$log\" -- user@gmail.com" username
+# echo -e "$blue:: mailing rkhunter log to administrator $reset"
