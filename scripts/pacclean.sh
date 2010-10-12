@@ -1,5 +1,7 @@
 #!/bin/bash
 # Pacman Clean Script
+#
+# www.equk.co.uk
 
 # Colors
 blue="\033[1;34m"

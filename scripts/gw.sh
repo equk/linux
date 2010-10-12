@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#
+# www.equk.co.uk
 
 # equk's wine launcher
 
