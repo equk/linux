@@ -1,22 +1,21 @@
-                   -`
-                  .o+`
-                 `ooo/
-                `+oooo:               
-               `+oooooo:              OS: Arch Linux x86_64
-               -+oooooo+:             Kernel: 2.6.35-ARCH
-             `/:-:++oooo+:            
-            `/++++/+++++++:           Shell: bash
-           `/++++++++++++++:          Resolution: 1920x1080
-          `/+++ooooooooooooo/`        DE: Not Present
-         ./ooosssso++osssssso+`       WM: OpenBox
-        .oossssso-````/ossssss+`      WM Theme: Onyx
-       -osssssso.      :ssssssso.     GTK Theme: ClearlooksClassic
-      :osssssss/        osssso+++.    Icon Theme: nuoveXT.2.2
-     /ossssssss/        +ssssooo/-    Font: Sans 10
-   `/ossssso+/:-        -:/+osssso+-  BG: travel_0017.jpg
-  `+sso+:-`                 `.-/+oso:
- `++:.                           `-/+/
- .`                                 `/
+               +                OS: Arch Linux x86_64
+               #                Hostname: archlinux
+              ###               Kernel Release: 2.6.35-ARCH
+             #####              Uptime: 10:27
+             ######             Core 0: +36.0°C
+            ; #####;            Core 1: +36.5°C
+           +##.#####            WM: Openbox
+          +##########           DE: None
+         #############;         Packages: 626
+        ###############+        RAM: 3961 MB
+       #######   #######        Processor Type: Intel(R) Core(TM)2 CPU 6400 @ 3.2GHz
+     .######;     ;###;`".      $SHELL: /bin/bash
+    .#######;     ;#####.       $EDITOR: geany
+    #########.   .########`     Songs in MPD database: 1870
+   ######'           '######    Root FS: 4.1G / 6.9G (ext3)
+  ;####                 ####;   
+  ##'                     '##   
+ #'                         `#  
 
 Most of the files here are for maintaining Archlinux.
 
