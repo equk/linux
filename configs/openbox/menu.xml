@@ -22,6 +22,13 @@
 				</execute>
 			</action>
 		</item>
+		<item label="Twitter">
+			<action name="Execute">
+				<execute>
+					uzbl-browser mobile.twitter.com
+				</execute>
+			</action>
+		</item>
 		<item label="Music Player">
 			<action name="Execute">
 				<execute>
@@ -32,7 +39,7 @@
 		<item label="Text Editor">
 			<action name="Execute">
 				<execute>
-					scite
+					geany
 				</execute>
 			</action>
 		</item>
@@ -71,10 +78,24 @@
 				</execute>
 			</action>
 		</item>
+		<item label="Remote Desktop">
+			<action name="Execute">
+				<execute>
+					remmina
+				</execute>
+			</action>
+		</item>
 		<item label="TrueCrypt">
 			<action name="Execute">
 				<execute>
 					truecrypt
+				</execute>
+			</action>
+		</item>
+		<item label="BitTorrent Client">
+			<action name="Execute">
+				<execute>
+					transmission-gtk
 				</execute>
 			</action>
 		</item>
@@ -230,12 +251,25 @@
 				</action>
 			</item>
 		</menu>
-		<menu execute="python ~/.wallmenu.py" id="31" label="Wallpaper"/>
+		<item label="Wallpaper">
+			<action name="Execute">
+				<execute>
+					nitrogen /home/bradley/Pictures/wallpaper/
+				</execute>
+			</action>
+		</item>
 		<menu id="35" label="Settings">
 			<item label="Tint2 Config">
 				<action name="Execute">
 					<execute>
 						tint2conf
+					</execute>
+				</action>
+			</item>
+			<item label="Composite Settings">
+				<action name="Execute">
+					<execute>
+						cairo-compmgr --configure
 					</execute>
 				</action>
 			</item>

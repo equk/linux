@@ -2,13 +2,6 @@
 # ==========
 # equk.co.uk
 
-# Make GTK apps look and behave how they were set up in the gnome config tools
-if test -x /usr/libexec/gnome-settings-daemon >/dev/null; then
-  /usr/libexec/gnome-settings-daemon &
-elif which gnome-settings-daemon >/dev/null; then
-  gnome-settings-daemon &
-fi
-
 # xscreensaver
 xscreensaver -no-splash &
 # start thunar daemon for mounting etc
@@ -16,19 +9,30 @@ thunar --daemon &
 # little numlock tool
 numlockx &
 # parcellite clipboard tool
-parcellite -n &
+parcellite &
 # fix mouse acceleration
 sleep 2 && xset m 1 1
-# pypanel
-#sleep 2 && pypanel &
-# tint2
+# tint2 panel
 sleep 2 && tint2 &
 # set desktop background
-eval `cat $HOME/.fehbg` &
+##eval `cat $HOME/.fehbg` &
+nitrogen --restore &
 # start conky
-sleep 3 && conky &
+sleep 3 && conky -q &
+# start conky cpu clock
+sleep 3 && conky -q -c ~/.conkycpu &
+# start tilda console
+# quake style tilda to activate
+sleep 4 && tilda &
 # start composite manager for effects
-# xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
+##xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
+cairo-compmgr &
 # set keyboard map as xorg.conf dont work
 setxkbmap -layout 'gb' -model 'pc105'
+# set DE to XFCE to fix thunar + chromium
+export DE=xfce
+# start uzbl twitter client
+# sleep 5 && uzbl-browser mobile.twitter.com &
+# sync google chrome to ramdisk - also in crontab
+/usr/local/bin/chrome-sync &
 
