@@ -1,5 +1,7 @@
 #!/bin/bash
 # Arch Update
+#
+# www.equk.co.uk
 
 # Colors
 blue="\033[1;34m"
@@ -15,11 +17,11 @@ if [ $(whoami) != "root" ]; then
 fi
 
 # Update
-echo -e "$blue:: Syncing ABS $reset"
+echo -e "$blue:: $reset Syncing ABS"
 abs > /dev/null
 pacman -Syy
 pacman -Su
-echo -e "$blue:: Updating mlocate database $reset"
+echo -e "$blue:: $reset Updating mlocate database"
 updatedb
-echo -e "$green:: System update complete $reset"
+echo -e "$green:: $reset System update complete"
 exit 0
