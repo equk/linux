@@ -1,24 +1,26 @@
 use_xft yes
 xftfont profont:pixelsize=11
-update_interval 1
-own_window_colour black
+update_interval 11
+own_window_colour 111111
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
-own_window_transparent yes
+own_window_transparent no
 own_window_type desktop
 own_window yes
+text_buffer_size 256
 double_buffer yes
-maximum_width 1850
-minimum_size 1850
+maximum_width 1925
+minimum_size 1925
 draw_shades no
-draw_borders no
+draw_borders yes
 draw_outline yes
 stippled_borders 0
-border_margin 5
+border_margin 0
 border_width 1
 default_color FFFFFF
-color1 ff7000
-alignment bottom_left
-gap_x 20
+color1 55ff55
+color2 5555ff
+alignment bottom_middle
+gap_x 0
 gap_y 3
 no_buffers yes
 uppercase no
@@ -26,5 +28,4 @@ override_utf8_locale yes
 use_spacer left
 
 TEXT
-${color1}GPU Temp: ${color}${execi 60 nvidia-settings -query GPUCoreTemp | perl -ne 'print $1 if /GPUCoreTemp.*?: (\d+)./;'}.0 C :: ${color1}CPU Temp: ${color}${hwmon 1 temp 1} C :: ${color1}CPU Fan: ${color}${hwmon fan 2} RPM 
-${color1}Kernel: ${color}${kernel}  ::  ${color1}CPU Core1:${color}${cpu cpu0}%${color1} CPU Core2:${color}${cpu cpu1}% :: ${color1}Memory:  [${color} ${mem}  ${color1}/${color}${memmax}${color1}  ]${color}  ::  ${color1}Root:${color}${fs_used /}  ${color1}Home:${color}${fs_used /home}  ${alignr} ${color1}MPD: [${color}${mpd_status}${color1}]: ${color}${mpd_artist} ${color1}-${color} ${mpd_title 20} ${color1}[${color}${mpd_elapsed} ${color1}/ ${color}${mpd_length}${color1}]  ${color}::${color1}  ${time %a} ${time %e/%m/%y}
+    ${color2}Kernel: ${color}${kernel} ${color2}  CPU: ${color}${execi 11 sensors | grep -A 1 'Core 0' | cut -c15-16 | sed '/^$/d'}°C  ${color2}Mem: ${color}${mem}${color2}/${color}${memmax}${color2}  Root: ${color}${fs_used /}  ${color2}Home: ${color}${fs_used /home}  ${color2}Ramdisk: ${color}${fs_used /tmp} ${alignr} ${color2}MPD: [${color}${mpd_status}${color2}]: ${color}${mpd_artist} ${color2}-${color} ${mpd_title 20} ${color2}[${color}${mpd_elapsed} ${color2}/ ${color}${mpd_length}${color2}]    

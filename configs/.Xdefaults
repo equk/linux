@@ -6,7 +6,7 @@ URxvt.scrollBar: false
 URxvt.saveLines: 5000
 URxvt.urlLauncher:      firefox
 URxvt.cursorBlink: true
-URxvt.geometry: 150x45
+URxvt.geometry: 160x40
 URxvt.fading: 15%
 URxvt.shading: 75
 urxvt.font:             xft:DejaVu Sans Mono:pixelsize=12
@@ -20,7 +20,7 @@ URxvt.tintColor: #d9d7d1
 URxvt.borderLess: true
 !URxvt.InternalBorder: .5
 URxvt.externalBorder: .5
-URxvt.borderColor: #0066cc
+URxvt.borderColor: #55ff55
 
 *foreground:     rgba:0000/0000/0000/dddd
 *background:     rgb:10/10/10
@@ -28,10 +28,10 @@ URxvt.borderColor: #0066cc
 *color0:         rgb:20/20/20
 *color8:         rgb:75/77/73
 !red
-*color1:         rgb:cc/00/00  
+*color1:         rgb:ff/06/00  
 *color9:         rgb:ef/29/29
 !green
-*color2:         rgb:4e/9a/06
+*color2:         rgb:ff/00/06
 *color10:        rgb:8a/e2/34
 !brown/yellow
 *color3:         rgb:c4/a0/00

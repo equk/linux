@@ -10,6 +10,8 @@ thunar --daemon &
 numlockx &
 # parcellite clipboard tool
 parcellite &
+#set nvidia settings
+nvidia-settings --load-config-only
 # fix mouse acceleration
 sleep 2 && xset m 1 1
 # tint2 panel
@@ -26,7 +28,7 @@ sleep 3 && conky -q -c ~/.conkycpu &
 sleep 4 && tilda &
 # start composite manager for effects
 ##xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
-cairo-compmgr &
+#cairo-compmgr &
 # set keyboard map as xorg.conf dont work
 setxkbmap -layout 'gb' -model 'pc105'
 # set DE to XFCE to fix thunar + chromium

@@ -132,14 +132,14 @@
 			<item label="Steam">
 				<action name="Execute">
 					<execute>
-						/home/bradley/steam.sh
+						/home/bradley/scripts/steam.sh
 					</execute>
 				</action>
 			</item>
 			<item label="GuildWars">
 				<action name="Execute">
 					<execute>
-						/home/bradley/gw.sh
+						/home/bradley/scripts/gw.sh
 					</execute>
 				</action>
 			</item>
