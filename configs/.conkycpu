@@ -1,0 +1,47 @@
+update_interval 1
+total_run_times 0
+net_avg_samples 0
+cpu_avg_samples 1
+
+imlib_cache_size 0
+double_buffer yes
+no_buffers yes
+
+format_human_readable
+
+use_xft yes
+xftfont profont:pixelsize=11
+override_utf8_locale yes
+text_buffer_size 256
+
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+alignment top_right
+gap_x 25
+gap_y 40
+minimum_size 182 0
+maximum_width 182
+
+default_bar_size 60 8
+
+draw_shades no
+draw_outline yes
+default_outline_color 111111
+
+default_color FFFFFF
+
+color0 white
+color1 55ff55
+color2 CCCCCC
+color3 1E90FF
+
+TEXT
+# CPU
+${offset 1}${color3}${font OpenLogos:size=20}B${font}${color}${voffset -16}${goto 32}${color1}CPU1: ${color0}${cpu cpu1}%${color}${font} ${alignr}${color2}${cpugraph cpu1 8,80 55ff55 55ff55}${color}
+${goto 32}${color1}CPU2: ${color0}${cpu cpu2}%${color}${font} ${alignr}${color2}${cpugraph cpu2 8,80 55ff55 55ff55}${color}
+# CLOCK
+${alignc 46}${color0}${font Arial Black:size=30}${time %H:%M}${font}${color}
+${alignc}${time %d %B %Y}
