@@ -80,4 +80,11 @@ fi
 # Try to keep environment pollution down, EPA loves us.
 unset use_color safe_term match_lhs
 
+# Set geany as the default editor (used for pacman etc)
 export EDITOR="geany"
+
+# Check if xserver running if not run it
+# Used for startx on login
+if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then 
+startx 
+fi 

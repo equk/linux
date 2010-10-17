@@ -273,6 +273,13 @@
 					</execute>
 				</action>
 			</item>
+			<item label="Openbox Keybinds">
+				<action name="Execute">
+					<execute>
+						obkey
+					</execute>
+				</action>
+			</item>
 			<item label="Openbox Menu Editor">
 				<action name="Execute">
 					<execute>
@@ -341,8 +348,12 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Exit">
-			<action name="Exit"/>
+		<item label="Logout">
+			<action name="Execute">
+				<execute>
+					/home/bradley/scripts/oblogout.sh
+				</execute>
+			</action>
 		</item>
 	</menu>
 </openbox_menu>
