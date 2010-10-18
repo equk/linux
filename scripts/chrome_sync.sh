@@ -22,3 +22,7 @@ else
   rsync -av ./$STATIC/ ./$LINK/
   touch $LINK/.unpacked
 fi
+# cleanup google history cache (remove previous months)
+# also remove the database of safebrowsing
+rm -fr ~/.config/chromium/Safe*
+rm -fr ~/.config/chromium/Default/History\ Index*
