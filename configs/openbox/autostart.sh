@@ -28,7 +28,9 @@ sleep 3 && conky -q -c ~/.conkycpu &
 sleep 4 && tilda &
 # start composite manager for effects
 ##xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
-#cairo-compmgr &
+cairo-compmgr &
+#start dock
+sleep 4 && cairo-dock &
 # set keyboard map as xorg.conf dont work
 setxkbmap -layout 'gb' -model 'pc105'
 # set DE to XFCE to fix thunar + chromium
