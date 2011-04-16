@@ -1,18 +1,18 @@
                +                OS: Arch Linux x86_64
                #                Hostname: archlinux
-              ###               Kernel Release: 2.6.35-ARCH
-             #####              Uptime: 10:27
-             ######             Core 0: +36.0°C
-            ; #####;            Core 1: +36.5°C
+              ###               Kernel Release: 2.6.37-ARCH
+             #####              Uptime: 0:2
+             ######             Core 0:  +37.5°C
+            ; #####;            Core 1:  +37.5°C
            +##.#####            WM: Openbox
           +##########           DE: None
-         #############;         Packages: 626
-        ###############+        RAM: 3961 MB
-       #######   #######        Processor Type: Intel(R) Core(TM)2 CPU 6400 @ 3.2GHz
+         #############;         Packages: 625
+        ###############+        RAM: 3960 MB
+       #######   #######        Processor Type: Intel(R) Core(TM)2 CPU 6400 @ 2.13GHz
      .######;     ;###;`".      $SHELL: /bin/bash
     .#######;     ;#####.       $EDITOR: geany
     #########.   .########`     Songs in MPD database: 1870
-   ######'           '######    Root FS: 4.1G / 6.9G (ext3)
+   ######'           '######    Root FS: 5.1G / 6.9G (ext3)
   ;####                 ####;   
   ##'                     '##   
  #'                         `#  
@@ -21,4 +21,4 @@ Most of the files here are for maintaining Archlinux.
 
 Catch me on the archlinux or gentoo forum: equilibrium
 
-Screenshot: http://lh6.ggpht.com/_Zeo7ZMon74w/TLnCfh1GLJI/AAAAAAAAAtI/RWL8mr4xqsE/linux-16-10-2010.jpg
+Screenshot: https://lh3.googleusercontent.com/_Zeo7ZMon74w/Tam063pWu7I/AAAAAAAAAyI/ovLeBfPWqMw/linux-16-04-2011.jpg

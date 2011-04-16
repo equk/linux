@@ -30,7 +30,8 @@ sleep 4 && tilda &
 ##xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
 cairo-compmgr &
 #start dock
-sleep 4 && cairo-dock &
+# sleep 4 && cairo-dock -c &
+#removed dock as not really used
 # set keyboard map as xorg.conf dont work
 setxkbmap -layout 'gb' -model 'pc105'
 # set DE to XFCE to fix thunar + chromium
