@@ -115,6 +115,13 @@
 		</item>
 		<separator/>
 		<menu id="28" label="Games">
+			<item label="League Of Legends">
+				<action name="Execute">
+					<execute>
+						/home/bradley/scripts/lol.sh
+					</execute>
+				</action>
+			</item>
 			<item label="Heroes Of Newerth">
 				<action name="Execute">
 					<execute>
