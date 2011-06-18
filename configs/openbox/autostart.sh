@@ -36,8 +36,6 @@ cairo-compmgr &
 setxkbmap -layout 'gb' -model 'pc105'
 # set DE to XFCE to fix thunar + chromium
 export DE=xfce
-# start uzbl twitter client
-# sleep 5 && uzbl-browser mobile.twitter.com &
 # sync google chrome to ramdisk - also in crontab
 /usr/local/bin/chrome-sync &
 

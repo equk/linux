@@ -15,17 +15,17 @@
 				</execute>
 			</action>
 		</item>
+		<item label="Twitter Client">
+			<action name="Execute">
+				<execute>
+					hotot
+				</execute>
+			</action>
+		</item>
 		<item label="Web Browser">
 			<action name="Execute">
 				<execute>
 					chromium
-				</execute>
-			</action>
-		</item>
-		<item label="Twitter">
-			<action name="Execute">
-				<execute>
-					uzbl-browser mobile.twitter.com
 				</execute>
 			</action>
 		</item>
@@ -40,6 +40,27 @@
 			<action name="Execute">
 				<execute>
 					geany
+				</execute>
+			</action>
+		</item>
+		<item label="OpenShot Video Editor">
+			<action name="Execute">
+				<execute>
+					openshot
+				</execute>
+			</action>
+		</item>
+		<item label="Blender 3D Editor">
+			<action name="Execute">
+				<execute>
+					blender
+				</execute>
+			</action>
+		</item>
+		<item label="Kdenlive Video Editor">
+			<action name="Execute">
+				<execute>
+					kdenlive
 				</execute>
 			</action>
 		</item>
@@ -89,6 +110,13 @@
 			<action name="Execute">
 				<execute>
 					truecrypt
+				</execute>
+			</action>
+		</item>
+		<item label="Twitter Web">
+			<action name="Execute">
+				<execute>
+					uzbl-browser mobile.twitter.com
 				</execute>
 			</action>
 		</item>
@@ -298,13 +326,6 @@
 				<action name="Execute">
 					<execute>
 						lxappearance
-					</execute>
-				</action>
-			</item>
-			<item label="Nvidia Control Center">
-				<action name="Execute">
-					<execute>
-						nvidia-settings
 					</execute>
 				</action>
 			</item>
