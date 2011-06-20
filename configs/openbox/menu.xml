@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu>
 	<menu id="root-menu" label="OpenBox 3">
+		<separator label="equk.co.uk"/>
 		<item label="Terminal">
 			<action name="Execute">
 				<execute>
@@ -8,17 +9,10 @@
 				</execute>
 			</action>
 		</item>
-		<item label="File Manager">
+		<item label="Anon Browser">
 			<action name="Execute">
 				<execute>
-					Thunar
-				</execute>
-			</action>
-		</item>
-		<item label="Twitter Client">
-			<action name="Execute">
-				<execute>
-					hotot
+					iron --proxy-server=&quot;127.0.0.1:4444&quot;
 				</execute>
 			</action>
 		</item>
@@ -29,10 +23,10 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Music Player">
+		<item label="File Manager">
 			<action name="Execute">
 				<execute>
-					sonata
+					Thunar
 				</execute>
 			</action>
 		</item>
@@ -43,168 +37,159 @@
 				</execute>
 			</action>
 		</item>
-		<item label="OpenShot Video Editor">
-			<action name="Execute">
-				<execute>
-					openshot
-				</execute>
-			</action>
-		</item>
-		<item label="Blender 3D Editor">
-			<action name="Execute">
-				<execute>
-					blender
-				</execute>
-			</action>
-		</item>
-		<item label="Kdenlive Video Editor">
-			<action name="Execute">
-				<execute>
-					kdenlive
-				</execute>
-			</action>
-		</item>
-		<item label="Pidgin Internet Messenger">
-			<action name="Execute">
-				<execute>
-					pidgin
-				</execute>
-			</action>
-		</item>
-		<item label="FileZilla FTP client">
-			<action name="Execute">
-				<execute>
-					filezilla
-				</execute>
-			</action>
-		</item>
-		<item label="GIMP Image Editor">
-			<action name="Execute">
-				<execute>
-					gimp
-				</execute>
-			</action>
-		</item>
-		<item label="Keepass Password DB">
-			<action name="Execute">
-				<execute>
-					gtkpass
-				</execute>
-			</action>
-		</item>
-		<item label="Putty">
-			<action name="Execute">
-				<execute>
-					putty
-				</execute>
-			</action>
-		</item>
-		<item label="Remote Desktop">
-			<action name="Execute">
-				<execute>
-					remmina
-				</execute>
-			</action>
-		</item>
-		<item label="TrueCrypt">
-			<action name="Execute">
-				<execute>
-					truecrypt
-				</execute>
-			</action>
-		</item>
-		<item label="Twitter Web">
-			<action name="Execute">
-				<execute>
-					uzbl-browser mobile.twitter.com
-				</execute>
-			</action>
-		</item>
-		<item label="BitTorrent Client">
-			<action name="Execute">
-				<execute>
-					transmission-gtk
-				</execute>
-			</action>
-		</item>
-		<item label="Task Manager">
-			<action name="Execute">
-				<execute>
-					xfce4-taskmanager
-				</execute>
-			</action>
-		</item>
-		<item label="MPD Update Library">
-			<action name="Execute">
-				<execute>
-					/home/bradley/mpd_upd.sh
-				</execute>
-			</action>
-		</item>
 		<separator/>
-		<menu id="28" label="Games">
-			<item label="League Of Legends">
+		<menu id="root-menu-523750" label="General">
+			<item label="Music Player">
 				<action name="Execute">
 					<execute>
-						/home/bradley/scripts/lol.sh
+					sonata
 					</execute>
 				</action>
 			</item>
-			<item label="Heroes Of Newerth">
+			<item label="Pidgin Internet Messenger">
 				<action name="Execute">
 					<execute>
-						/home/bradley/HoN/hon.sh
+					pidgin
 					</execute>
 				</action>
 			</item>
-			<item label="Torchlight">
+			<item label="FileZilla FTP client">
 				<action name="Execute">
 					<execute>
-						/home/bradley/torchlight.sh
+					filezilla
 					</execute>
 				</action>
 			</item>
-			<item label="Steam">
+			<item label="GIMP Image Editor">
 				<action name="Execute">
 					<execute>
-						/home/bradley/scripts/steam.sh
+					gimp
 					</execute>
 				</action>
 			</item>
-			<item label="GuildWars">
+			<item label="Keepass Password DB">
 				<action name="Execute">
 					<execute>
-						/home/bradley/scripts/gw.sh
+					gtkpass
 					</execute>
 				</action>
 			</item>
-			<item label="Hedgewars">
+			<item label="Putty">
 				<action name="Execute">
 					<execute>
-							hedgewars
+					putty
 					</execute>
 				</action>
 			</item>
-			<item label="TeeWorlds">
+			<item label="Remote Desktop">
 				<action name="Execute">
 					<execute>
-							teeworlds
+					remmina
+					</execute>
+				</action>
+			</item>
+			<item label="TrueCrypt">
+				<action name="Execute">
+					<execute>
+					truecrypt
+					</execute>
+				</action>
+			</item>
+			<item label="Twitter Web">
+				<action name="Execute">
+					<execute>
+					uzbl-browser mobile.twitter.com
+					</execute>
+				</action>
+			</item>
+			<item label="BitTorrent Client">
+				<action name="Execute">
+					<execute>
+					transmission-gtk
+					</execute>
+				</action>
+			</item>
+			<item label="Task Manager">
+				<action name="Execute">
+					<execute>
+					xfce4-taskmanager
+					</execute>
+				</action>
+			</item>
+			<item label="MPD Update Library">
+				<action name="Execute">
+					<execute>
+					/home/bradley/mpd_upd.sh
 					</execute>
 				</action>
 			</item>
 		</menu>
-		<menu id="30" label="Network">
+		<separator/>
+		<menu id="root-menu-992146" label="Locations">
+			<item label="Downloads">
+				<action name="Execute">
+					<execute>
+						thunar ~/Downloads
+					</execute>
+				</action>
+			</item>
+			<item label="Documents">
+				<action name="Execute">
+					<execute>
+						thunar ~/Documents
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Graphics" label="Graphics">
+			<item label="Document Viewer">
+				<action name="Execute">
+					<execute>
+						evince
+					</execute>
+				</action>
+			</item>
+			<item label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<execute>
+						gimp-2.6
+					</execute>
+				</action>
+			</item>
+			<item label="Image Viewer">
+				<action name="Execute">
+					<execute>
+						gpicview
+					</execute>
+				</action>
+			</item>
+			<item label="MyPaint">
+				<action name="Execute">
+					<execute>
+						mypaint
+					</execute>
+				</action>
+			</item>
+			<item label="Viewnior">
+				<action name="Execute">
+					<execute>
+						viewnior
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Network" label="Network">
 			<item label="Avahi SSH Server Browser">
 				<action name="Execute">
 					<execute>
-						bssh
+						/usr/bin/bssh
 					</execute>
 				</action>
 			</item>
 			<item label="Avahi VNC Server Browser">
 				<action name="Execute">
 					<execute>
-						bvnc
+						/usr/bin/bvnc
 					</execute>
 				</action>
 			</item>
@@ -222,17 +207,31 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Irssi">
+			<item label="Gajim Instant Messenger">
 				<action name="Execute">
 					<execute>
-						xterm -e irssi
+						gajim
 					</execute>
 				</action>
 			</item>
-			<item label="Mumble">
+			<item label="Hotot">
 				<action name="Execute">
 					<execute>
-						mumble
+						hotot
+					</execute>
+				</action>
+			</item>
+			<item label="Iron Web Browser">
+				<action name="Execute">
+					<execute>
+						iron
+					</execute>
+				</action>
+			</item>
+			<item label="Mail Reader">
+				<action name="Execute">
+					<execute>
+						exo-open --launch MailReader
 					</execute>
 				</action>
 			</item>
@@ -243,31 +242,38 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Pidgin Internet Messenger">
+			<item label="Mumble">
 				<action name="Execute">
 					<execute>
-						pidgin
+						mumble
 					</execute>
 				</action>
 			</item>
-			<item label="TkVNC">
+			<item label="Remmina Remote Desktop Client">
 				<action name="Execute">
 					<execute>
-						xterm -e tkvnc
+						remmina
 					</execute>
 				</action>
 			</item>
-			<item label="wireshark">
+			<item label="Transmission">
 				<action name="Execute">
 					<execute>
-						wireshark
+						transmission-gtk
 					</execute>
 				</action>
 			</item>
-			<item label="Xbiff">
+			<item label="Web Browser">
 				<action name="Execute">
 					<execute>
-						xbiff
+						exo-open --launch WebBrowser
+					</execute>
+				</action>
+			</item>
+			<item label="Zenmap (as root)">
+				<action name="Execute">
+					<execute>
+						/usr/share/zenmap/su-to-zenmap.sh
 					</execute>
 				</action>
 			</item>
@@ -278,10 +284,54 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Zenmap (as root)">
+		</menu>
+		<menu id="Development" label="Development">
+			<item label="Geany">
 				<action name="Execute">
 					<execute>
-						/usr/share/zenmap/su-to-zenmap.sh
+						geany
+					</execute>
+				</action>
+			</item>
+			<item label="Meld">
+				<action name="Execute">
+					<execute>
+						meld
+					</execute>
+				</action>
+			</item>
+			<item label="OpenJDK Monitoring &amp; Management Console">
+				<action name="Execute">
+					<execute>
+						/usr/bin/jconsole
+					</execute>
+				</action>
+			</item>
+			<item label="OpenJDK Policy Tool">
+				<action name="Execute">
+					<execute>
+						/usr/bin/policytool
+					</execute>
+				</action>
+			</item>
+			<item label="Qt Assistant">
+				<action name="Execute">
+					<execute>
+						/usr/bin/assistant
+					</execute>
+				</action>
+			</item>
+			<item label="Qt Designer">
+				<action name="Execute">
+					<execute>
+						/usr/bin/designer
+					</execute>
+				</action>
+			</item>
+			<item label="Qt Linguist">
+				<action name="Execute">
+					<execute>
+						/usr/bin/linguist
 					</execute>
 				</action>
 			</item>
@@ -383,5 +433,6 @@
 				</execute>
 			</action>
 		</item>
+		<menu id="client-list-combined-menu"/>
 	</menu>
 </openbox_menu>
