@@ -10,8 +10,8 @@ thunar --daemon &
 numlockx &
 # parcellite clipboard tool
 parcellite &
-#set nvidia settings
-nvidia-settings --load-config-only
+# set dual head settings
+xrandr --auto --output DVI-1 --left-of DVI-0
 # fix mouse acceleration
 sleep 2 && xset m 1 1
 # tint2 panel
@@ -37,5 +37,5 @@ setxkbmap -layout 'gb' -model 'pc105'
 # set DE to XFCE to fix thunar + chromium
 export DE=xfce
 # sync google chrome to ramdisk - also in crontab
-/usr/local/bin/chrome-sync &
+# /usr/local/bin/chrome-sync &
 

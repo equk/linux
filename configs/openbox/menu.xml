@@ -12,14 +12,14 @@
 		<item label="Anon Browser">
 			<action name="Execute">
 				<execute>
-					iron --proxy-server=&quot;127.0.0.1:4444&quot;
+					midori
 				</execute>
 			</action>
 		</item>
 		<item label="Web Browser">
 			<action name="Execute">
 				<execute>
-					chromium
+					firefox
 				</execute>
 			</action>
 		</item>
@@ -429,7 +429,7 @@
 		<item label="Logout">
 			<action name="Execute">
 				<execute>
-					/home/bradley/scripts/oblogout.sh
+					oblogout
 				</execute>
 			</action>
 		</item>
