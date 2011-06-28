@@ -105,7 +105,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>2</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>Desktop 1</name>
@@ -712,15 +712,16 @@
 
   # end of the example
 -->
-    <application name="urxvt">
+<!--    <application name="urxvt">
       <layer>below</layer>
       <iconic>no</iconic>
       <skip_pager>yes</skip_pager>
       <skip_taskbar>yes</skip_taskbar>
       <position>
         <x>50</x>
-        <y>400</y>
+        <y>50</y>
       </position>
     </application>
+    -->
   </applications>
 </openbox_config>

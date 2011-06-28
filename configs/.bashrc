@@ -88,3 +88,10 @@ export EDITOR="geany"
 if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then 
 startx 
 fi 
+
+# Set Aliases
+alias update='yaourt -Syu'
+alias clean='sh ~/scripts/pacclean.sh'
+alias mem='free -mot; sync && echo -n 3 | sudo tee /proc/sys/vm/drop_caches; free -mot'
+alias diff='colordiff'
+alias xorg='sudo geany /etc/X11/xorg.conf'

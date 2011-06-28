@@ -25,6 +25,6 @@ if [[ ! -e "$TARGET" ]]; then
             mkdir -p "$TARGET"
 fi
 # run sync
-rsync -avu --delete --exclude-from=$EXCLUDES $BACKUP "$TARGET" &> $LOG
+rsync -av --delete --exclude-from=$EXCLUDES $BACKUP "$TARGET" &> $LOG
 echo -e "$green:: $reset Sync Complete"
 echo -e "$green:: $reset log saved to $LOG"

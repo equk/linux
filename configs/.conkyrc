@@ -19,7 +19,7 @@ border_width 1
 default_color FFFFFF
 color1 55ff55
 color2 5555ff
-alignment bottom_middle
+alignment bottom_right
 gap_x 0
 gap_y 3
 no_buffers yes
@@ -28,4 +28,4 @@ override_utf8_locale yes
 use_spacer left
 
 TEXT
-    ${color2}Kernel: ${color}${kernel} ${color2}  CPU: ${color}${execi 11 sensors | grep -A 1 'Core 0' | cut -c15-16 | sed '/^$/d'}°C  ${color2}Mem: ${color}${mem}${color2}/${color}${memmax}${color2}  Root: ${color}${fs_used /}  ${color2}Home: ${color}${fs_used /home}  ${color2}Ramdisk: ${color}${fs_used /tmp} ${alignr} ${color2}MPD: [${color}${mpd_status}${color2}]: ${color}${mpd_artist} ${color2}-${color} ${mpd_title 20} ${color2}[${color}${mpd_elapsed} ${color2}/ ${color}${mpd_length}${color2}]    
+    ${color2}Kernel: ${color}${kernel} ${color2}  Mem: ${color}${mem}${color2}/${color}${memmax}${color2}  Root: ${color}${fs_used /}  ${color2}Home: ${color}${fs_used /home} ${alignr} ${color2}MPD: [${color}${mpd_status}${color2}]: ${color}${mpd_artist} ${color2}-${color} ${mpd_title 20} ${color2}[${color}${mpd_elapsed} ${color2}/ ${color}${mpd_length}${color2}]    

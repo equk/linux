@@ -37,6 +37,13 @@
 				</execute>
 			</action>
 		</item>
+		<item label="Virtualbox">
+			<action name="Execute">
+				<execute>
+					virtualbox
+				</execute>
+			</action>
+		</item>
 		<separator/>
 		<menu id="root-menu-523750" label="General">
 			<item label="Music Player">
@@ -46,31 +53,38 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Pidgin Internet Messenger">
+			<item label="VLC">
 				<action name="Execute">
 					<execute>
-					pidgin
+						vlc
 					</execute>
 				</action>
 			</item>
-			<item label="FileZilla FTP client">
+			<item label="Gajim">
 				<action name="Execute">
 					<execute>
-					filezilla
+						gajim
 					</execute>
 				</action>
 			</item>
-			<item label="GIMP Image Editor">
+			<item label="FileZilla">
 				<action name="Execute">
 					<execute>
-					gimp
+						filezilla
 					</execute>
 				</action>
 			</item>
-			<item label="Keepass Password DB">
+			<item label="GIMP">
 				<action name="Execute">
 					<execute>
-					gtkpass
+						gimp
+					</execute>
+				</action>
+			</item>
+			<item label="Keepass">
+				<action name="Execute">
+					<execute>
+						keepassx
 					</execute>
 				</action>
 			</item>
@@ -102,10 +116,17 @@
 					</execute>
 				</action>
 			</item>
-			<item label="BitTorrent Client">
+			<item label="Git Gtk Frontend">
 				<action name="Execute">
 					<execute>
-					transmission-gtk
+						giggle
+					</execute>
+				</action>
+			</item>
+			<item label="BitTorrent">
+				<action name="Execute">
+					<execute>
+						transmission-gtk
 					</execute>
 				</action>
 			</item>
@@ -113,13 +134,6 @@
 				<action name="Execute">
 					<execute>
 					xfce4-taskmanager
-					</execute>
-				</action>
-			</item>
-			<item label="MPD Update Library">
-				<action name="Execute">
-					<execute>
-					/home/bradley/mpd_upd.sh
 					</execute>
 				</action>
 			</item>
@@ -211,20 +225,6 @@
 				<action name="Execute">
 					<execute>
 						gajim
-					</execute>
-				</action>
-			</item>
-			<item label="Hotot">
-				<action name="Execute">
-					<execute>
-						hotot
-					</execute>
-				</action>
-			</item>
-			<item label="Iron Web Browser">
-				<action name="Execute">
-					<execute>
-						iron
 					</execute>
 				</action>
 			</item>
@@ -383,6 +383,13 @@
 				<action name="Execute">
 					<execute>
 						obconf
+					</execute>
+				</action>
+			</item>
+			<item label="Edit Autostart.sh">
+				<action name="Execute">
+					<execute>
+						geany ~/.config/openbox/autostart.sh
 					</execute>
 				</action>
 			</item>

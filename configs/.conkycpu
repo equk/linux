@@ -28,12 +28,13 @@ maximum_width 182
 default_bar_size 60 8
 
 draw_shades no
-draw_outline yes
+draw_outline no
 default_outline_color 111111
 
 default_color FFFFFF
 
-color0 white
+color0 FFFFFF
+#color0 111111
 color1 55ff55
 color2 CCCCCC
 color3 1E90FF

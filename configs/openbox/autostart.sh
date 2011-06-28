@@ -1,5 +1,5 @@
 # openbox startup
-# ==========
+# ======= =======
 # equk.co.uk
 
 # xscreensaver
@@ -17,25 +17,12 @@ sleep 2 && xset m 1 1
 # tint2 panel
 sleep 2 && tint2 &
 # set desktop background
-##eval `cat $HOME/.fehbg` &
 nitrogen --restore &
 # start conky
 sleep 3 && conky -q &
 # start conky cpu clock
 sleep 3 && conky -q -c ~/.conkycpu &
-# start tilda console
-# quake style tilda to activate
-sleep 4 && tilda &
-# start composite manager for effects
-##xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
-cairo-compmgr &
-#start dock
-# sleep 4 && cairo-dock -c &
-#removed dock as not really used
 # set keyboard map as xorg.conf dont work
 setxkbmap -layout 'gb' -model 'pc105'
-# set DE to XFCE to fix thunar + chromium
+# set DE to XFCE to fix thunar
 export DE=xfce
-# sync google chrome to ramdisk - also in crontab
-# /usr/local/bin/chrome-sync &
-
