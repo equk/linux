@@ -12,14 +12,18 @@ numlockx &
 parcellite &
 # set dual head settings
 xrandr --auto --output DVI-1 --left-of DVI-0
+# set composite settings
+xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
 # fix mouse acceleration
 sleep 2 && xset m 1 1
 # tint2 panel
 sleep 2 && tint2 &
+# cairo-dock
+sleep 2 && cairo-dock &
 # set desktop background
 nitrogen --restore &
 # start conky
-sleep 3 && conky -q &
+sleep 3 && conky -q -c ~/.conkystats &
 # start conky cpu clock
 sleep 3 && conky -q -c ~/.conkycpu &
 # set keyboard map as xorg.conf dont work

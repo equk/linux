@@ -37,6 +37,20 @@
 				</execute>
 			</action>
 		</item>
+		<item label="Music Player">
+			<action name="Execute">
+				<execute>
+					gogglesmm
+				</execute>
+			</action>
+		</item>
+		<item label="Twitter">
+			<action name="Execute">
+				<execute>
+					turpial
+				</execute>
+			</action>
+		</item>
 		<item label="Virtualbox">
 			<action name="Execute">
 				<execute>
@@ -46,13 +60,6 @@
 		</item>
 		<separator/>
 		<menu id="root-menu-523750" label="General">
-			<item label="Music Player">
-				<action name="Execute">
-					<execute>
-					sonata
-					</execute>
-				</action>
-			</item>
 			<item label="VLC">
 				<action name="Execute">
 					<execute>

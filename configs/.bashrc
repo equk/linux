@@ -82,6 +82,7 @@ unset use_color safe_term match_lhs
 
 # Set geany as the default editor (used for pacman etc)
 export EDITOR="geany"
+export BROWSER="firefox"
 
 # Check if xserver running if not run it
 # Used for startx on login
@@ -91,7 +92,11 @@ fi
 
 # Set Aliases
 alias update='yaourt -Syu'
-alias clean='sh ~/scripts/pacclean.sh'
+alias clean='sudo sh ~/scripts/pacclean.sh'
 alias mem='free -mot; sync && echo -n 3 | sudo tee /proc/sys/vm/drop_caches; free -mot'
 alias diff='colordiff'
 alias xorg='sudo geany /etc/X11/xorg.conf'
+
+shopt -s cdspell
+shopt -s nocaseglob
+
