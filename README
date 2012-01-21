@@ -1,14 +1,14 @@
                +                OS: Arch Linux x86_64
                #                Hostname: linux.equk.co.uk
-              ###               Kernel Release: 2.6.39-ARCH
-             #####              Uptime:
+              ###               Kernel Release: 3.2.1-1-ARCH
+             #####              Uptime: 6:27
              ######             WM: Openbox
             ; #####;            DE: None
-           +##.#####            Packages: 603
-          +##########           RAM: 3966 MB
-         #############;         Processor Type: Intel(R) Core(TM)2 CPU 6400 @ 2.13GHz
+           +##.#####            Packages: 683
+          +##########           RAM: 3958 MB
+         #############;         Processor Type: Intel(R) Core(TM)2 CPU 6400 @ 3.2GHz
         ###############+        $EDITOR: geany
-       #######   #######        Root: 3.6G / 14G (25%) (ext4)
+       #######   #######        Root: 4.6G / 24G (19%) (ext4)
      .######;     ;###;`".      
     .#######;     ;#####.       
     #########.   .########`     
@@ -17,8 +17,9 @@
   ##'                     '##    
  #'                         `#  
 
+
 Most of the files here are for maintaining Archlinux.
 
 Catch me on the archlinux or gentoo forum: equilibrium
 
-Screenshot: goo.gl/yU8k7 (dual monitor)
+Screenshot:  (dual monitor)
