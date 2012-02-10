@@ -34,10 +34,12 @@
     <!-- with Smart placement on a multi-monitor system, try to place new windows
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
        the active window is -->
+    <primaryMonitor/>
   </placement>
   <theme>
-    <name>Surreal</name>
-    <titleLayout>NLIMC</titleLayout>
+    <name>Peppink</name>
+    <titleLayout>LIMC</titleLayout>
+    <!-- <titleLayout>NLIMC</titleLayout> -->
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -86,14 +88,14 @@
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
-    <font place="OnScreenDisplay">
-      <name>sans</name>
-      <size>9</size>
-      <!-- font size in points -->
-      <weight>bold</weight>
-      <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
-      <!-- 'italic' or 'normal' -->
+    <font place="ActiveOnScreenDisplay">
+      <name/>
+    </font>
+    <font place="InactiveOnScreenDisplay">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
     </font>
   </theme>
   <desktops>
@@ -105,7 +107,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>2</number>
+    <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>Desktop 1</name>
@@ -712,7 +714,7 @@
 
   # end of the example
 -->
-<!--    <application name="urxvt">
+    <!--    <application name="urxvt">
       <layer>below</layer>
       <iconic>no</iconic>
       <skip_pager>yes</skip_pager>

@@ -22,10 +22,6 @@ kupfer  --no-splash &
 sleep 2 && xset m 1 1
 # tint2 panel
 sleep 2 && tint2 &
-# cairo-dock
-#sleep 2 && cairo-dock &
-# skippy-xd
-#sleep 2 && skippy-xd &
 # set desktop background
 nitrogen --restore &
 # start conky

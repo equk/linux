@@ -9,17 +9,10 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Anon Browser">
-			<action name="Execute">
-				<execute>
-					midori
-				</execute>
-			</action>
-		</item>
 		<item label="Web Browser">
 			<action name="Execute">
 				<execute>
-					firefox
+					firefox-nightly
 				</execute>
 			</action>
 		</item>
@@ -37,17 +30,31 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Music Player">
+		<item label="rxvt unicode">
 			<action name="Execute">
 				<execute>
-					gogglesmm
+					urxvt
 				</execute>
 			</action>
 		</item>
-		<item label="Twitter">
+		<item label="Music Player">
 			<action name="Execute">
 				<execute>
-					turpial
+					clementine
+				</execute>
+			</action>
+		</item>
+		<item label="Tor">
+			<action name="Execute">
+				<execute>
+					vidalia
+				</execute>
+			</action>
+		</item>
+		<item label="Manage eBooks">
+			<action name="Execute">
+				<execute>
+					calibre
 				</execute>
 			</action>
 		</item>
@@ -55,6 +62,13 @@
 			<action name="Execute">
 				<execute>
 					virtualbox
+				</execute>
+			</action>
+		</item>
+		<item label="Frozen Synapse">
+			<action name="Execute">
+				<execute>
+					frozensynapse
 				</execute>
 			</action>
 		</item>
@@ -67,17 +81,24 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Gajim">
+			<item label="Watch TV">
 				<action name="Execute">
 					<execute>
-						gajim
+						me-tv
 					</execute>
 				</action>
 			</item>
-			<item label="FileZilla">
+			<item label="CD/DVD Burning">
 				<action name="Execute">
 					<execute>
-						filezilla
+						xfburn
+					</execute>
+				</action>
+			</item>
+			<item label="FTP">
+				<action name="Execute">
+					<execute>
+						gftp
 					</execute>
 				</action>
 			</item>
@@ -130,6 +151,13 @@
 					</execute>
 				</action>
 			</item>
+			<item label="Record Desktop">
+				<action name="Execute">
+					<execute>
+						gtk-recordMyDesktop
+					</execute>
+				</action>
+			</item>
 			<item label="BitTorrent">
 				<action name="Execute">
 					<execute>
@@ -173,21 +201,7 @@
 			<item label="GNU Image Manipulation Program">
 				<action name="Execute">
 					<execute>
-						gimp-2.6
-					</execute>
-				</action>
-			</item>
-			<item label="Image Viewer">
-				<action name="Execute">
-					<execute>
-						gpicview
-					</execute>
-				</action>
-			</item>
-			<item label="MyPaint">
-				<action name="Execute">
-					<execute>
-						mypaint
+						gimp
 					</execute>
 				</action>
 			</item>
@@ -211,34 +225,6 @@
 				<action name="Execute">
 					<execute>
 						/usr/bin/bvnc
-					</execute>
-				</action>
-			</item>
-			<item label="Chromium">
-				<action name="Execute">
-					<execute>
-						chromium
-					</execute>
-				</action>
-			</item>
-			<item label="FileZilla">
-				<action name="Execute">
-					<execute>
-						filezilla
-					</execute>
-				</action>
-			</item>
-			<item label="Gajim Instant Messenger">
-				<action name="Execute">
-					<execute>
-						gajim
-					</execute>
-				</action>
-			</item>
-			<item label="Mail Reader">
-				<action name="Execute">
-					<execute>
-						exo-open --launch MailReader
 					</execute>
 				</action>
 			</item>
@@ -351,6 +337,13 @@
 			</action>
 		</item>
 		<menu id="35" label="Settings">
+			<item label="ATI Catalyst Control Center">
+				<action name="Execute">
+					<execute>
+						amdcccle
+					</execute>
+				</action>
+			</item>
 			<item label="Tint2 Config">
 				<action name="Execute">
 					<execute>
@@ -429,7 +422,7 @@
 		<item label="Screenshot">
 			<action name="Execute">
 				<execute>
-					scrot /home/bradley/screenshot.png --delay 3
+					scrot ~/screenshot.png --delay 3
 				</execute>
 			</action>
 		</item>
