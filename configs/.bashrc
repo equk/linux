@@ -82,13 +82,7 @@ unset use_color safe_term match_lhs
 
 # Set geany as the default editor (used for pacman etc)
 export EDITOR="geany"
-export BROWSER="firefox"
-
-# Check if xserver running if not run it
-# Used for startx on login
-if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then 
-startx 
-fi 
+export BROWSER="firefox-nightly"
 
 # Set Aliases
 alias update='yaourt -Syu'
@@ -96,7 +90,52 @@ alias clean='sudo sh ~/scripts/pacclean.sh'
 alias mem='free -mot; sync && echo -n 3 | sudo tee /proc/sys/vm/drop_caches; free -mot'
 alias diff='colordiff'
 alias xorg='sudo geany /etc/X11/xorg.conf'
+alias nano='nano -w'
+alias ls='ls -hF --color=auto --group-directories-first '
+alias df='df -h -T'
+alias grep='grep -n --color=auto'
+alias duf='du -skh * | sort -n'
+
+# Set Colors
+#eval "`dircolors -b`"
+if [ -f ~/.dir_colors ]; then
+	eval `dircolors ~/.dir_colors`
+fi
+
+# Extract
+extract () {
+    if [ -f $1 ] ; then
+case $1 in
+            *.tar.bz2) tar xjf $1 ;;
+            *.tar.gz) tar xzf $1 ;;
+            *.bz2) bunzip2 $1 ;;
+            *.rar) unrar x $1 ;;
+            *.gz) gunzip $1 ;;
+            *.tar) tar xf $1 ;;
+            *.tbz2) tar xjf $1 ;;
+            *.tgz) tar xzf $1 ;;
+            *.tar.xz) tar xJf $1 ;;
+            *.zip) unzip $1 ;;
+            *.Z) uncompress $1 ;;
+            *.7z) 7z x $1 ;;
+            *) echo "'$1' cannot be extracted via extract()" ;;
+        esac
+else
+echo "'$1' is not a valid file"
+    fi
+}
 
 shopt -s cdspell
 shopt -s nocaseglob
 
+# firefox tweak
+export MOZ_DISABLE_PANGO=1
+
+# set sdl audio device
+export SDL_AUDIODRIVER=alsa
+
+# Check if xserver running if not run it
+# Used for startx on login
+if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then 
+	startx 
+fi 
