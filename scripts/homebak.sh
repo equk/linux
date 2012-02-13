@@ -6,7 +6,18 @@
 #
 # note: make sure you do not leave a trailing /
 #
-# www.equk.co.uk
+# blog.equk.co.uk
+# ﻿                                                  
+#                                      -oo-         
+#                                      +MMo         
+#      .:+o+:`   `:+o/-+o+  +oo`  ooo  +MMo .oo+.   
+#     oNNs+hMd- :mMmyydMMm  mMM`  MMM  +MMs/mMh:    
+#    :MMmyyhMMy mMM-  .MMm  mMM`  MMM  +MMmNMh`     
+#    -NMmo//++- hMMo..+MMm  dMM/.:MMM  +MMd+NMd-    
+#     :ymmmmdh` .smNmdyMMm  -dNNmhhMN  +MMo :mMN+   
+#       `...``    `..``MMm   ``.` `..  `..`  `...   
+#                     `NNd                          
+#                                                   
 
 # Colors
 blue="\033[1;34m"
@@ -28,3 +39,4 @@ fi
 rsync -av --delete --exclude-from=$EXCLUDES $BACKUP "$TARGET" &> $LOG
 echo -e "$green:: $reset Sync Complete"
 echo -e "$green:: $reset log saved to $LOG"
+tail -n 3 $LOG
