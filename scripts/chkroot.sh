@@ -1,7 +1,7 @@
 #!/bin/sh
 # Rootkit Check
 # ver 1.0
-# last edit: 06-12-2009
+# last edit: 14-02-2012
 # (dd-mm-yyyy)
 # equk / B.Walden
 #
@@ -20,17 +20,17 @@ if [ $(whoami) != "root" ]; then
 fi
 
 # log location
-log='/home/bradley/rkhunter.log'
+log='/home/$USER/rkhunter.log'
 
 # clear log
 echo "==[ `date +%d-%m-%Y` ]==" > "$log"
 
 # execute scan
-echo -e "$blue:: Starting rkhunter check $reset"
+echo -e "$blue::$reset Starting rkhunter check"
 (/usr/bin/rkhunter --versioncheck --nocolors
 /usr/bin/rkhunter --update --nocolors
 /usr/bin/rkhunter --cronjob --nocolors --report-warnings-only) &>> "$log"
-echo -e "$green:: rkhunter scan complete please see log located $log $reset"
+echo -e "$green::$reset rkhunter scan complete please see log located $log "
 
 # mail the log
 # su -c "echo see attached | mutt -s \"Root Kit Check\" -a \"$log\" -- user@gmail.com" username

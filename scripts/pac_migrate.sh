@@ -14,8 +14,18 @@
 #     pacman -Sy
 #     xargs -a Packages pacman -S --noconfirm --needed
 #
-#
-# www.equk.co.uk
+# blog.equk.co.uk
+# ﻿                                                  
+#                                      -oo-         
+#                                      +MMo         
+#      .:+o+:`   `:+o/-+o+  +oo`  ooo  +MMo .oo+.   
+#     oNNs+hMd- :mMmyydMMm  mMM`  MMM  +MMs/mMh:    
+#    :MMmyyhMMy mMM-  .MMm  mMM`  MMM  +MMmNMh`     
+#    -NMmo//++- hMMo..+MMm  dMM/.:MMM  +MMd+NMd-    
+#     :ymmmmdh` .smNmdyMMm  -dNNmhhMN  +MMo :mMN+   
+#       `...``    `..``MMm   ``.` `..  `..`  `...   
+#                     `NNd                          
+#                                                   
 
 # Colors
 blue="\033[1;34m"
@@ -42,3 +52,4 @@ pacman -Qqe | grep -vx "$(pacman -Qqm)" > "$TARGET/Packages"
 echo -e "$blue:: $reset Saving list of installed packages to: $TARGET/Packages.aur"
 pacman -Qqm > "$TARGET/Packages.aur"
 echo -e "$green:: $reset All Operations Complete"
+tail -n 3 $LOG
