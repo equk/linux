@@ -30,7 +30,7 @@ default_outline_color 111111
 
 default_color FFFFFF
 color1 55ff55
-color2 5555ff
+color2 ce084e
 
 TEXT
 ${color2}Kernel: ${color}${kernel}
