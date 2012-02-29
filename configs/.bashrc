@@ -80,8 +80,8 @@ fi
 # Try to keep environment pollution down, EPA loves us.
 unset use_color safe_term match_lhs
 
-# Set geany as the default editor (used for pacman etc)
-export EDITOR="geany"
+# Set Defaults
+export EDITOR="vim"
 export BROWSER="firefox-nightly"
 
 # Set Aliases
@@ -95,6 +95,12 @@ alias ls='ls -hF --color=auto --group-directories-first '
 alias df='df -h -T'
 alias grep='grep -n --color=auto'
 alias duf='du -skh * | sort -n'
+alias rm='rm -i'
+alias cp='cp -1'
+alias mv='mv -i'
+alias mkdir='mkdir -i'
+# quick nmap scan over socks
+alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,6667 '
 
 # Set Colors
 #eval "`dircolors -b`"

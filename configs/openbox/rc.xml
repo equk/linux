@@ -274,6 +274,7 @@
         <command>kfmclient openProfile filemanagement</command>
       </action>
     </keybind>
+    <!-- custom bindings - equk -->
     <keybind key="W-l">
       <action name="Execute">
         <startupnotify>
@@ -282,6 +283,40 @@
         </startupnotify>
         <command>xscreensaver-command -lock</command>
       </action>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>1600</width>
+      </action>
+      <action name="MoveToEdgeWest"/>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>1600</width>
+      </action>
+      <action name="MoveToEdgeEast"/>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>1280</width>
+        <height>497</height>
+      </action>
+      <action name="MoveToEdgeNorth"/>
+      <action name="MoveToEdgeWest"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>1280</width>
+        <height>497</height>
+      </action>
+      <action name="MoveToEdgeSouth"/>
+      <action name="MoveToEdgeWest"/>
     </keybind>
   </keyboard>
   <mouse>
