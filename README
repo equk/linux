@@ -1,22 +1,22 @@
-               +                OS: Arch Linux x86_64
-               #                Hostname: linux.equk.co.uk
-              ###               Kernel Release: 3.2.1-1-ARCH
-             #####              Uptime: 6:27
-             ######             WM: Openbox
-            ; #####;            DE: None
-           +##.#####            Packages: 683
-          +##########           RAM: 3958 MB
-         #############;         Processor Type: Intel(R) Core(TM)2 CPU 6400 @ 3.2GHz
-        ###############+        $EDITOR: geany
-       #######   #######        Root: 4.6G / 24G (19%) (ext4)
-     .######;     ;###;`".      
-    .#######;     ;#####.       
-    #########.   .########`     
-   ######'           '######    
-  ;####                 ####;   
-  ##'                     '##    
- #'                         `#  
 
+                  +			OS: Arch Linux x86_64
+                  #			Hostname: linux
+                 ###			Uptime: 1:03, 28 sec
+                #####			Kernel: 3.2.9-1-ck
+                ######			Shell: /bin/bash
+               ; #####;			Packages: 827
+              +##.#####			Window Manager: Openbox
+             +##########		GTK2 theme: Clearlooks
+            #############;		GTK2 icon theme: Faenza-Dark
+           ###############+		GTK2 font name: Verdana 10
+          #######   #######		RAM: 769 / 3958 (19%)
+        .######;     ;###;`".		CPU: Intel(R) Core(TM)2 CPU          6400  @ 3.2GHz
+       .#######;     ;#####.		
+       #########.   .########`		
+      ######'           '######		
+     ;####                 ####;	
+     ##'                     '##	
+    #'                         `#	
 
 Most of the files here are for maintaining Archlinux.
 
