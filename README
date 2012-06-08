@@ -1,25 +1,24 @@
+        ,                       _     _ _
+       /#\        __ _ _ __ ___| |__ | (_)_ __  _   ___  __
+      /###\      / _` | '__/ __| '_ \| | | '_ \| | | \ \/ /
+     /#####\    | (_| | | | (__| | | | | | | | | |_| |>  <
+    /##,-,##\    \__,_|_|  \___|_| |_|_|_|_| |_|\__,_/_/\_\
+   /##(   )##\
+  /#.--   --.#\   A simple, elegant GNU/Linux distribution.
+ /`           `\
 
-                  +			OS: Arch Linux x86_64
-                  #			Hostname: linux
-                 ###			Uptime: 1:03, 28 sec
-                #####			Kernel: 3.2.9-1-ck
-                ######			Shell: /bin/bash
-               ; #####;			Packages: 827
-              +##.#####			Window Manager: Openbox
-             +##########		GTK2 theme: Clearlooks
-            #############;		GTK2 icon theme: Faenza-Dark
-           ###############+		GTK2 font name: Verdana 10
-          #######   #######		RAM: 769 / 3958 (19%)
-        .######;     ;###;`".		CPU: Intel(R) Core(TM)2 CPU          6400  @ 3.2GHz
-       .#######;     ;#####.		
-       #########.   .########`		
-      ######'           '######		
-     ;####                 ####;	
-     ##'                     '##	
-    #'                         `#	
+
+> OS: Arch Linux x86_64
+> Kernel: 3.3.7-1-ck
+> Shell: /bin/bash
+> Packages: 892
+> Window Manager: Openbox
+> GTK2 theme: Clearlooks
+> GTK2 icon theme: Faenza-Dark
+> GTK2 font name: Verdana 10
+> RAM: 4GiB
+> CPU: Intel(R) Core(TM)2 Duo CPU E8400 @ 4.05GHz
 
 Most of the files here are for maintaining Archlinux.
 
 Catch me on the archlinux or gentoo forum: equilibrium
-
-Screenshot:  (dual monitor)
