@@ -95,12 +95,12 @@ alias ls='ls -hF --color=auto --group-directories-first '
 alias df='df -h -T'
 alias grep='grep -n --color=auto'
 alias duf='du -skh * | sort -n'
-alias rm='rm -i'
-alias cp='cp -1'
-alias mv='mv -i'
-alias mkdir='mkdir -i'
 # quick nmap scan over socks
 alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,6667 '
+# http server for testing static content
+alias http='python2 -m SimpleHTTPServer 8080'
+# minify style.css using cssutils from python
+alias cssminify='cssparse -m style.css > style.min.css'
 
 # Set Colors
 #eval "`dircolors -b`"
@@ -139,6 +139,9 @@ export MOZ_DISABLE_PANGO=1
 
 # set sdl audio device
 export SDL_AUDIODRIVER=alsa
+
+# set lang
+export LANG=en_GB.UTF-8
 
 # Check if xserver running if not run it
 # Used for startx on login

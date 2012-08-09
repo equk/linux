@@ -9,9 +9,9 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.3.7-1-ck
+> Kernel: 3.4.6-2-ck
 > Shell: /bin/bash
-> Packages: 892
+> Packages: 933
 > Window Manager: Openbox
 > GTK2 theme: Clearlooks
 > GTK2 icon theme: Faenza-Dark
