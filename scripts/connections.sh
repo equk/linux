@@ -1,9 +1,9 @@
 #!/bin/bash
 #
+# connection stats for internet gateway / proxy
 #
 # blog.equk.co.uk
-# ﻿                     
-# equk's wine launcher                             
+# ﻿                                                  
 #                                      -oo-         
 #                                      +MMo         
 #      .:+o+:`   `:+o/-+o+  +oo`  ooo  +MMo .oo+.   
@@ -22,18 +22,12 @@ red="\033[1;31m"
 bold="\033[1;37m"
 reset="\033[0m"
 
-# WINE arch
-WINEARCH=win32
-# WINE binary
-LOADER_WINE="wine"
-# WINE debug opts
-WINEDEBUG=-all
+# Connection Stats
 
-# Game directory
-GAMEDIR="$HOME/.wine/drive_c/Guild Wars"
+PORT80=`netstat -nta | grep ESTABLISHED | awk '{ print $5}' | grep -c :80`
+PORT443=`netstat -nta | grep ESTABLISHED | awk '{ print $5}' | grep -c :443`
 
-cd "$GAMEDIR"
-
-WINEARCH=win32 WINEDEBUG=-all $LOADER_WINE "Gw.exe" -- "$@" 
-
+echo 'Current Connection Statistics'
+echo "Port 80: $PORT80"
+echo "Port 443 SSL: $PORT443"
 
