@@ -32,3 +32,12 @@ sleep 3 && conky -q -c ~/.conkycpu &
 setxkbmap -layout 'gb' -model 'pc105'
 # set DE to XFCE to fix thunar
 export DE=xfce
+# Start NetworkManager Applet
+sleep 3 && /usr/bin/nm-applet --sm-disable &
+# sync chrome cache to ramdisk
+sleep 4 && $HOME/scripts/ramdisk_chrome.sh &
+# setup wacom devices to main monitor to fix scaling
+# used for dual monitor setup
+xsetwacom --set 12 MapToOutput "DFP2"
+xsetwacom --set 13 MapToOutput "DFP2"
+xsetwacom --set 14 MapToOutput "DFP2"
