@@ -9,11 +9,11 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.6.6-1-ck
+> Kernel: 3.8.6-1-ck
 > Shell: /bin/bash
-> Packages: 997
+> Packages: 1043
 > Window Manager: Openbox
-> GTK2 theme: Clearlooks
+> GTK2 theme: Adwaita
 > GTK2 icon theme: Faenza-Dark
 > GTK2 font name: Verdana 10
 > RAM: 4GiB
@@ -37,3 +37,4 @@ Image Editor: Gimp
 Video Playback: VLC
 Launcher: Kupfer
 Music Playback: DeaDBeeF
+Python IDE: PyCharm
