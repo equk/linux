@@ -1,3 +1,33 @@
 [submodule "configs/.vim/bundle/ctrlp"]
 	path = configs/.vim/bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim
+[submodule "configs/.vim/bundle/django.vim"]
+	path = configs/.vim/bundle/django.vim
+	url = https://github.com/vim-scripts/django.vim
+[submodule "configs/.vim/bundle/jedi-vim"]
+	path = configs/.vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
+[submodule "configs/.vim/bundle/vim-flake8"]
+	path = configs/.vim/bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8
+[submodule "configs/.vim/bundle/vim-fugitive"]
+	path = configs/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "configs/.vim/bundle/vim-javascript"]
+	path = configs/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+[submodule "configs/.vim/bundle/vim-less"]
+	path = configs/.vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule "configs/.vim/bundle/vim-markdown"]
+	path = configs/.vim/bundle/vim-markdown
+	url = https://github.com/hallison/vim-markdown
+[submodule "configs/.vim/bundle/vim-powerline"]
+	path = configs/.vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline
+[submodule "configs/.vim/bundle/zencoding-vim"]
+	path = configs/.vim/bundle/zencoding-vim
+	url = https://github.com/mattn/zencoding-vim
+[submodule "configs/.vim/bundle/nerdtree"]
+	path = configs/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
