@@ -31,6 +31,3 @@
 [submodule "configs/.vim/bundle/nerdtree"]
 	path = configs/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
-[submodule "configs/.vim/bundle/supertab"]
-	path = configs/.vim/bundle/supertab
-	url = https://github.com/ervandew/supertab.git
