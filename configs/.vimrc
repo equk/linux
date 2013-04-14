@@ -22,7 +22,7 @@ let g:html_indent_style1 = "inc"
 let mapleader = "," " rebind <Leader> key
 set wildmode=list:longest " allow TAB completion
 set autoread " autoreload file on changes
-set tags=./tags
+set tags=~/.vim/tags/tags
 
 set mouse=a
 set bs=2 " backspace
@@ -101,8 +101,7 @@ set smartcase
 set nowrap " don't automatically wrap on load
 set tw=79  " width of document (used by gd)
 set fo-=t  " don't automatically wrap text when typing
-set number " show line numbers
-
+set number " show line numbes
 
 " center the cursor vertically
 :nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
@@ -125,6 +124,9 @@ map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 " ===========================
 set laststatus=2
 " let g:Powerline_symbols = 'fancy'
+" let g:Powerline_symbols = 'unicode'
+
+call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
 
 " Settings for nerdtree
 " =====================
@@ -177,9 +179,9 @@ map <Leader>x :%s/\s\+$//
 " Color scheme
 " =============
 set t_Co=256
-color wombat256mod 
+color skittles_berry
 
 set colorcolumn=80
-highlight ColorColumn ctermbg=233
+" highlight ColorColumn ctermbg=233
 map <Leader>v :source ~/.vimrc
 
