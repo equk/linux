@@ -1,0 +1,66 @@
+Abacus/
+ActionScript/
+AppleScript/
+ASCII Decorator/
+ASP/
+Batch File/
+BracketHighlighter/
+C#/
+C++/
+Clojure/
+Color Scheme - Default/
+CSS/
+D/
+Default/
+Diff/
+Erlang/
+Gist/
+Go/
+Goto Documentation/
+Graphviz/
+Groovy/
+Haskell/
+HTML/
+IndentGuides/
+Java/
+JavaScript/
+jQuery/
+jQuery Snippets pack/
+JsFormat/
+KeymapManager/
+Language - English/
+LaTeX/
+Lisp/
+Lua/
+Makefile/
+Markdown/
+Markdown Preview/
+Matlab/
+Nettuts+ Fetch/
+Objective-C/
+OCaml/
+Package Control/
+Perl/
+PHP/
+Python/
+Python Flake8 Lint/
+Python PEP8 Autoformat/
+R/
+Rails/
+Regular Expressions/
+RestructuredText/
+Ruby/
+Scala/
+ShellScript/
+SideBarEnhancements/
+snake_case/
+SQL/
+TCL/
+Text/
+Textile/
+Theme - Default/
+Theme - Soda/
+User/
+Vintage/
+XML/
+YAML/
