@@ -9,15 +9,15 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.8.6-1-ck
+> Kernel: 3.8.10-1-ck
 > Shell: /bin/bash
-> Packages: 1043
+> Packages: 943
 > Window Manager: Openbox
 > GTK2 theme: Adwaita
 > GTK2 icon theme: Faenza-Dark
 > GTK2 font name: Verdana 10
-> RAM: 4GiB
-> CPU: Intel(R) Core(TM)2 Duo CPU E8400 @ 4.05GHz
+> RAM: 8GiB
+> CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
 
 Most of the files here are for maintaining Archlinux.
 
@@ -33,9 +33,9 @@ Twitter Client: Tweetdeck Web
 Systray: Tint2
 Desktop Stats: Conky
 Desktop Background: Nitrogen
-Text Editor: vim & Geany
+Text Editor: vim & sublime text 2
 Image Editor: Gimp
 Video Playback: VLC
 Launcher: Kupfer
 Music Playback: DeaDBeeF
-Python IDE: PyCharm
+Python IDE: PyCharm & vim & sublime text 2

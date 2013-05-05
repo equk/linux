@@ -45,7 +45,10 @@ TEXT
 # CPU
 ${goto 32}${color1}CPU1: ${color0}${cpu cpu1}%${color}${font} ${alignr}${color2}${cpugraph cpu1 8,80 ce084e ce084e}${color}
 ${goto 32}${color1}CPU2: ${color0}${cpu cpu2}%${color}${font} ${alignr}${color2}${cpugraph cpu2 8,80 ce084e ce084e}${color}
-${alignc 1}${color1}TEMP: ${color3}${hwmon 0 temp 2}°C
+${goto 32}${color1}CPU3: ${color0}${cpu cpu3}%${color}${font} ${alignr}${color2}${cpugraph cpu3 8,80 ce084e ce084e}${color}
+${goto 32}${color1}CPU4: ${color0}${cpu cpu4}%${color}${font} ${alignr}${color2}${cpugraph cpu4 8,80 ce084e ce084e}${color}
+
+${alignc 1}${color1}TEMP: ${color3}${platform coretemp.0 temp 2}°C
 # CLOCK
 # ${alignc 46}${color0}${font Arial Black:size=30}${time %H:%M}${font}${color}
 # ${alignc}${time %d %B %Y}
