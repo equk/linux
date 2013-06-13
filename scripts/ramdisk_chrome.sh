@@ -3,17 +3,17 @@
 # google chrome cache to ramdisk script
 #
 # blog.equk.co.uk
-# ﻿                                                  
-#                                      -oo-         
-#                                      +MMo         
-#      .:+o+:`   `:+o/-+o+  +oo`  ooo  +MMo .oo+.   
-#     oNNs+hMd- :mMmyydMMm  mMM`  MMM  +MMs/mMh:    
-#    :MMmyyhMMy mMM-  .MMm  mMM`  MMM  +MMmNMh`     
-#    -NMmo//++- hMMo..+MMm  dMM/.:MMM  +MMd+NMd-    
-#     :ymmmmdh` .smNmdyMMm  -dNNmhhMN  +MMo :mMN+   
-#       `...``    `..``MMm   ``.` `..  `..`  `...   
-#                     `NNd                          
-#                                                   
+# ﻿
+#                                      -oo-
+#                                      +MMo
+#      .:+o+:`   `:+o/-+o+  +oo`  ooo  +MMo .oo+.
+#     oNNs+hMd- :mMmyydMMm  mMM`  MMM  +MMs/mMh:
+#    :MMmyyhMMy mMM-  .MMm  mMM`  MMM  +MMmNMh`
+#    -NMmo//++- hMMo..+MMm  dMM/.:MMM  +MMd+NMd-
+#     :ymmmmdh` .smNmdyMMm  -dNNmhhMN  +MMo :mMN+
+#       `...``    `..``MMm   ``.` `..  `..`  `...
+#                     `NNd
+#
 
 # notes: ramdisks can be mounted in various ways depending on the distro
 #
@@ -28,9 +28,9 @@
 # =========
 
 # specify chrome cache directory
-CACHE_DIR=/$HOME/.cache/google-chrome/
+CACHE_DIR=/$HOME/.cache/google-chrome
 # specify ramdisk directory
-CHROME_TEMP=/tmp/google-chrome/
+CHROME_TEMP=/tmp/google-chrome
 
 # SCRIPT
 # ======
@@ -43,4 +43,5 @@ if [[ -e $CHROME_TEMP ]]; then
   rm -fr $CACHE_DIR
   mkdir $CHROME_TEMP
   ln -s $CHROME_TEMP $CACHE_DIR
+  echo 'chrome cache on ramdisk at: '$CHROME_TEMP
 fi
