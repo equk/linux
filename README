@@ -9,9 +9,9 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.9.4-2-ck
+> Kernel: 3.9.9-1-ck
 > Shell: /bin/bash
-> Packages: 1018
+> Packages: 1044
 > Window Manager: Openbox
 > GTK2 theme: Adwaita
 > GTK2 icon theme: Faenza-Dark
@@ -33,9 +33,9 @@ Twitter Client: Tweetdeck Web
 Systray: Tint2
 Desktop Stats: Conky
 Desktop Background: Nitrogen
-Text Editor: vim & sublime text 2
+Text Editor: vim & Sublime Text 2
 Image Editor: Gimp
 Video Playback: VLC
 Launcher: Kupfer
 Music Playback: DeaDBeeF
-Python IDE: PyCharm & vim & sublime text 2
+Python IDE: PyCharm & vim & Sublime Text 2
