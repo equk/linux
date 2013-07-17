@@ -11,13 +11,16 @@
 > OS: Arch Linux x86_64
 > Kernel: 3.9.9-1-ck
 > Shell: /bin/bash
-> Packages: 1044
+> Packages: 1047
 > Window Manager: Openbox
 > GTK2 theme: Adwaita
 > GTK2 icon theme: Faenza-Dark
 > GTK2 font name: Verdana 10
 > RAM: 8GiB
 > CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
+
+> STARTUP TIME: 7.672s (systemd-analyze)
+>               2.007s (kernel) + 5.665s (userspace)
 
 Most of the files here are for maintaining Archlinux.
 
