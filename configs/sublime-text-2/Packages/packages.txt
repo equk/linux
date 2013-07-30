@@ -60,6 +60,7 @@ Text/
 Textile/
 Theme - Default/
 Theme - Soda/
+TidyHTML5
 User/
 Vintage/
 XML/
