@@ -1,67 +1,75 @@
-Abacus/
-ActionScript/
-AppleScript/
 ASCII Decorator/
 ASP/
+Abacus/
+ActionScript/
+AdvancedNewFile/
+AppleScript/
 Batch File/
 BracketHighlighter/
 C#/
 C++/
+CSS/
 Clojure/
 Color Scheme - Default/
-CSS/
 D/
 Default/
 Diff/
+EditorConfig/
+Emmet/
 Erlang/
+FindKeyConflicts/
 Gist/
 Go/
 Goto Documentation/
 Graphviz/
 Groovy/
-Haskell/
 HTML/
+Haskell/
 IndentGuides/
 Java/
 JavaScript/
-jQuery/
-jQuery Snippets pack/
 JsFormat/
 KeymapManager/
-Language - English/
 LaTeX/
+Language - English/
 Lisp/
 Lua/
 Makefile/
-Markdown/
 Markdown Preview/
+Markdown/
 Matlab/
 Nettuts+ Fetch/
-Objective-C/
 OCaml/
+Objective-C/
+PHP/
 Package Control/
 Perl/
-PHP/
-Python/
+Prefixr/
+PyV8/
 Python Flake8 Lint/
 Python PEP8 Autoformat/
+Python/
 R/
 Rails/
 Regular Expressions/
 RestructuredText/
 Ruby/
+SQL/
+Sass/
 Scala/
 ShellScript/
 SideBarEnhancements/
-snake_case/
-SQL/
+SublimeLinter/
 TCL/
 Text/
 Textile/
 Theme - Default/
 Theme - Soda/
-TidyHTML5
+TidyHTML5/
 User/
 Vintage/
 XML/
 YAML/
+jQuery Snippets pack/
+jQuery/
+snake_case/
