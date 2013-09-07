@@ -24,7 +24,7 @@ shopt -s checkwinsize
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
-# Change the window title of X terminals 
+# Change the window title of X terminals
 case ${TERM} in
 	xterm*|rxvt*|Eterm|aterm|kterm|gnome*|interix)
 		PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/$HOME/~}\007"'
@@ -82,7 +82,9 @@ unset use_color safe_term match_lhs
 
 # Set Defaults
 export EDITOR="vim"
-export BROWSER="firefox-nightly"
+#export BROWSER="firefox"
+export BROWSER="google-chrome"
+export HISTCONTROL="ignoredups"
 
 # Set Aliases
 alias update='yaourt -Syu'
@@ -101,6 +103,8 @@ alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,6667 '
 alias http='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
 alias cssminify='cssparse -m style.css > style.min.css'
+# start chrome with custom user without proxy for localhost testing (default setup but with livereload installed)
+alias chromel='google-chrome --user-data-dir=$HOME/www/chrome_dev --no-procy-server'
 
 # Set Colors
 #eval "`dircolors -b`"
@@ -145,6 +149,10 @@ export LANG=en_GB.UTF-8
 
 # Check if xserver running if not run it
 # Used for startx on login
-if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then 
-	startx 
-fi 
+if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then
+	startx
+fi
+
+# Set path
+PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/dassault-systemes/draftsight/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.gem/ruby/2.0.0/bin:/opt/android-sdk/platform-tools'
+export PATH
