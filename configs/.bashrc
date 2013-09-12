@@ -104,7 +104,7 @@ alias http='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
 alias cssminify='cssparse -m style.css > style.min.css'
 # start chrome with custom user without proxy for localhost testing (default setup but with livereload installed)
-alias chromel='google-chrome --user-data-dir=$HOME/www/chrome_dev --no-procy-server'
+alias chromel='google-chrome --user-data-dir=$HOME/www/chrome_dev --no-proxy-server'
 
 # Set Colors
 #eval "`dircolors -b`"
