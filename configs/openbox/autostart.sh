@@ -12,6 +12,8 @@ numlockx &
 parcellite -n &
 #kupfer launcher
 kupfer --no-splash &
+# skippy-xd
+skippy-xd &
 
 # set dual head settings (these are for the opensource amd/ati drivers)
 #xrandr --auto --output DVI-1 --left-of DVI-0
@@ -36,8 +38,10 @@ export DE=xfce
 rm -fr ~/.local/share/applications/wine-extension* &
 # sync chrome cache to ramdisk
 sleep 4 && $HOME/scripts/ramdisk_chrome.sh &
+# cleanup chrome HTML5 storage
+rm -fr ~/.config/google-chrome/Default/File\ System/ &
 # setup wacom devices to main monitor to fix scaling
 # used for dual monitor setup
-xsetwacom --set 12 MapToOutput "DFP3"
+xsetwacom --set 8 MapToOutput "DFP3"
 xsetwacom --set 13 MapToOutput "DFP3"
 xsetwacom --set 14 MapToOutput "DFP3"
