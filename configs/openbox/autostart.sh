@@ -20,6 +20,7 @@ skippy-xd &
 #xrandr --auto --output CRT1 --left-of DFP2
 # set composite settings
 #xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
+compton &
 # fix mouse acceleration
 sleep 1 && xset m 1 1
 # tint2 panel
@@ -30,6 +31,9 @@ nitrogen --restore &
 sleep 2 && conky -q -c ~/.conkystats &
 # start conky cpu clock
 sleep 2 && conky -q -c ~/.conkycpu &
+# start email client
+# thunderbird with thunderbird-firetray auto-minimize
+thunderbird &
 # set keyboard map as xorg.conf dont work
 setxkbmap -layout 'gb' -model 'pc105'
 # set DE to XFCE to fix thunar
@@ -37,9 +41,9 @@ export DE=xfce
 # remove annoying WINE open with items
 rm -fr ~/.local/share/applications/wine-extension* &
 # sync chrome cache to ramdisk
-sleep 4 && $HOME/scripts/ramdisk_chrome.sh &
+sleep 4 && $HOME/scripts/ramdisk_chromium.sh &
 # cleanup chrome HTML5 storage
-rm -fr ~/.config/google-chrome/Default/File\ System/ &
+rm -fr ~/.config/chromium/Default/File\ System/ &
 # setup wacom devices to main monitor to fix scaling
 # used for dual monitor setup
 xsetwacom --set 8 MapToOutput "DFP3"
