@@ -11,9 +11,7 @@
 		</item>
 		<item label="Web Browser">
 			<action name="Execute">
-				<execute>
-					google-chrome --proxy-server=socks5://
-				</execute>
+				<execute>chromium --audio-buffer-size=2048</execute>
 			</action>
 		</item>
 		<item label="File Manager">
@@ -21,6 +19,11 @@
 				<execute>
 					Thunar
 				</execute>
+			</action>
+		</item>
+		<item label="chrome test">
+			<action name="Execute">
+				<execute>chromium --user-data-dir=/home/bradley/www/chrome_dev --cache-dir=/home/bradley/www/chrome_dev/cache --no-proxy-server</execute>
 			</action>
 		</item>
 		<item label="Mini Browser">
@@ -97,6 +100,13 @@
 			<action name="Execute">
 				<execute>
 					shatter
+				</execute>
+			</action>
+		</item>
+		<item label="EVE Online">
+			<action name="Execute">
+				<execute>
+					/home/bradley/scripts/eve.sh
 				</execute>
 			</action>
 		</item>

@@ -34,10 +34,10 @@
     <!-- with Smart placement on a multi-monitor system, try to place new windows
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
        the active window is -->
-    <primaryMonitor/>
+    <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Peppink</name>
+    <name>Moka</name>
     <titleLayout>LIMC</titleLayout>
     <!-- <titleLayout>NLIMC</titleLayout> -->
     <!--

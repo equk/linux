@@ -15,9 +15,8 @@ kupfer --no-splash &
 # skippy-xd
 skippy-xd &
 
-# set dual head settings (these are for the opensource amd/ati drivers)
-#xrandr --auto --output DVI-1 --left-of DVI-0
-#xrandr --auto --output CRT1 --left-of DFP2
+# set display orientation
+##xrandr --output DFP2 --auto --primary --left-of DFP3
 # set composite settings
 #xcompmgr -cfF -r7 -o.65 -l-10 -t-8 -D7 &
 compton &
@@ -27,7 +26,9 @@ sleep 1 && xset m 1 1
 sleep 1 && tint2 &
 # set desktop background
 nitrogen --restore &
-# start conky
+# start conky clock
+sleep 2 && conky -q -c ~/.conkyclock &
+# start conky cpu stats
 sleep 2 && conky -q -c ~/.conkystats &
 # start conky cpu clock
 sleep 2 && conky -q -c ~/.conkycpu &
@@ -46,6 +47,6 @@ sleep 4 && $HOME/scripts/ramdisk_chromium.sh &
 rm -fr ~/.config/chromium/Default/File\ System/ &
 # setup wacom devices to main monitor to fix scaling
 # used for dual monitor setup
-xsetwacom --set 8 MapToOutput "DFP3"
-xsetwacom --set 13 MapToOutput "DFP3"
-xsetwacom --set 14 MapToOutput "DFP3"
+xsetwacom --set 8 MapToOutput "DFP2"
+xsetwacom --set 13 MapToOutput "DFP2"
+xsetwacom --set 14 MapToOutput "DFP2"
