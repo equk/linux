@@ -85,6 +85,17 @@ setopt hist_verify
 setopt inc_append_history
 setopt share_history # share command history data
 
+# Key bindings
+bindkey "\e[1~" beginning-of-line
+bindkey "\e[7~" beginning-of-line
+bindkey "\e[8~" end-of-line
+bindkey "\e[4~" end-of-line
+bindkey "\e[3~" delete-char
+bindkey "\e[5~" beginning-of-history
+bindkey "\e[6~" end-of-history
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+
 # Set Aliases
 alias update='yaourt -Syu'
 alias clean='sudo sh ~/scripts/pacclean.sh'
@@ -129,7 +140,8 @@ echo "'$1' is not a valid file"
 }
 
 # Set path
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/dassault-systemes/draftsight/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.gem/ruby/2.0.0/bin:/opt/android-sdk/platform-tools
+
+PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
 
 # archlinux specific Aliases
 
