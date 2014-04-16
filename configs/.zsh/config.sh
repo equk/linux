@@ -139,9 +139,13 @@ echo "'$1' is not a valid file"
     fi
 }
 
+## RUBY STUFF (user installed gems)
+#
 # Set path
-
 PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
+
+# Set GEM_HOME for bundler
+export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 
 # archlinux specific Aliases
 
