@@ -70,7 +70,9 @@
 		"EditorConfig",
 		"JsFormat",
 		"SublimeLinter",
-		"Color Highlighter"
+		"Color Highlighter",
+		"BracketHighlighter",
+		"snake_case"
 	],
 	"match_brackets": true,
 	"match_brackets_angle": false,
