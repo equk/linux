@@ -22,6 +22,9 @@ skippy-xd &
 compton &
 # fix mouse acceleration
 sleep 1 && xset m 1 1
+# set razer deathadder accel
+sleep 1 && xinput --set-prop "Razer Razer DeathAdder" "Device Accel Velocity Scaling" 1
+sleep 1 && xinput --set-prop "Razer Razer DeathAdder" "Device Accel Profile" -1
 # tint2 panel
 sleep 1 && tint2 &
 # set desktop background
@@ -42,7 +45,7 @@ export DE=xfce
 # remove annoying WINE open with items
 rm -fr ~/.local/share/applications/wine-extension* &
 # sync chrome cache to ramdisk
-sleep 4 && $HOME/scripts/ramdisk_chromium.sh &
+## sleep 4 && $HOME/scripts/ramdisk_chromium.sh &
 # cleanup chrome HTML5 storage
 rm -fr ~/.config/chromium/Default/File\ System/ &
 # setup wacom devices to main monitor to fix scaling
