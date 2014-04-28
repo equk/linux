@@ -9,9 +9,9 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.13.10-1-ck
+> Kernel: 3.13.11-2-ck
 > Shell: /usr/bin/zsh
-> Packages: 1182
+> Packages: 1186
 > Window Manager: Openbox
 > GTK2 theme: Adwaita
 > GTK2 icon theme: Faenza-Cupertino-Dark
@@ -41,7 +41,7 @@ Desktop Background: Nitrogen
 Text Editor: vim & Sublime Text 2
 Image Editor: Gimp
 Video Playback: VLC
-Launcher: Kupfer
+Launcher: dmenu
 Music Playback: DeaDBeeF
 Python IDE: PyCharm & vim & Sublime Text 2
 Email Client: Thunderbird + Enigmail
