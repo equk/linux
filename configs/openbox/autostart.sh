@@ -11,7 +11,7 @@ numlockx &
 # parcellite clipboard tool
 parcellite -n &
 #kupfer launcher
-kupfer --no-splash &
+##kupfer --no-splash &
 # skippy-xd
 skippy-xd &
 
