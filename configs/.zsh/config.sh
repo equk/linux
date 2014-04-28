@@ -258,5 +258,10 @@ function virtualenv_prompt_info(){
   fi
 }
 
+# add users home bin to path
+if [ -d "$HOME/bin" ] ; then
+    export PATH="$HOME/bin:$PATH"
+fi
+
 # disables prompt mangling in virtual_env/bin/activate
 export VIRTUAL_ENV_DISABLE_PROMPT=1
