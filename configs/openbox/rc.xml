@@ -287,6 +287,15 @@
         <command>xscreensaver-command -lock</command>
       </action>
     </keybind>
+    <keybind key="C-space">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>dmenu_launch</name>
+        </startupnotify>
+        <command>~/bin/dmenu_launch</command>
+      </action>
+    </keybind>
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
@@ -697,7 +706,7 @@
   # order that they appear in this list
 
 
-    # each element can be left out or set to 'default' to specify to not 
+    # each element can be left out or set to 'default' to specify to not
     # change that attribute of the window
 
     <decor>yes</decor>
