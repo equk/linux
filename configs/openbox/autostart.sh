@@ -22,9 +22,13 @@ skippy-xd &
 compton &
 # fix mouse acceleration
 sleep 1 && xset m 1 1
-# set razer deathadder accel
-sleep 1 && xinput --set-prop "Razer Razer DeathAdder" "Device Accel Velocity Scaling" 1
-sleep 1 && xinput --set-prop "Razer Razer DeathAdder" "Device Accel Profile" -1
+# Set Razer DeathAdder accel
+#sleep 1 && xinput --set-prop "Razer Razer DeathAdder" "Device Accel Velocity Scaling" 1
+#sleep 1 && xinput --set-prop "Razer Razer DeathAdder" "Device Accel Profile" -1
+##
+# Set SteelSeries Kana v2 accel
+sleep 1 && xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Velocity Scaling" 1
+sleep 1 && xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Profile" -1
 # tint2 panel
 sleep 1 && tint2 &
 # set desktop background
