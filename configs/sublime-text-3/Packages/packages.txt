@@ -70,6 +70,7 @@ User
 Vintage
 XML
 YAML
+get_packages.sh
 jQuery
 jQuery Snippets pack
 snake_case

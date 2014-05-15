@@ -1,106 +1,11 @@
 {
-	"binary_file_patterns":
-	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip"
-	],
-	"bold_folder_labels": false,
-	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Soda.tmTheme",
-	"create_window_at_startup": true,
-	"drag_text": true,
-	"fallback_encoding": "UTF-8",
-	"file_exclude_patterns":
-	[
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db"
-	],
-	"find_selected_text": true,
-	"folder_exclude_patterns":
-	[
-		".svn",
-		".git",
-		".hg",
-		"CVS"
-	],
-	"font_face": "DejaVu Sans Mono",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"font_size": 10,
-	"highlight_line": true,
-	"highlight_modified_tabs": false,
-	"hot_exit": true,
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"ignored_packages":
 	[
-		"AdvancedNewFile",
-		"Gist",
-		"Handlebars",
-		"Python PEP8 Autoformat",
-		"Python Flake8 Lint",
-		"EditorConfig",
-		"JsFormat",
-		"SublimeLinter",
-		"Color Highlighter",
-		"BracketHighlighter",
-		"snake_case",
-		"Markdown Preview",
-		"Sass",
-		"Theme - Soda"
+		"Vintage"
 	],
-	"match_brackets": true,
-	"match_brackets_angle": false,
-	"match_brackets_braces": true,
-	"match_brackets_content": true,
-	"match_brackets_square": true,
-	"match_selection": true,
-	"match_tags": true,
-	"open_files_in_new_window": true,
-	"overlay_scroll_bars": "system",
-	"preview_on_click": true,
-	"remember_open_files": true,
 	"rulers":
 	[
 		80
-	],
-	"scroll_speed": 1.0,
-	"show_full_path": true,
-	"show_panel_on_build": true,
-	"show_tab_close_buttons": true,
-	"spell_check": false,
-	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"tree_animation_enabled": true,
-	"trim_trailing_white_space_on_save": true,
-	"use_simple_full_screen": false,
-	"use_tab_stops": true
+	]
 }
