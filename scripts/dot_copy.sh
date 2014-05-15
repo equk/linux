@@ -44,12 +44,12 @@ for file in $base_files; do
     cp ~/$file $repo_folder/
 done
 
-echo -e "$gplus starting Sublime Text 2"
-[ -d $repo_folder/sublime-text-2/Packages/User ] || mkdir -p $repo_folder/sublime-text-2/Packages/User/
-echo -e "    $gplus creating package list for Sublime Text 2"
-ls ~/.config/sublime-text-2/Packages/ | sort > $repo_folder/sublime-text-2/Packages/packages.txt
-echo -e "    $gplus copying user Preferences for Sublime Text 2"
-cp ~/.config/sublime-text-2/Packages/User/Preferences.sublime-settings $repo_folder/sublime-text-2/Packages/User/
+echo -e "$gplus starting Sublime Text 3"
+[ -d $repo_folder/sublime-text-3/Packages/User ] || mkdir -p $repo_folder/sublime-text-3/Packages/User/
+echo -e "    $gplus creating package list for Sublime Text 3"
+ls ~/.config/sublime-text-3/Packages/ | sort > $repo_folder/sublime-text-3/Packages/packages.txt
+echo -e "    $gplus copying user Preferences for Sublime Text 3"
+cp ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings $repo_folder/sublime-text-3/Packages/User/
 echo -e "$gplus copying zsh configuration files"
 cp -R ~/.zsh $repo_folder/
 echo -e "$gplus copying vim configuration files"

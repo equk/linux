@@ -72,7 +72,10 @@
 		"SublimeLinter",
 		"Color Highlighter",
 		"BracketHighlighter",
-		"snake_case"
+		"snake_case",
+		"Markdown Preview",
+		"Sass",
+		"Theme - Soda"
 	],
 	"match_brackets": true,
 	"match_brackets_angle": false,
