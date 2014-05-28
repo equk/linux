@@ -1,0 +1,19 @@
+#!/bin/bash
+##
+# script to exec dmenu
+# equk 2014 - equk.co.uk
+##
+
+## variables
+
+wall_folder="$HOME/Pictures/wallpaper"
+nitrogen_bin="/usr/bin/nitrogen"
+
+## run command
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+exec $nitrogen_bin $wall_folder
