@@ -1,0 +1,29 @@
+#!/bin/bash
+##
+#
+# script to exec chrome with ramdisk cache
+# tmpfs on /tmp type tmpfs
+#
+##
+# equk 2014 - equk.co.uk
+##
+
+## variables
+
+cache_folder="/tmp/chrome_cache"
+chrome_bin="/usr/bin/google-chrome-stable"
+
+## run command
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+# Create cache directory if it doesn't exist
+if [[ ! -e $cache_folder ]]; then
+	mkdir $cache_folder
+fi
+
+# Execute chrome
+exec $chrome_bin --disk-cache-dir=$cache_folder --no-proxy-server
