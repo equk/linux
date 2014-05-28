@@ -1,0 +1,24 @@
+#!/bin/bash
+# Archlinux Package Clean Script
+#
+# equk 2014 equk.co.uk
+
+# Colors
+blue="\033[1;34m"
+green="\033[1;32m"
+red="\033[1;31m"
+bold="\033[1;37m"
+reset="\033[0m"
+
+gplus="[$green+$reset]"
+bplus="[$blue+$reset]"
+
+#Set package manager (eg: pacman)
+pac_manager="/usr/bin/yaourt"
+
+# Perform Clean
+echo -e "$bplus Cleaning Unused Packages"
+sudo $pac_manager -Rs $($pac_manager -Qqdt)
+sudo $pac_manager -Sc
+echo -e "$gplus Cleaning Complete"
+exit 0
