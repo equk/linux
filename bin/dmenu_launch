@@ -12,6 +12,9 @@ background="#262626"
 highlight="#000000"
 highlight_bg="#dd1144"
 
+## add path for ~/bin
+export PATH=$PATH:$HOME/bin
+
 ## run command
 
 # Check for root ( quit if root :x )
