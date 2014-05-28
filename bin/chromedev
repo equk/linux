@@ -1,0 +1,20 @@
+#!/bin/bash
+##
+# script to exec chrome with custom profile folder for development
+# equk 2014 - equk.co.uk
+##
+
+## variables
+
+profile_folder="$HOME/www/chrome_dev"
+cache_folder="$HOME/www/chrome_dev/cache"
+chrome_bin="/usr/bin/google-chrome-stable"
+
+## run command
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server
