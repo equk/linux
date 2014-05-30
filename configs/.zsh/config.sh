@@ -2,8 +2,8 @@
 
 # Set Defaults
 export EDITOR="vim"
-#export BROWSER="firefox"
-export BROWSER="google-chrome"
+export TERMINAL="xfce4-terminal"
+export BROWSER="chromium"
 export HISTCONTROL="ignoredups"
 
 # grep options
@@ -98,7 +98,6 @@ bindkey "^[[B" history-beginning-search-forward
 
 # Set Aliases
 alias update='yaourt -Syu'
-alias clean='sudo sh ~/scripts/pacclean.sh'
 alias mem='free -mot; sync && echo -n 3 | sudo tee /proc/sys/vm/drop_caches; free -mot'
 alias diff='colordiff'
 alias xorg='sudo subl /etc/X11/xorg.conf'
@@ -113,8 +112,6 @@ alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,6667 '
 alias http='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
 alias cssminify='cssparse -m style.css > style.min.css'
-# start chrome with custom user without proxy for localhost testing (default setup but with livereload installed)
-alias chromel='google-chrome --user-data-dir=$HOME/www/chrome_dev --no-proxy-server'
 
 # Extract
 function extract () {
