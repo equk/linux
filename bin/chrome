@@ -11,7 +11,7 @@
 ## variables
 
 cache_folder="/tmp/chrome_cache"
-chrome_bin="/usr/bin/google-chrome-stable"
+chrome_bin="/usr/bin/chromium"
 
 ## run command
 

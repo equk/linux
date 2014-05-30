@@ -8,7 +8,7 @@
 
 profile_folder="$HOME/www/chrome_dev"
 cache_folder="$HOME/www/chrome_dev/cache"
-chrome_bin="/usr/bin/google-chrome-stable"
+chrome_bin="/usr/bin/chromium"
 
 ## run command
 
