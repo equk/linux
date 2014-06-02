@@ -1,4 +1,5 @@
 [
     { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
-    { "keys": ["ctrl+n"], "command": "advanced_new_file"}	
+    { "keys": ["ctrl+n"], "command": "advanced_new_file"},
+    { "keys": ["ctrl+shift+p"], "command": "pep8_autoformat" }
 ]
