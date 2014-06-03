@@ -1,0 +1,23 @@
+#!/bin/bash
+##
+#
+# script to exec screenshot command
+# eg: scrot, shutter
+#
+##
+# equk 2014 - equk.co.uk
+##
+
+## variables
+
+screenshot_bin="/usr/bin/shutter"
+
+## run command
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+# Execute chrome
+exec $screenshot_bin
