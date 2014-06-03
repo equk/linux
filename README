@@ -9,9 +9,9 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.14.3-2-ck
+> Kernel: 3.14.4-2-ck
 > Shell: /usr/bin/zsh
-> Packages: 1195
+> Packages: 1159
 > Window Manager: i3
 > GTK2 theme: Adwaita
 > GTK2 icon theme: Faenza-Cupertino-Dark

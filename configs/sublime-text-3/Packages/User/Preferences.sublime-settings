@@ -9,5 +9,11 @@
 		80
 	],
 	"tab_size": 4,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"font_face": "DejaVu Sans Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"highlight_line": true
 }
