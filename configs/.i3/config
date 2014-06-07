@@ -89,6 +89,10 @@ workspace 1 output DFP3
 workspace 2 output DFP2
 workspace 3 output DFP3
 workspace 4 output DFP2
+workspace 5 output DFP3
+workspace 6 output DFP2
+workspace 7 output DFP3
+workspace 8 output DFP2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -97,7 +101,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 #bindsym $mod+Shift+e exec oblogout
-bindsym $mod+Shift+E exec ~/.i3/i3-exit
+bindsym $mod+Shift+E exec ~/.i3/tk_logout.py
 
 #enable alt+tab
 bindsym $Alt+Tab focus right
@@ -113,6 +117,7 @@ for_window [class="Oblogout"] floating enable, border 1pixel
 for_window [class="I3-exit"] floating enable
 for_window [class="Chromium"] border 1pixel
 for_window [class="Vlc"] border 1pixel
+for_window [class="Tk" title="tk_logout"] floating enable, border 1pixel
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -150,6 +155,8 @@ exec --no-startup-id setxkbmap -layout 'gb' -model 'pc105'
 exec --no-startup-id xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Velocity Scaling" 1
 exec --no-startup-id xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Profile" -1
 exec --no-startup-id numlockx
+# set right start key
+exec --no-startup-id xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # start daemons
 exec --no-startup-id xscreensaver -no-splash
 exec --no-startup-id thunar --daemon
