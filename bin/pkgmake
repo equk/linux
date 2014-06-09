@@ -1,0 +1,58 @@
+#!/bin/bash
+##
+#
+# script to update and build aur packages
+# downloads files from PKGBUILD then updates md5sum info
+# then creates a full package
+#
+# Used mainly for privately maintained packages to automate updating
+#
+##
+# equk 2014 - equk.co.uk
+##
+
+# Variables
+
+# enable notify-send
+notify="1"
+
+# Colors
+blue="\033[1;34m"
+green="\033[1;32m"
+red="\033[1;31m"
+bold="\033[1;37m"
+reset="\033[0m"
+
+gplus="[$green+$reset]"
+bplus="[$blue+$reset]"
+rplus="[$red+$reset]"
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+if [[ ! -e PKGBUILD ]]; then
+    echo -e "$rplus no PKGBUILD file found"
+    exit 1
+fi
+
+echo -e "$bplus found PKGBUILD for "
+sed -n '/pkgname=/p' PKGBUILD
+echo -e "$gplus"
+
+# download files from PKGBUILD only
+echo -e "$bplus Downloading files referenced in PKGBUILD"
+makepkg -o
+# update the md5sums
+echo -e "$bplus Updating md5sums array"
+updpkgsums
+# build pkg
+echo -e "$bplus Building package"
+makepkg
+# done
+echo -e "$gplus package created"
+
+if [ $notify = "1" ]; then
+    notify-send -i utilities-terminal "pkgmake" "Package creation has completed"
+fi
