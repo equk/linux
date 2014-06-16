@@ -149,14 +149,8 @@ client.unfocused        #373737 #222222 #888888 #444444
 client.urgent           #ec7ea4 #eb709b #ffffff #eb709b
 
 # Autostart
-# set hardware settings for keyboard and mouse
-exec --no-startup-id xset m 1 1
-exec --no-startup-id setxkbmap -layout 'gb' -model 'pc105'
-exec --no-startup-id xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Velocity Scaling" 1
-exec --no-startup-id xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Profile" -1
+exec --no-startup-id ~/.i3/autostart.sh
 exec --no-startup-id numlockx
-# set right start key
-exec --no-startup-id xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # start daemons
 exec --no-startup-id xscreensaver -no-splash
 exec --no-startup-id thunar --daemon
