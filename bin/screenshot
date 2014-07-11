@@ -10,7 +10,9 @@
 
 ## variables
 
-screenshot_bin="/usr/bin/shutter"
+screenshot_bin="/usr/bin/scrot"
+# enable notify-send
+notify="1"
 
 ## run command
 
@@ -19,5 +21,10 @@ if [ $(whoami) = "root" ]; then
     exit 1
 fi
 
-# Execute chrome
-exec $screenshot_bin
+# Take screenshot
+$screenshot_bin '%d-%m-%Y_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/'
+
+# Notify user if notify-send enabled
+if [ $notify = "1" ]; then
+    notify-send -i utilities-terminal "scrot" "screenshot taken"
+fi
