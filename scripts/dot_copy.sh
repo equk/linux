@@ -61,6 +61,8 @@ done
 echo -e "$gplus copying xfce terminal configuration"
 [ -d $repo_folder/Terminal/ ] || mkdir -p $repo_folder/Terminal/
 cp ~/.config/Terminal/terminalrc $repo_folder/Terminal/
+echo -e "$gplus copying i3wm configuration"
+cp -R ~/.i3 $repo_folder/
 echo -e "$gplus finished copying configuration files"
 echo -e ""
 echo -e "$bplus running git commands"
