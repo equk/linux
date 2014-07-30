@@ -112,6 +112,8 @@ alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,6667 '
 alias http='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
 alias cssminify='cssparse -m style.css > style.min.css'
+# update grub config
+alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 # Extract
 function extract () {
