@@ -8,11 +8,11 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"SideBarEnhancements",
 		"Vintage",
 		"Color Highlighter",
-		"SideBarEnhancements",
-		"Gist",
-		"SublimeLinter"
+		"SublimeLinter",
+		"Gist"
 	],
 	"rulers":
 	[

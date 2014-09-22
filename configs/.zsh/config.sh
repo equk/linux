@@ -114,6 +114,8 @@ alias http='python2 -m SimpleHTTPServer 8080'
 alias cssminify='cssparse -m style.css > style.min.css'
 # update grub config
 alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+# kill all running windows executables
+alias killexe='kill $(pgrep .exe)'
 
 # Extract
 function extract () {
