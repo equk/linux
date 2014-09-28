@@ -11,3 +11,5 @@ xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Velocity Scal
 xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Profile" -1
 # set right start key
 xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
+# set amd gpu fanspeed
+aticonfig --pplib-cmd "set fanspeed 0 65"
