@@ -9,7 +9,7 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.14.9-1-ck
+> Kernel: 3.16.3-1-ck
 > Shell: /usr/bin/zsh
 > Packages: 1158
 > Window Manager: i3
@@ -44,3 +44,4 @@ Launcher: dmenu
 Music Playback: DeaDBeeF
 Python IDE: PyCharm & vim & Sublime Text 3
 Email Client: Thunderbird + Enigmail
+Revision Control: git
