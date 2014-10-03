@@ -13,7 +13,6 @@ Clojure
 Color Highlighter
 Color Scheme - Default
 D
-Default
 Diff
 EditorConfig
 Emmet
@@ -44,7 +43,6 @@ Nettuts+ Fetch
 OCaml
 Objective-C
 PHP
-Package Control
 Perl
 Prefixr
 PyV8
@@ -72,6 +70,7 @@ User
 Vintage
 XML
 YAML
+get_packages.sh
 jQuery
 jQuery Snippets pack
 snake_case
