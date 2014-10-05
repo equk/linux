@@ -8,17 +8,13 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Color Highlighter",
-		"SideBarEnhancements",
-		"Vintage",
-		"Gist",
-		"SublimeLinter"
+		"Vintage"
 	],
 	"rulers":
 	[
 		80
 	],
+	"scroll_speed": 0,
 	"tab_size": 4,
-	"translate_tabs_to_spaces": true,
-	"scroll_speed": 0
+	"translate_tabs_to_spaces": true
 }

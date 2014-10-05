@@ -1,5 +1,17 @@
 [
     { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
     { "keys": ["ctrl+n"], "command": "advanced_new_file"},
-    { "keys": ["ctrl+shift+p"], "command": "pep8_autoformat" }
+    { "keys": ["ctrl+shift+p"], "command": "pep8_autoformat" },
+    { "keys": ["ctrl+shift+r"], "command": "html_beautify",
+    "context": [{
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html,source.html,source.hbs"
+    }]},
+    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false},
+    "context": [{
+        "key": "selector",
+        "operator": "not_equal",
+        "operand": "text.html,source.html,source.hbs"
+    }]},
 ]

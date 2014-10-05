@@ -1,3 +1,5 @@
 GitGutter.sublime-package
+HTMLBeautify.sublime-package
+JavaScriptNext - ES6 Syntax.sublime-package
 Package Control.sublime-package
 SideBarGit.sublime-package
