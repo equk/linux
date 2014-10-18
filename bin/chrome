@@ -26,4 +26,5 @@ if [[ ! -e $cache_folder ]]; then
 fi
 
 # Execute chrome
-exec $chrome_bin --disk-cache-dir=$cache_folder --no-proxy-server
+exec $chrome_bin --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1
+

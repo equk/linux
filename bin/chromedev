@@ -6,8 +6,8 @@
 
 ## variables
 
-profile_folder="$HOME/www/chrome_dev"
-cache_folder="$HOME/www/chrome_dev/cache"
+profile_folder="$HOME/.chrome_profiles/dev"
+cache_folder="/tmp/chrome_dev_cache"
 chrome_bin="/usr/bin/chromium"
 
 ## run command
@@ -17,4 +17,14 @@ if [ $(whoami) = "root" ]; then
     exit 1
 fi
 
-exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server
+# Create cache directory if it doesn't exist
+if [[ ! -e $cache_folder ]]; then
+    mkdir $cache_folder
+fi
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --disable-gpu --ssl-version-min=tls1
