@@ -84,15 +84,15 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # set workspaces to specific monitor
-# DFP3 is left monitor
-workspace 1 output DFP3
-workspace 2 output DFP2
-workspace 3 output DFP3
-workspace 4 output DFP2
-workspace 5 output DFP3
-workspace 6 output DFP2
-workspace 7 output DFP3
-workspace 8 output DFP2
+# DVI-I-2 is left monitor
+workspace 1 output DVI-I-2
+workspace 2 output DVI-I-3
+workspace 3 output DVI-I-2
+workspace 4 output DVI-I-3
+workspace 5 output DVI-I-2
+workspace 6 output DVI-I-3
+workspace 7 output DVI-I-2
+workspace 8 output DVI-I-3
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
