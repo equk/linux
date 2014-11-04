@@ -270,3 +270,6 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 # set wine to always run 32bit
 export WINEPREFIX=$HOME/win32/
 export WINEARCH=win32
+
+# set hardware accel for VDPAU to nvidia
+export VDPAU_DRIVER=nvidia
