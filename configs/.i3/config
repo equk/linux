@@ -129,6 +129,7 @@ bar {
         mode dock
         position top
         workspace_buttons yes
+        tray_output DVI-I-2
         # status_command sh ~/.i3/status.sh
         font -*-terminus-medium-r-*-*-12-*-*-*-*-*-iso10646-*
         colors {
