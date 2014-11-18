@@ -9,19 +9,20 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.16.6-3-ck
+> Kernel: 3.17.3-2-ck
 > Shell: /usr/bin/zsh
-> Packages: 1185
+> Packages: 1161
 > Window Manager: i3
 > GTK2 theme: Adwaita
 > GTK2 icon theme: Faenza-Cupertino-Dark
-> GTK2 font name: Monospace 10
+> GTK2 font name: Cantarell 11
 > RAM: 16GiB
 > CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
 > GPU: NVIDIA Geforce 560Ti 2048MB
+> SSD: SanDisk ULTRA II
 
-> STARTUP TIME: 7.672s (systemd-analyze)
->               2.007s (kernel) + 5.665s (userspace)
+> STARTUP TIME: 2.618s (systemd-analyze)
+>               1.298s (kernel) + 1.320s (userspace)
 
 > MONITORS: 2 x Dell P2414H
 > Using xrandr for dual monitor configuration
