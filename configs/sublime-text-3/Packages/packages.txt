@@ -1,38 +1,41 @@
-ASCII Decorator
-ASP
 Abacus
 ActionScript
 AdvancedNewFile
 AppleScript
+ASCII Decorator
+ASP
 Batch File
 BracketHighlighter
 C#
 C++
-CSS
 Clojure
 Color Highlighter
 Color Scheme - Default
+CSS
 D
 Diff
 EditorConfig
 Emmet
 Erlang
 FindKeyConflicts
+get_packages.sh
 Gist
 Go
 Goto Documentation
 Graphviz
 Groovy
-HTML
 Handlebars
 Haskell
+HTML
 IndentGuides
 Java
 JavaScript
+jQuery
+jQuery Snippets pack
 JsFormat
 KeymapManager
-LaTeX
 Language - English
+LaTeX
 Lisp
 Lua
 Makefile
@@ -40,25 +43,26 @@ Markdown
 Markdown Preview
 Matlab
 Nettuts+ Fetch
-OCaml
 Objective-C
-PHP
+OCaml
 Perl
+PHP
 Prefixr
-PyV8
 Python
 Python Flake8 Lint
 Python PEP8 Autoformat
+PyV8
 R
 Rails
 Regular Expressions
 RestructuredText
 Ruby
-SQL
 Sass
 Scala
 ShellScript
 SideBarEnhancements
+snake_case
+SQL
 SublimeLinter
 TCL
 Text
@@ -70,7 +74,3 @@ User
 Vintage
 XML
 YAML
-get_packages.sh
-jQuery
-jQuery Snippets pack
-snake_case

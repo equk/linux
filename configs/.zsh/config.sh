@@ -104,7 +104,6 @@ alias xorg='sudo subl /etc/X11/xorg.conf'
 alias nano='nano -w'
 alias ls='ls -hF --color=auto --group-directories-first '
 alias df='df -h -T'
-alias grep='grep -n --color=auto'
 alias duf='du -skh * | sort -n'
 # quick nmap scan over socks
 alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,6667 '
@@ -153,6 +152,11 @@ export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 function paclist() {
   sudo pacman -Qei $(pacman -Qu|cut -d" " -f 1)|awk ' BEGIN {FS=":"}/^Name/{printf("\033[1;36m%s\033[1;37m", $2)}/^Description/{print $2}'
 }
+
+# remove orphaned/un-needed packages
+alias pacclean='sudo pacman -Rs $(pacman -Qqdt)'
+# remove unused packages in cache
+alias paccleanup='sudo pacman -Sc'
 
 alias paclsorphans='sudo pacman -Qdt'
 alias pacrmorphans='sudo pacman -Rs $(pacman -Qtdq)'
