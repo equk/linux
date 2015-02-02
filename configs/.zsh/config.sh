@@ -7,8 +7,8 @@ export BROWSER="chromium"
 export HISTCONTROL="ignoredups"
 
 # grep options
-export GREP_OPTIONS='--color=auto'
-export GREP_COLOR='1;32'
+#export GREP_OPTIONS='--color=auto'
+#export GREP_COLOR='1;32'
 
 # ls colors
 autoload colors; colors;

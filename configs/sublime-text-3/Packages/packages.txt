@@ -5,26 +5,22 @@ AppleScript
 ASCII Decorator
 ASP
 Batch File
-BracketHighlighter
+bz2
 C#
 C++
 Clojure
-Color Highlighter
 Color Scheme - Default
 CSS
 D
 Diff
 EditorConfig
-Emmet
 Erlang
 FindKeyConflicts
 get_packages.sh
 Gist
 Go
-Goto Documentation
 Graphviz
 Groovy
-Handlebars
 Haskell
 HTML
 IndentGuides
@@ -57,12 +53,11 @@ Rails
 Regular Expressions
 RestructuredText
 Ruby
-Sass
 Scala
 ShellScript
-SideBarEnhancements
 snake_case
 SQL
+ssl-linux
 SublimeLinter
 TCL
 Text

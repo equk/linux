@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/Monokai Soda (SL).tmTheme",
+	"color_scheme": "Packages/User/Monokai Soda (SL) (Flake8Lint).tmTheme",
 	"font_face": "DejaVu Sans Mono",
 	"font_options":
 	[
@@ -8,8 +8,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"Vintage"
 	],
 	"rulers":
 	[

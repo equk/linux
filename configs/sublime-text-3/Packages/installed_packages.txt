@@ -1,5 +1,14 @@
+0_package_control_loader.sublime-package
+BracketHighlighter.sublime-package
+Color Highlighter.sublime-package
+Emmet.sublime-package
 GitGutter.sublime-package
+GotoDocumentation.sublime-package
+Handlebars.sublime-package
 HTMLBeautify.sublime-package
 JavaScriptNext - ES6 Syntax.sublime-package
 Package Control.sublime-package
+PyV8
+Sass.sublime-package
+SideBarEnhancements.sublime-package
 SideBarGit.sublime-package
