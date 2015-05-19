@@ -1,0 +1,40 @@
+#!/bin/bash
+##
+#
+# script to exec firefox with custom profile
+#
+##
+# equk 2015 - equk.co.uk
+##
+
+## variables
+
+profile_folder="$HOME/.ffox_profiles/default"
+ffox_bin="/usr/bin/firefox"
+ffox_prefs="$HOME/bin/ffox_data/def_prefs.js"
+
+## run command
+
+if [ "x$DISPLAY" = "x" ]; then
+    echo "must be run within the X Window System." >&2
+    echo "Exiting." >&2
+    exit 1
+fi
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+# Create profile directory if it doesn't exist
+if [[ ! -e $profile_folder ]]; then
+    mkdir $profile_folder
+fi
+
+# Copy custom preferences if none exist
+if [[ ! -e $profile_folder/prefs.js ]]; then
+    cp $ffox_prefs $profile_folder/prefs.js
+fi
+
+# Execute firefox
+exec $ffox_bin --profile "$profile_folder" --new-instance
