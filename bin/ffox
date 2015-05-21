@@ -10,7 +10,7 @@
 ## variables
 
 profile_folder="$HOME/.ffox_profiles/default"
-ffox_bin="/usr/bin/firefox"
+ffox_bin="/usr/bin/firefox-aurora"
 ffox_prefs="$HOME/bin/ffox_data/def_prefs.js"
 
 ## run command
