@@ -9,11 +9,11 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 3.19.3-1-ck
+> Kernel: 4.0.4-2-EQUK
 > Shell: /usr/bin/zsh
-> Packages: 1181
+> Packages: 1154
 > Window Manager: i3
-> GTK2 theme: Vertex-Dark
+> GTK2 theme: MediterraneanWhite
 > GTK2 icon theme: Faenza-Cupertino-Dark
 > GTK2 font name: Cantarell 10
 > RAM: 16GiB
@@ -40,7 +40,7 @@ I am on freenode: equilibriumuk
 Main Apps
 =========
 
-Web Browser: Google Chrome
+Web Browser: Google Chrome / Mozilla Firefox
 File Manager: Thunar
 Twitter Client: Tweetdeck Web
 Desktop Stats: Conky
@@ -49,7 +49,7 @@ Text Editor: vim & Sublime Text 3
 Image Editor: Gimp
 Video Playback: VLC
 Launcher: dmenu
-Music Playback: DeaDBeeF & Spotify
+Music Playback: DeaDBeeF
 Python IDE: PyCharm & vim & Sublime Text 3
 Email Client: Thunderbird + Enigmail
 Revision Control: git
