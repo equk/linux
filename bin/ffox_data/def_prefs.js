@@ -12,6 +12,7 @@
  *                  + Disable search engine suggestions
  *                  + Disable Geolocation
  *                  + Disable Google Safebrowsing
+ *                  + Disable Pocket
  */
 
 user_pref("browser.cache.disk.capacity", 358400);
@@ -28,3 +29,4 @@ user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
+user_pref("browser.pocket.enabled", false);
