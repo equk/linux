@@ -6,10 +6,6 @@ export TERMINAL="xfce4-terminal"
 export BROWSER="chromium"
 export HISTCONTROL="ignoredups"
 
-# grep options
-#export GREP_OPTIONS='--color=auto'
-#export GREP_COLOR='1;32'
-
 # ls colors
 autoload colors; colors;
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
@@ -165,12 +161,6 @@ PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
 # Set GEM_HOME for bundler
 export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 
-# archlinux specific Aliases
-
-function paclist() {
-  sudo pacman -Qei $(pacman -Qu|cut -d" " -f 1)|awk ' BEGIN {FS=":"}/^Name/{printf("\033[1;36m%s\033[1;37m", $2)}/^Description/{print $2}'
-}
-
 # remove orphaned/un-needed packages
 alias pacclean='sudo pacman -Rs $(pacman -Qqdt)'
 # remove unused packages in cache
@@ -178,41 +168,6 @@ alias paccleanup='sudo pacman -Sc'
 
 alias paclsorphans='sudo pacman -Qdt'
 alias pacrmorphans='sudo pacman -Rs $(pacman -Qtdq)'
-
-function pacdisowned() {
-  tmp=${TMPDIR-/tmp}/pacman-disowned-$UID-$$
-  db=$tmp/db
-  fs=$tmp/fs
-
-  mkdir "$tmp"
-  trap  'rm -rf "$tmp"' EXIT
-
-  pacman -Qlq | sort -u > "$db"
-
-  find /bin /etc /lib /sbin /usr \
-      ! -name lost+found \
-        \( -type d -printf '%p/\n' -o -print \) | sort > "$fs"
-
-  comm -23 "$fs" "$db"
-}
-
-function pacmanallkeys() {
-  # Get all keys for developers and trusted users
-  curl https://www.archlinux.org/{developers,trustedusers}/ |
-  awk -F\" '(/pgp.mit.edu/) {sub(/.*search=0x/,"");print $1}' |
-  xargs sudo pacman-key --recv-keys
-}
-
-function pacmansignkeys() {
-  for key in $*; do
-    sudo pacman-key --recv-keys $key
-    sudo pacman-key --lsign-key $key
-    printf 'trust\n3\n' | sudo gpg --homedir /etc/pacman.d/gnupg \
-      --no-permission-warning --command-fd 0 --edit-key $key
-  done
-}
-
-### end archlinux specific
 
 function title() {
     local access
