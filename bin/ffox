@@ -28,7 +28,7 @@ fi
 
 # Create profile directory if it doesn't exist
 if [[ ! -e $profile_folder ]]; then
-    mkdir $profile_folder
+    mkdir -p $profile_folder
 fi
 
 # Copy custom preferences if none exist
