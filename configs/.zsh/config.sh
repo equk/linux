@@ -241,6 +241,13 @@ if [ -d "$HOME/bin" ] ; then
     export PATH="$HOME/bin:$PATH"
 fi
 
+# setup golang paths
+# main binary paths
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+# go projects path
+export GOPATH=$HOME/golang
+
 # disables prompt mangling in virtual_env/bin/activate
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
