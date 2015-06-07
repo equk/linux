@@ -19,12 +19,13 @@ fi
 
 # Create cache directory if it doesn't exist
 if [[ ! -e $cache_folder ]]; then
-    mkdir $cache_folder
+    mkdir -p $cache_folder
 fi
 
-# Check for root ( quit if root :x )
-if [ $(whoami) = "root" ]; then
-    exit 1
+# Create profile directory if it doesn't exist
+if [[ ! -e $profile_folder ]]; then
+    mkdir -p $profile_folder
 fi
 
 exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --disable-gpu --ssl-version-min=tls1
+#exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server

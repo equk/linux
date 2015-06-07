@@ -10,10 +10,17 @@
 
 ## variables
 
+profile_folder="$HOME/.chrome_profiles/default"
 cache_folder="/tmp/chrome_cache"
 chrome_bin="/usr/bin/chromium"
 
 ## run command
+
+if [ "x$DISPLAY" = "x" ]; then
+    echo "must be run within the X Window System." >&2
+    echo "Exiting." >&2
+    exit 1
+fi
 
 # Check for root ( quit if root :x )
 if [ $(whoami) = "root" ]; then
@@ -22,9 +29,13 @@ fi
 
 # Create cache directory if it doesn't exist
 if [[ ! -e $cache_folder ]]; then
-	mkdir $cache_folder
+	mkdir -p $cache_folder
+fi
+
+# Create profile directory if it doesn't exist
+if [[ ! -e $profile_folder ]]; then
+    mkdir -p $profile_folder
 fi
 
 # Execute chrome
-exec $chrome_bin --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1
-
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1 --enable-webgl --ignore-gpu-blacklist
