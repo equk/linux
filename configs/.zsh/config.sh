@@ -248,6 +248,11 @@ export PATH=$PATH:$GOROOT/bin
 # go projects path
 export GOPATH=$HOME/golang
 
+# setup local nodejs and npm
+if [ -d "$HOME/.local/bin" ] ; then
+    export PATH="$HOME/.local/bin:$PATH"
+fi
+
 # disables prompt mangling in virtual_env/bin/activate
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 

@@ -13,7 +13,6 @@ Color Scheme - Default
 CSS
 D
 Diff
-EditorConfig
 Erlang
 FindKeyConflicts
 get_packages.sh
@@ -26,9 +25,7 @@ HTML
 IndentGuides
 Java
 JavaScript
-jQuery
 jQuery Snippets pack
-JsFormat
 KeymapManager
 Language - English
 LaTeX
@@ -36,7 +33,6 @@ Lisp
 Lua
 Makefile
 Markdown
-Markdown Preview
 Matlab
 Nettuts+ Fetch
 Objective-C
