@@ -8,8 +8,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"SideBarEnhancements",
-		"Vintage"
+		"Vintage",
+		"SideBarEnhancements"
 	],
 	"rulers":
 	[
