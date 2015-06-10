@@ -1,0 +1,26 @@
+#!/bin/bash
+##
+#
+# script to exec markdown editor
+#
+##
+# equk 2015 - equk.co.uk
+##
+
+# variables
+
+markdown_ed="/usr/bin/retext"
+
+# Check for X display
+if [ "x$DISPLAY" = "x" ]; then
+    echo "must be run within the X Window System." >&2
+    echo "Exiting." >&2
+    exit 1
+fi
+
+# Check for root ( quit if root :x )
+if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+exec $markdown_ed $1
