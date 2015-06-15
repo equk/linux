@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 ##
 # script to exec dmenu
-# equk 2014 - equk.co.uk
+# equk 2015 - equk.co.uk
 ##
 
 ## variables
@@ -12,8 +12,8 @@ background="#262626"
 highlight="#000000"
 highlight_bg="#dd1144"
 
-## add path for ~/bin
-export PATH=$PATH:$HOME/bin
+# import zshrc (for paths etc)
+source $HOME/.zshrc
 
 ## run command
 
