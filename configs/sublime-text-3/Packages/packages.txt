@@ -18,6 +18,7 @@ FindKeyConflicts
 get_packages.sh
 Gist
 Go
+GoSublime
 Graphviz
 Groovy
 Haskell
