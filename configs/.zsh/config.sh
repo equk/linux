@@ -3,7 +3,7 @@
 # Set Defaults
 export EDITOR="vim"
 export TERMINAL="xfce4-terminal"
-export BROWSER="chromium"
+export BROWSER="$HOME/bin/chrome"
 export HISTCONTROL="ignoredups"
 
 # ls colors
