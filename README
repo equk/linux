@@ -11,7 +11,7 @@
 > OS: Arch Linux x86_64
 > Kernel: 4.0.5-1-EQUK
 > Shell: /usr/bin/zsh
-> Packages: 1153
+> Packages: 1152
 > Window Manager: i3
 > GTK2 theme: MediterraneanWhite
 > GTK2 icon theme: Faenza-Cupertino-Dark
@@ -40,12 +40,12 @@ I am on freenode: equilibriumuk
 Main Apps
 =========
 
-Web Browser: Google Chromium / Mozilla Firefox
+Web Browser: Google Chromium
 File Manager: Thunar
 Twitter Client: Tweetdeck Web
 Desktop Stats: Conky
 Desktop Background: Nitrogen
-Text Editor: vim & Sublime Text 3
+Text & Code Editor: vim & Sublime Text 3
 Image Editor: Gimp
 Video Playback: VLC
 Launcher: dmenu
