@@ -19,8 +19,4 @@
 	"scroll_speed": 0,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-    "env": {
-        "GOPATH": "$HOME/golang:$GS_GOPATH",
-        "GOROOT": "$HOME/go:$GS_GOROOT"
-    }
 }
