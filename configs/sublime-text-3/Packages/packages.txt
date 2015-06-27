@@ -34,7 +34,6 @@ Lua
 Makefile
 Markdown
 Matlab
-Nettuts+ Fetch
 Objective-C
 OCaml
 Perl
@@ -51,7 +50,6 @@ RestructuredText
 Ruby
 Scala
 ShellScript
-snake_case
 SQL
 ssl-linux
 SublimeLinter
@@ -59,7 +57,6 @@ TCL
 Text
 Textile
 Theme - Default
-Theme - Soda
 TidyHTML5
 User
 Vintage
