@@ -15,3 +15,6 @@ xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # aticonfig --pplib-cmd "set fanspeed 0 65"
 # set hardware accel for VDPAU to nvidia
 export VDPAU_DRIVER=nvidia
+# set nvidia gpu fanspeed
+nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=50"
+#
