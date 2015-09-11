@@ -12,6 +12,7 @@ jQuery.sublime-package
 JsFormat.sublime-package
 Markdown Preview.sublime-package
 Package Control.sublime-package
+PowerShell.sublime-package
 PyV8
 Sass.sublime-package
 SideBarEnhancements.sublime-package
