@@ -27,5 +27,5 @@ if [[ ! -e $profile_folder ]]; then
     mkdir -p $profile_folder
 fi
 
-exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --disable-gpu --ssl-version-min=tls1
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --force-device-scale-factor=1 --disable-gpu --ssl-version-min=tls1
 #exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server
