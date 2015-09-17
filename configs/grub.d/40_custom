@@ -1,0 +1,15 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+if [ "${grub_platform}" == "efi" ]; then
+        menuentry "Microsoft Windows Vista/7/8/8.1 UEFI-GPT" {
+                insmod part_gpt
+                insmod fat
+                insmod search_fs_uuid
+                insmod chain
+                search --fs-uuid --set=root --hint-bios=hd1,gpt2 --hint-efi=hd1,gpt2 --hint-baremetal=ahci1,gpt2 DE7E-F041
+                chainloader /EFI/Microsoft/Boot/bootmgfw.efi
+        }
+fi
