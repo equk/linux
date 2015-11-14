@@ -113,22 +113,7 @@ alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias killexe='kill $(pgrep .exe)'
 
 # Treesize view of current directory
-function treesize() {
-  du -k --max-depth=1 | sort -nr | awk '
-     BEGIN {
-        split("KB,MB,GB,TB", Units, ",");
-     }
-     {
-        u = 1;
-        while ($1 >= 1024) {
-           $1 = $1 / 1024;
-           u += 1
-        }
-        $1 = sprintf("%.1f %s", $1, Units[u]);
-        print $0;
-     }
-    '
-}
+alias treesize='du -h --max-depth=1 | sort -nr'
 
 # Extract
 function extract () {
@@ -262,3 +247,7 @@ export WINEARCH=win32
 
 # set hardware accel for VDPAU to nvidia
 export VDPAU_DRIVER=nvidia
+
+# alias for new dnscrypt-proxy service
+alias dnscrypt-edit='sudo vim /usr/lib/systemd/system/dnscrypt-proxy.service'
+alias dnscrypt-resolvers='sed "s/,/\t/g" "/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv" | less -S'

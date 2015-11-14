@@ -16,5 +16,5 @@ xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # set hardware accel for VDPAU to nvidia
 export VDPAU_DRIVER=nvidia
 # set nvidia gpu fanspeed
-nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=50"
+nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=55"
 #
