@@ -4,6 +4,7 @@ AdvancedNewFile
 AppleScript
 ASCII Decorator
 ASP
+backrefs
 Batch File
 bz2
 C#
@@ -39,10 +40,12 @@ OCaml
 Perl
 PHP
 Prefixr
+pygments
 Python
 Python Flake8 Lint
 Python PEP8 Autoformat
 PyV8
+pyyaml
 R
 Rails
 Regular Expressions
