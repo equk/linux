@@ -9,9 +9,9 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 4.1.6-1-EQUK
+> Kernel: 4.2.5-1-EQUK
 > Shell: /usr/bin/zsh
-> Packages: 1166
+> Packages: 1202
 > Window Manager: i3
 > GTK2 theme: MediterraneanWhite
 > GTK2 icon theme: Faenza-Cupertino-Dark
@@ -49,7 +49,7 @@ Text & Code Editor: vim & Sublime Text 3
 Image Editor: Gimp
 Video Playback: VLC
 Launcher: dmenu
-Music Playback: DeaDBeeF
+Music Playback: Spotify or DeaDBeeF
 Python IDE: PyCharm & vim & Sublime Text 3
 Email Client: Thunderbird + Enigmail
 Revision Control: git
