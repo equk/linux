@@ -6,10 +6,13 @@
 #
 # set hardware settings for keyboard and mouse
 xset m 1 1
-setxkbmap -layout 'gb' -model 'pc105'
 xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Velocity Scaling" 1
 xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Profile" -1
-# set right start key
+## settings for uk keyboard
+#setxkbmap -layout 'gb' -model 'pc105'
+## settings for us keyboard layout (filco tenkeyless)
+setxkbmap -layout 'us'
+# remap right menu key to function as start key
 xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # set amd gpu fanspeed
 # aticonfig --pplib-cmd "set fanspeed 0 65"
@@ -18,3 +21,5 @@ export VDPAU_DRIVER=nvidia
 # set nvidia gpu fanspeed
 nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=55"
 #
+### custom key codes for extended functions
+# recorded using xev
