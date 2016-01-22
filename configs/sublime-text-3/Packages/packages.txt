@@ -9,6 +9,7 @@ Batch File
 bz2
 C#
 C++
+C Improved
 Clojure
 Color Scheme - Default
 CSS
