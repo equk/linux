@@ -9,9 +9,9 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 4.3.3-2-EQUK
+> Kernel: 4.3.3-3-EQUK
 > Shell: /usr/bin/zsh
-> Packages: 1201
+> Packages: 1214
 > Window Manager: i3
 > GTK2 theme: MediterraneanWhite
 > GTK2 icon theme: Faenza-Cupertino-Dark
