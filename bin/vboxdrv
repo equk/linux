@@ -1,0 +1,78 @@
+#!/bin/bash
+##
+#
+# script to init virtualbox driver modules
+# then execute network related scripts to create a bridge
+# for use with dnsmasq for a virtual network
+#
+## dependencies: brctl, dnsmasq, tun
+# note: setup dnsmasq as dhcp on required range
+#
+# interfaces:   br0 = dnsmasq dhcp
+#               tap0 = bridged for vm (client)
+#
+# example qemu flags: -net nic -net tap,ifname="tap0",script=no,downscript=no
+##
+# equk 2016 - equk.co.uk
+##
+
+## variables
+bridge_dev="br0"
+tuntap_dev="tap0"
+virt_range="192.168.200"
+
+# color / colour
+blue="\033[1;34m"
+green="\033[1;32m"
+red="\033[1;31m"
+yellow="\033[1;33m"
+reset="\033[0m"
+
+# CLI feedback
+cl_error="[$red ERROR $reset]"
+cl_ok="[$green OK $reset]"
+cl_warn="[$yellow WARN $reset]"
+
+# Check for root ( quit if not root :x )
+if [[ $EUID -ne 0 ]]; then
+   echo -e "$cl_error This script must be run as root" 
+   exit 1
+fi
+
+# load virtualbox kernel modules
+echo -e "$cl_ok loading virtualbox modules"
+modprobe vboxdrv
+modprobe vboxnetadp
+modprobe vboxnetflt
+
+# check if bridge device exists
+if [[ -z $(brctl show | grep $bridge_dev) ]]; then
+    echo -e "$cl_ok $bridge_dev does not exist"
+else
+    echo -e "$cl_error device $bridge_dev already exists"
+    exit 1
+fi
+
+echo -e "$cl_ok creating bridge $bridge_dev"
+brctl addbr $bridge_dev
+echo -e "$cl_ok assigning ip to $bridge_dev"
+ifconfig $bridge_dev $virt_range.1 netmask 255.255.255.0 up
+echo -e "$cl_ok creating tun/tap device $tuntap_dev"
+ip tuntap add dev $tuntap_dev mode tap
+ip link set $tuntap_dev up promisc on
+echo -e "$cl_ok adding $tuntap_dev to bridge $bridge_dev"
+brctl addif $bridge_dev $tuntap_dev
+echo -e "$cl_ok initializing $tuntap_dev interface"
+ifconfig $tuntap_dev up
+echo -e "$cl_ok enabling forwarding for ipv4"
+sysctl net.ipv4.ip_forward=1
+echo -e "$cl_ok enabling masquerading on nat table"
+iptables -t nat -A POSTROUTING -j MASQUERADE
+echo -e "$cl_ok checking if dnsmasq is running"
+if [[ -z $(pgrep dnsmasq) ]]; then
+    echo -e "$cl_ok starting dnsmasq"
+    systemctl start dnsmasq.service
+else
+    echo -e "$cl_ok dnsmasq already running"
+    exit 1
+fi
