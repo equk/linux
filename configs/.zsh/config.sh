@@ -102,7 +102,7 @@ alias ls='ls -hF --color=auto --group-directories-first '
 alias df='df -h -T'
 alias duf='du -skh * | sort -n'
 # quick nmap scan over socks
-alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,6667 '
+alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,3389 '
 # http server for testing static content
 alias http='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
@@ -232,6 +232,8 @@ export GOROOT=$HOME/go
 export PATH=$PATH:$GOROOT/bin
 # go projects path
 export GOPATH=$HOME/golang
+# adding binary path for golang projects
+export PATH=$PATH:$GOPATH/bin
 
 # setup local nodejs bin path
 if [ -d "$HOME/node/bin" ] ; then
@@ -250,4 +252,8 @@ export VDPAU_DRIVER=nvidia
 
 # alias for new dnscrypt-proxy service
 alias dnscrypt-edit='sudo vim /usr/lib/systemd/system/dnscrypt-proxy.service'
-alias dnscrypt-resolvers='sed "s/,/\t/g" "/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv" | less -S'
+alias dnscrypt-resolvers='column -s, -t < "/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv" | less -#5 -N -S'
+
+# set QEMU to use ALSA for audio
+export QEMU_AUDIO_DRV=alsa
+
