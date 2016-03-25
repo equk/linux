@@ -4,6 +4,9 @@
 # script to exec chrome with ramdisk cache
 # tmpfs on /tmp type tmpfs
 #
+# added:    full GPU acceleration for all the things
+#           including GPU Rasterization
+#
 ##
 # equk 2014 - equk.co.uk
 ##
@@ -38,4 +41,4 @@ if [[ ! -e $profile_folder ]]; then
 fi
 
 # Execute chrome
-exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1 --force-device-scale-factor=1 --enable-webgl --ignore-gpu-blacklist $1
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1 --force-device-scale-factor=1 --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization $1
