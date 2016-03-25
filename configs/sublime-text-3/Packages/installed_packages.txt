@@ -7,13 +7,14 @@ GitGutter.sublime-package
 GotoDocumentation.sublime-package
 Handlebars.sublime-package
 HTMLBeautify.sublime-package
+Jade.sublime-package
 JavaScriptNext - ES6 Syntax.sublime-package
 jQuery.sublime-package
 JsFormat.sublime-package
 Markdown Preview.sublime-package
 Package Control.sublime-package
 PowerShell.sublime-package
-PyV8
+PyV8/
 Sass.sublime-package
 SideBarEnhancements.sublime-package
 SideBarGit.sublime-package
