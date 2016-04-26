@@ -9,13 +9,13 @@
 
 
 > OS: Arch Linux x86_64
-> Kernel: 4.4.5-1-EQUK
+> Kernel: 4.5.1-1-EQUK
 > Shell: /usr/bin/zsh
-> Packages: 1262
+> Packages: 1270
 > Window Manager: i3
 > GTK2 theme: MediterraneanWhite
 > GTK2 icon theme: Faenza-Cupertino-Dark
-> GTK2 font name: Cantarell 10
+> GTK2 font name: Cantarell 11
 > RAM: 16GiB
 > CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
 > GPU: NVIDIA Geforce 560Ti 2048MB
