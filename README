@@ -11,7 +11,7 @@
 > OS: Arch Linux x86_64
 > Kernel: 4.4.5-1-EQUK
 > Shell: /usr/bin/zsh
-> Packages: 1257
+> Packages: 1262
 > Window Manager: i3
 > GTK2 theme: MediterraneanWhite
 > GTK2 icon theme: Faenza-Cupertino-Dark
@@ -20,6 +20,7 @@
 > CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
 > GPU: NVIDIA Geforce 560Ti 2048MB
 > SSD: SanDisk ULTRA II
+> SSD2: Integral P Series 4
 
 > STARTUP TIME: 2.618s (systemd-analyze)
 >               1.298s (kernel) + 1.320s (userspace)
@@ -29,6 +30,9 @@
 
 > SSD Speed (hdparm -tT):
 > 1518 MB in  3.00 seconds = 505.71 MB/sec
+
+> SSD2 Speed (hdparm -tT):
+> 1574 MB in  3.00 seconds = 524.12 MB/sec
 
 Most of the files here are for maintaining Archlinux.
 
@@ -48,6 +52,6 @@ Text & Code Editor: vim & Sublime Text 3
 Image Editor: Gimp
 Video Playback: VLC
 Launcher: dmenu
-Music Playback: Spotify
+Music Playback: Deadbeef
 Email Client: Thunderbird + Enigmail
 IRC: Hexchat / irssi
