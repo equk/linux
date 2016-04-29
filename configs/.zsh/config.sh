@@ -256,4 +256,3 @@ alias dnscrypt-resolvers='column -s, -t < "/usr/share/dnscrypt-proxy/dnscrypt-re
 
 # set QEMU to use ALSA for audio
 export QEMU_AUDIO_DRV=alsa
-

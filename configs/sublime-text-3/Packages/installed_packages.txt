@@ -3,6 +3,7 @@ BracketHighlighter.sublime-package
 Color Highlighter.sublime-package
 EditorConfig.sublime-package
 Emmet.sublime-package
+FindKeyConflicts.sublime-package
 GitGutter.sublime-package
 GotoDocumentation.sublime-package
 Handlebars.sublime-package
@@ -14,7 +15,7 @@ JsFormat.sublime-package
 Markdown Preview.sublime-package
 Package Control.sublime-package
 PowerShell.sublime-package
-PyV8/
+PyV8
 Sass.sublime-package
 SideBarEnhancements.sublime-package
 SideBarGit.sublime-package
