@@ -103,6 +103,8 @@ alias df='df -h -T'
 alias duf='du -skh * | sort -n'
 # quick nmap scan over socks
 alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,3389 '
+# start pcap split into 5min chunks (max 50min)
+alias pcap='sudo tcpdump -G 300 -w $HOME/pcaps/%Y-%m-%d_%H:%M.pcap -W 10'
 # http server for testing static content
 alias http='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
