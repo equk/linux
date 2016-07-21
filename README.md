@@ -1,4 +1,4 @@
-#Linux
+# Linux
 
             ,                       _     _ _
            /#\        __ _ _ __ ___| |__ | (_)_ __  _   ___  __
@@ -12,9 +12,9 @@
     OS: Arch Linux x86_64
     Kernel: 4.6.4-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1285
+    Packages: 1291
     Window Manager: i3
-    GTK2 theme: MediterraneanWhite
+    GTK2 theme: Clearlooks
     GTK2 icon theme: Faenza-Cupertino-Dark
     GTK2 font name: Cantarell 11
     RAM: 16GiB
@@ -40,14 +40,14 @@ Catch me on the archlinux or gentoo forum: equilibrium
 
 I am on freenode: equilibriumuk
 
-##Main Apps
+## Main Apps
 
 * Web Browser: Google Chromium
 * File Manager: Thunar
 * Twitter Client: Tweetdeck Web
 * Desktop Stats: Conky
 * Desktop Background: Nitrogen
-* Text & Code Editor: vim & Sublime Text 3
+* Text & Code Editor: vim & atom
 * Image Editor: Gimp
 * Video Playback: VLC
 * Launcher: dmenu
