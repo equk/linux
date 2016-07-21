@@ -1,0 +1,10 @@
+atom-jade/
+autocomplete-python/
+dracula-theme/
+git-plus/
+language-powershell/
+linter/
+linter-clang/
+linter-flake8/
+linter-jshint/
+seti-ui/
