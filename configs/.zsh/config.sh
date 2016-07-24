@@ -117,6 +117,12 @@ alias killexe='kill $(pgrep .exe)'
 # Treesize view of current directory
 alias treesize='du -h --max-depth=1 | sort -nr'
 
+# atom aliases
+alias atom='atom-beta'
+# temp sublime text aliases (while switching)
+alias subl='atom-beta'
+alias subl3='atom-beta'
+
 # Extract
 function extract () {
     if [ -f $1 ] ; then
