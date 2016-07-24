@@ -16,7 +16,7 @@ TEXT
 {"full_text":"%","color":"\#EEEEEE","separator":false,"separator_block_width":6},\
 {"full_text":"${cpu cpu3}","color":"\#FFFFFF","separator":false,"separator_block_width":0},\
 {"full_text":"%","color":"\#EEEEEE","separator":false,"separator_block_width":6},\
-# Kernel:
+# KERNEL
 {"full_text":"KERNEL","color":"\#d70a53","separator":false,"separator_block_width":6},\
 {"full_text":"${kernel}","color":"\#EEEEEE","separator":false,"separator_block_width":6},\
 # CPU TEMP
