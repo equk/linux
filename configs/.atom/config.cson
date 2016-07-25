@@ -1,0 +1,49 @@
+"*":
+  "atom-beautify":
+    general:
+      analytics: false
+  core:
+    disabledPackages: [
+      "archive-view"
+      "metrics"
+      "exception-reporting"
+    ]
+    packagesWithKeymapsDisabled: [
+      "git-diff"
+      "tree-view"
+    ]
+    themes: [
+      "seti-ui"
+      "dracula-theme"
+    ]
+  editor:
+    fontFamily: "Liberation Mono"
+    invisibles: {}
+    lineHeight: 1.2
+    tabLength: 4
+  "exception-reporting": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  linter:
+    showErrorPanel: false
+  "markdown-preview":
+    useGitHubStyle: true
+  pigments:
+    markerType: "native-square-dot"
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    themeColor: "Green"
+  "status-bar":
+    cursorPositionFormat: "line: %L column: %C"
+  "tool-bar":
+    position: "Right"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".diff.source":
+  editor:
+    tabLength: 4
+".powershell.source":
+  editor:
+    tabLength: 4
