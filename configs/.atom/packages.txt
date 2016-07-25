@@ -11,6 +11,8 @@ go-get
 gometalinter-linter
 go-plus
 gorename
+highlight-selected
+javascript-snippets
 language-powershell
 language-rust
 linter
@@ -20,5 +22,6 @@ linter-jshint
 linter-ruby
 linter-rust
 navigator-godef
+pigments
 seti-ui
 tester-go
