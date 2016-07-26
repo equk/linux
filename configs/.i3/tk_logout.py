@@ -3,7 +3,7 @@
 """
 
 *****************************************************************
- 		         tk_logout.py - equk.co.uk
+                tk_logout.py - equk.co.uk
 *****************************************************************
 Copyright (C) 2014  Bradley Walden
 This program comes with ABSOLUTELY NO WARRANTY.
