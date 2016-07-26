@@ -3,7 +3,7 @@
 """
 
 *****************************************************************
- 			    tk_logout.py - equk.co.uk
+ 		         tk_logout.py - equk.co.uk
 *****************************************************************
 Copyright (C) 2014  Bradley Walden
 This program comes with ABSOLUTELY NO WARRANTY.
@@ -19,8 +19,7 @@ for_window [class="Tk" title="tk_logout"] floating enable, border 1pixel
 
 """
 
-from tkinter import *
-import tkinter.messagebox
+import tkinter as tk
 import os
 
 
@@ -35,19 +34,19 @@ def reboot():
 def logout():
     os.system("i3-msg exit")
 
-app = Tk()
+app = tk.Tk()
 app.title("tk_logout")
 
-shutdown_button = Button(app, text="Shutdown", command=shutdown)
+shutdown_button = tk.Button(app, text="Shutdown", command=shutdown)
 shutdown_button.pack(side='left', padx=5, pady=5)
 
-logout_button = Button(app, text="Logout", command=logout)
+logout_button = tk.Button(app, text="Logout", command=logout)
 logout_button.pack(side='left', padx=5, pady=5)
 
-reboot_button = Button(app, text="Reboot", command=reboot)
+reboot_button = tk.Button(app, text="Reboot", command=reboot)
 reboot_button.pack(side='left', padx=5, pady=5)
 
-close_button = Button(app, text="Close", command=exit)
+close_button = tk.Button(app, text="Close", command=exit)
 close_button.pack(side='left', padx=5, pady=5)
 
 app.mainloop()
