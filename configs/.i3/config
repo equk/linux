@@ -176,3 +176,5 @@ exec --no-startup-id nitrogen --restore
 exec thunderbird
 # execute audiomixer
 exec pnmixer
+# execute redshift
+exec --no-startup-id redshift-gtk
