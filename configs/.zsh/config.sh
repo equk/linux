@@ -248,6 +248,11 @@ if [ -d "$HOME/node/bin" ] ; then
     export PATH="$HOME/node/bin:$PATH"
 fi
 
+# setup local rust (cargo) bin path
+if [ -d "$HOME/.cargo/bin" ] ; then
+    export PATH="$HOME/.cargo/bin:$PATH"
+fi
+
 # disables prompt mangling in virtual_env/bin/activate
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
