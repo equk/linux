@@ -6,6 +6,8 @@ builder-go
 dracula-theme
 git-plus
 go-config
+go-debug
+godoc
 gofmt
 go-get
 gometalinter-linter
@@ -22,6 +24,7 @@ linter-jshint
 linter-ruby
 linter-rust
 navigator-godef
+package-sync
 pigments
 seti-ui
 tester-go
