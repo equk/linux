@@ -23,7 +23,7 @@ linter-flake8
 linter-jshint
 linter-ruby
 linter-rust
-navigator-godef
+navigator-go
 package-sync
 pigments
 seti-ui
