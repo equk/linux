@@ -12,7 +12,7 @@
     OS: Arch Linux x86_64
     Kernel: 4.7.6-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1364
+    Packages: 1365
     Window Manager: i3
     GTK2 theme: Clearlooks
     GTK2 icon theme: Faenza-Cupertino-Dark
