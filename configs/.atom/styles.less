@@ -1,3 +1,15 @@
 .tree-view {
-  font-size: @input-font-size;
+    font-size: @input-font-size;
+}
+atom-text-editor::shadow {
+    .selection .region {
+        background-color: #d1a;
+    }
+    .cursor-line {
+        background-color: #333454 !important;
+    }
+    .search-results .marker.current-result .region {
+        background-color: #d1a !important;
+    }
+
 }
