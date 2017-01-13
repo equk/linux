@@ -15,6 +15,7 @@ go-plus
 gorename
 highlight-selected
 javascript-snippets
+language-javascript-jsx
 language-powershell
 language-rust
 linter
