@@ -5,10 +5,16 @@
 # used to setup mouse and keyboard etc
 #
 # set hardware settings for keyboard and mouse
-xset m 1 1
+#xset m 1 1
 ## settings for SteelSeries Kana v2 Gaming Mouse
-xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Velocity Scaling" 1
-xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Profile" -1
+#xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Velocity Scaling" 1
+#xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "Device Accel Profile" -1
+### for some reason above variables removed / changed
+### ref: https://www.x.org/wiki/Development/Documentation/PointerAcceleration/
+### ref: https://wayland.freedesktop.org/libinput/doc/latest/pointer-acceleration.html
+### using "AccelProfile" "flat" for libinput
+xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "libinput Accel Speed" -0.2
+###
 ## settings for Razer BlackWidow 2013
 setxkbmap -layout 'gb' -model 'pc105'
 ## settings for us keyboard layout (filco tenkeyless)
