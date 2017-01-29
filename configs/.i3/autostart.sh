@@ -13,7 +13,7 @@
 ### ref: https://www.x.org/wiki/Development/Documentation/PointerAcceleration/
 ### ref: https://wayland.freedesktop.org/libinput/doc/latest/pointer-acceleration.html
 ### using "AccelProfile" "flat" for libinput
-xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "libinput Accel Speed" -0.2
+xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "libinput Accel Speed" -0.1
 ###
 ## settings for Razer BlackWidow 2013
 setxkbmap -layout 'gb' -model 'pc105'

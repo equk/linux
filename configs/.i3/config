@@ -132,6 +132,8 @@ for_window [class="Wine"] floating disable, border 1pixel
 for_window [class="openttd"] floating disable, border 1pixel
 for_window [class="Atom"] floating disable, border 1pixel
 for_window [class="Virtualbox"] floating enable, border 1pixel
+# linux eve online launcher (native qt)
+for_window [class="EVE"] floating disable, border 1pixel
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
