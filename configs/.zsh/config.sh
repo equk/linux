@@ -121,10 +121,10 @@ alias treesize='du -h --max-depth=1 | sort -nr'
 alias wgeto='wget -H -r --level=1 -k -p '
 
 # atom aliases
-alias atom='atom-beta'
+#alias atom='atom-beta'
 # temp sublime text aliases (while switching)
-alias subl='atom-beta'
-alias subl3='atom-beta'
+alias subl='atom'
+alias subl3='atom'
 
 # Extract
 function extract () {
