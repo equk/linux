@@ -1,5 +1,6 @@
 atom-beautify
 atom-jade
+atom-minify
 autocomplete-go
 autocomplete-python
 builder-go
