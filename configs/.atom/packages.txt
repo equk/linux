@@ -27,6 +27,5 @@ linter-ruby
 linter-rust
 navigator-go
 package-sync
-pigments
 seti-ui
 tester-go
