@@ -182,4 +182,4 @@ exec thunderbird
 # execute audiomixer
 exec pnmixer
 # execute redshift
-exec --no-startup-id redshift-gtk
+## exec --no-startup-id redshift-gtk
