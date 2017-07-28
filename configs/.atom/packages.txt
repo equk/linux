@@ -4,6 +4,8 @@ atom-minify
 autocomplete-go
 autocomplete-python
 builder-go
+busy-signal
+dracula-syntax
 dracula-theme
 git-plus
 go-config
@@ -15,6 +17,7 @@ gometalinter-linter
 go-plus
 gorename
 highlight-selected
+intentions
 javascript-snippets
 language-javascript-jsx
 language-powershell
@@ -25,6 +28,7 @@ linter-flake8
 linter-jshint
 linter-ruby
 linter-rust
+linter-ui-default
 navigator-go
 package-sync
 seti-ui

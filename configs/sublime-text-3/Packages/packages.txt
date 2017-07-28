@@ -34,7 +34,9 @@ Lisp
 Lua
 Makefile
 Markdown
+markupsafe
 Matlab
+mdpopups
 Objective-C
 OCaml
 packages.txt
@@ -44,6 +46,8 @@ Prefixr
 pygments
 Python
 Python Flake8 Lint
+python-jinja2
+python-markdown
 Python PEP8 Autoformat
 PyV8
 pyyaml

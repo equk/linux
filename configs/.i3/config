@@ -183,3 +183,4 @@ exec thunderbird
 exec pnmixer
 # execute redshift
 ## exec --no-startup-id redshift-gtk
+

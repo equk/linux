@@ -123,8 +123,8 @@ alias wgeto='wget -H -r --level=1 -k -p '
 # atom aliases
 #alias atom='atom-beta'
 # temp sublime text aliases (while switching)
-alias subl='atom'
-alias subl3='atom'
+#alias subl='atom'
+#alias subl3='atom'
 
 # Extract
 function extract () {
@@ -164,6 +164,8 @@ alias paccleanup='sudo pacman -Sc'
 
 alias paclsorphans='sudo pacman -Qdt'
 alias pacrmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+# use yay instead of yaourt
+alias yaourt='yay'
 
 function title() {
     local access
