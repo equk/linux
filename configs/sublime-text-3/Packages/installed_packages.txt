@@ -1,4 +1,5 @@
 0_package_control_loader.sublime-package
+A File Icon.sublime-package
 BracketHighlighter.sublime-package
 Color Highlighter.sublime-package
 EditorConfig.sublime-package
@@ -16,6 +17,7 @@ Markdown Preview.sublime-package
 Package Control.sublime-package
 PowerShell.sublime-package
 PyV8
+Rust Enhanced.sublime-package
 Sass.sublime-package
 SideBarEnhancements.sublime-package
 SideBarGit.sublime-package

@@ -1,12 +1,10 @@
 Abacus
 ActionScript
-AdvancedNewFile
 AppleScript
 ASCII Decorator
 ASP
 backrefs
 Batch File
-bz2
 C#
 C++
 C Improved
@@ -49,7 +47,6 @@ Python Flake8 Lint
 python-jinja2
 python-markdown
 Python PEP8 Autoformat
-PyV8
 pyyaml
 R
 Rails
@@ -57,9 +54,9 @@ Regular Expressions
 RestructuredText
 Ruby
 Scala
+shellenv
 ShellScript
 SQL
-ssl-linux
 SublimeLinter
 TCL
 Text
@@ -70,3 +67,4 @@ User
 Vintage
 XML
 YAML
+zzz A File Icon zzz
