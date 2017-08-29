@@ -167,6 +167,9 @@ alias pacrmorphans='sudo pacman -Rs $(pacman -Qtdq)'
 # use yay instead of yaourt
 alias yaourt='yay'
 
+# list 30 largest packages installed
+alias pacbig='expac -s -H M "%-30n %m" | sort -rhk 2 | head -n 30'
+
 function title() {
     local access
     local cmd
@@ -274,3 +277,9 @@ alias dnscrypt-resolvers='column -s, -t < "/usr/share/dnscrypt-proxy/dnscrypt-re
 
 # set QEMU to use ALSA for audio
 export QEMU_AUDIO_DRV=alsa
+
+# use subl3 instead of atom
+# atom using over 1GB of storage (also slow ... )
+# 823M  ~/.atom
+# 494M atom-editor-bin
+alias atom='subl3'
