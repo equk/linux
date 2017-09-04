@@ -47,7 +47,7 @@ I am on freenode: equilibriumuk
 * Twitter Client: Tweetdeck Web
 * Desktop Stats: Conky
 * Desktop Background: Nitrogen
-* Text & Code Editor: vim & atom
+* Text & Code Editor: vim & sublime text
 * Image Editor: Gimp
 * Video Playback: VLC
 * Launcher: dmenu
