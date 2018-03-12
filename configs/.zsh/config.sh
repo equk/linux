@@ -244,8 +244,8 @@ fi
 
 # setup golang paths
 # main binary paths
-export GOROOT=$HOME/go
-export PATH=$PATH:$GOROOT/bin
+# export GOROOT=$HOME/go
+# export PATH=$PATH:$GOROOT/bin
 # go projects path
 export GOPATH=$HOME/golang
 # adding binary path for golang projects
@@ -272,7 +272,7 @@ export WINEARCH=win32
 export VDPAU_DRIVER=nvidia
 
 # alias for new dnscrypt-proxy service
-alias dnscrypt-edit='sudo vim /usr/lib/systemd/system/dnscrypt-proxy.service'
+alias dnscrypt-edit='sudo vim /etc/dnscrypt-proxy.conf'
 alias dnscrypt-resolvers='column -s, -t < "/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv" | less -#5 -N -S'
 
 # set QEMU to use ALSA for audio
