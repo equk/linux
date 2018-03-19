@@ -271,9 +271,9 @@ export WINEARCH=win32
 # set hardware accel for VDPAU to nvidia
 export VDPAU_DRIVER=nvidia
 
-# alias for new dnscrypt-proxy service
-alias dnscrypt-edit='sudo vim /etc/dnscrypt-proxy.conf'
-alias dnscrypt-resolvers='column -s, -t < "/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv" | less -#5 -N -S'
+# alias for golang dnscrypt-proxy
+alias dnscrypt-edit='sudo vim /etc/dnscrypt-proxy/dnscrypt-proxy.toml'
+alias dnscrypt-resolvers='sudo vim /var/cache/dnscrypt-proxy/public-resolvers.md'
 
 # set QEMU to use ALSA for audio
 export QEMU_AUDIO_DRV=alsa
