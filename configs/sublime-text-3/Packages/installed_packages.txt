@@ -21,3 +21,4 @@ Rust Enhanced.sublime-package
 Sass.sublime-package
 SideBarEnhancements.sublime-package
 SideBarGit.sublime-package
+SublimeLinter.sublime-package
