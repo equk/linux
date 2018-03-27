@@ -41,4 +41,4 @@ if [[ ! -e $profile_folder ]]; then
 fi
 
 # Execute chrome
-exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1 --force-device-scale-factor=1 --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization $1
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1 --force-device-scale-factor=1 --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --enable-native-gpu-memory-buffers --site-per-process $1
