@@ -30,6 +30,14 @@ if [ $(whoami) = "root" ]; then
     exit 1
 fi
 
+# Check if user namespaces is enabled (for sandbox)
+# Note: this is to enforce user namespaces for Layer-1 sandbox
+if [[ ! (-r /proc/sys/kernel/unprivileged_userns_clone && $(< /proc/sys/kernel/unprivileged_userns_clone) == 1 && -n $(zcat /proc/config.gz | grep CONFIG_USER_NS=y) ) ]]; then
+    echo "User namespaces are not detected as enabled on your system, this is required for Layer-1 sandbox"
+    echo "No usable sandbox! Update your kernel or see https://github.com/chromium/chromium/blob/master/docs/linux_sandboxing.md for more information."
+    exit 1
+fi
+
 # Create cache directory if it doesn't exist
 if [[ ! -e $cache_folder ]]; then
 	mkdir -p $cache_folder
@@ -41,4 +49,4 @@ if [[ ! -e $profile_folder ]]; then
 fi
 
 # Execute chrome
-exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1 --force-device-scale-factor=1 --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --enable-native-gpu-memory-buffers --site-per-process $1
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --no-proxy-server --ssl-version-min=tls1 --force-device-scale-factor=1 --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --enable-native-gpu-memory-buffers $1
