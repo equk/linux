@@ -24,11 +24,15 @@ xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # set amd gpu fanspeed
 # aticonfig --pplib-cmd "set fanspeed 0 65"
 # set hardware accel for VDPAU to nvidia
-export VDPAU_DRIVER=nvidia
+#export VDPAU_DRIVER=nvidia
 # set nvidia gpu fanspeed
-nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=55"
+#nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=55"
 #
 ### custom key codes for extended functions
 # recorded using xev
 # blackwidow extended keys
 # M1 = 191, M2 = 192, M3 = 193, M4 = 194, M5 = 195
+#
+# 24-04-2018 - switched to nouveau drivers
+# for reference fanspeed control path below
+# /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon3/pwm1

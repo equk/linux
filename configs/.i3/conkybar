@@ -22,7 +22,7 @@ TEXT
 {"full_text":"°C","color":"\#EEEEEE","separator":false,"separator_block_width":6},\
 # GPU TEMP
 {"full_text":"GPU","color":"\#d70a53","separator":false,"separator_block_width":6},\
-{"full_text":"${execi 5 nvidia-settings -q gpucoretemp -t}","color":"\#FFFFFF","separator":false,"separator_block_width":0},\
+{"full_text":"${hwmon 3 temp 1}","color":"\#FFFFFF","separator":false,"separator_block_width":0},\
 {"full_text":"°C","color":"\#EEEEEE","separator":false,"separator_block_width":6},\
 # MEM USED / TOTAL
 {"full_text":"MEM","color":"\#d70a53","separator":false,"separator_block_width":6},\

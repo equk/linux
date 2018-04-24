@@ -22,7 +22,7 @@ setopt prompt_subst
 PS1="%n@%m:%~%# "
 SHORT_HOST=${HOST/.*/}
 ZSH_COMPDUMP="${ZDOTDIR:-${HOME}}/.zcompdump-${SHORT_HOST}-${ZSH_VERSION}"
-autoload -U compinit
+autoload -U compaudit compinit
 compinit -i -d "${ZSH_COMPDUMP}"
 
 # Colors
@@ -269,7 +269,7 @@ export WINEPREFIX=$HOME/win32/
 export WINEARCH=win32
 
 # set hardware accel for VDPAU to nvidia
-export VDPAU_DRIVER=nvidia
+##export VDPAU_DRIVER=nvidia
 
 # alias for golang dnscrypt-proxy
 alias dnscrypt-edit='sudo vim /etc/dnscrypt-proxy/dnscrypt-proxy.toml'
