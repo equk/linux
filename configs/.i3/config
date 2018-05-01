@@ -111,6 +111,9 @@ bindsym $mod+Shift+E exec ~/.i3/tk_logout.py
 #bindsym $Alt+Tab focus right
 #bindsym $Alt+Shift+Tab focus left
 
+
+# default border setting
+for_window [class="^.*"] border normal 2pixel
 # set application specific options
 # use 'xprop' or 'xwininfo' to get window information
 for_window [class="Xfce4-terminal"] border 1pixel
@@ -146,11 +149,18 @@ for_window [class="qemu-system-x86_64" title="QEMU \(cloudready-0\)"] floating d
 # pheonixos
 for_window [class="qemu-system-x86_64" title="QEMU \(pheonixos-0\)"] floating disable, border 1pixel
 
+# i3-gaps
+smart_gaps on
+# gaps
+gaps inner 8
+gaps outer 0
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
         #status_command  i3status
         status_command ~/.i3/i3-conky
+        i3bar_command   i3bar
         mode dock
         position top
         workspace_buttons yes
@@ -187,7 +197,7 @@ exec --no-startup-id compton
 # set wallpaper
 exec --no-startup-id nitrogen --restore
 # start applications
-exec thunderbird
+###exec thunderbird
 # execute audiomixer
 exec pnmixer
 # execute redshift
