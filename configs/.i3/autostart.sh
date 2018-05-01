@@ -13,7 +13,8 @@
 ### ref: https://www.x.org/wiki/Development/Documentation/PointerAcceleration/
 ### ref: https://wayland.freedesktop.org/libinput/doc/latest/pointer-acceleration.html
 ### using "AccelProfile" "flat" for libinput
-xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "libinput Accel Speed" -0.1
+#xinput --set-prop "SteelSeries Kana v2 Gaming Mouse" "libinput Accel Speed" -0.1
+## should now be in /etc/X11/xorg.conf.d/50-mouse-input.conf
 ###
 ## settings for Razer BlackWidow 2013
 setxkbmap -layout 'gb' -model 'pc105'
@@ -36,3 +37,9 @@ xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # 24-04-2018 - switched to nouveau drivers
 # for reference fanspeed control path below
 # /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon3/pwm1
+#
+# remove any wine applications or filetype references
+# (not really into opening exe viruses on double click in linux)
+rm -fr ~/.local/share/applications/wine-*
+# remove any application shortcuts for wine
+rm -fr ~/.local/share/applications/wine/Programs
