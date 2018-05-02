@@ -55,6 +55,14 @@ I am on freenode: equilibriumuk
 * Email Client: Thunderbird + Enigmail
 * IRC: Hexchat / irssi
 
+## Screenshots
+
+![](https://raw.githubusercontent.com/equk/linux/master/screenshots/linux_02-05-2018_fakebusy.png)
+
+### i3bar conky
+
+![](https://raw.githubusercontent.com/equk/linux/master/screenshots/i3bar_conky.png)
+
 ---
 
 **Extended Info**
