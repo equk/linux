@@ -78,7 +78,7 @@ map <Leader>x :%s/\s\+$//
 " ============
 set t_Co=256
 color skittles_berry
-
+hi! Normal ctermbg=NONE guibg=NONE
 set colorcolumn=80
 " highlight ColorColumn ctermbg=233
 
