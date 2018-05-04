@@ -106,7 +106,7 @@ alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,3389 '
 # start pcap split into 5min chunks (max 50min)
 alias pcap='sudo tcpdump -G 300 -w $HOME/pcaps/%Y-%m-%d_%H:%M.pcap -W 10'
 # http server for testing static content
-alias http='python2 -m SimpleHTTPServer 8080'
+#alias http='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
 alias cssminify='cssparse -m style.css > style.min.css'
 # update grub config
@@ -119,6 +119,10 @@ alias treesize='du -h --max-depth=1 | sort -nr'
 
 # Wget open directory
 alias wgeto='wget -H -r --level=1 -k -p '
+
+# get http request headers with httpie
+alias header='http --headers '
+alias headers='http --headers '
 
 # atom aliases
 #alias atom='atom-beta'
