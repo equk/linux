@@ -2,9 +2,14 @@
 # i3 autostart
 # ============
 ## settings for Razer BlackWidow 2013
-setxkbmap -layout 'gb' -model 'pc105'
+#setxkbmap -layout 'gb' -model 'pc105'
 ## settings for us keyboard layout (filco tenkeyless)
-#setxkbmap -layout 'us'
+## us layout for ansi 60% keyboard
+setxkbmap -layout 'us'
+# remap dollar sign to pound symbol
+# dollar: xmodmap -e "keycode  13 = 4 dollar 4 dollar"
+xmodmap -e "keycode  13 = 4 sterling 4 sterling"
+# euro: xmodmap -e "keycode  13 = 4 EuroSign 4 EuroSign"
 # remap right menu key to function as start key
 xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 # remove any wine applications or filetype references
