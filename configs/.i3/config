@@ -111,6 +111,11 @@ bindsym $mod+Shift+E exec ~/.i3/tk_logout.py
 #bindsym $Alt+Tab focus right
 #bindsym $Alt+Shift+Tab focus left
 
+# i3-gaps
+smart_gaps on
+# gaps
+gaps inner 8
+gaps outer 0
 
 # default border setting
 for_window [class="^.*"] border normal 2pixel
@@ -149,12 +154,8 @@ for_window [class="qemu-system-x86_64" title="QEMU \(chromiumos-0\)"] floating d
 for_window [class="qemu-system-x86_64" title="QEMU \(cloudready-0\)"] floating disable, border 1pixel
 # pheonixos
 for_window [class="qemu-system-x86_64" title="QEMU \(pheonixos-0\)"] floating disable, border 1pixel
-
-# i3-gaps
-smart_gaps on
-# gaps
-gaps inner 8
-gaps outer 0
+# set all dialog windows to floating
+for_window [window_type="dialog"] floating enable
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
