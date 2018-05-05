@@ -63,6 +63,10 @@ I am on freenode: equilibriumuk
 
 ![](https://raw.githubusercontent.com/equk/linux/master/screenshots/i3bar_conky.png)
 
+### tk_logout
+
+![](https://raw.githubusercontent.com/equk/linux/master/screenshots/tk_logout_07062014.png)
+
 ---
 
 **Extended Info**
