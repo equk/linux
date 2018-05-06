@@ -154,6 +154,8 @@ for_window [class="qemu-system-x86_64" title="QEMU \(chromiumos-0\)"] floating d
 for_window [class="qemu-system-x86_64" title="QEMU \(cloudready-0\)"] floating disable, border 1pixel
 # pheonixos
 for_window [class="qemu-system-x86_64" title="QEMU \(pheonixos-0\)"] floating disable, border 1pixel
+# windows 10
+for_window [class="qemu-system-x86_64" title="QEMU \(windows10-0\)"] floating disable, border 1pixel
 # set all dialog windows to floating
 for_window [window_type="dialog"] floating enable
 
