@@ -2,8 +2,8 @@
 " =======================
 
 set encoding=utf-8
+set nocompatible
 autocmd! bufwritepost .vimrc source %
-call pathogen#infect()
 
 filetype plugin on
 filetype plugin indent on
@@ -55,8 +55,6 @@ set softtabstop=4
 set shiftwidth=4
 set shiftround
 set expandtab
-" toggle paste formatting
-set pastetoggle=<F2>
 
 set hlsearch
 set incsearch
@@ -77,10 +75,15 @@ map <Leader>x :%s/\s\+$//
 " Color scheme
 " ============
 set t_Co=256
-color skittles_berry
+color jellybeans
+" set background to none for transparency
 hi! Normal ctermbg=NONE guibg=NONE
 set colorcolumn=80
-" highlight ColorColumn ctermbg=233
+highlight ColorColumn ctermbg=8
+
+" Load vundle
+" ===========
+source ~/.vim/config/vundle.vim
 
 " Load custom config files
 " ========================
