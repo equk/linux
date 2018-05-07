@@ -1,11 +1,11 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Dracula (Flake8Lint) (SL).tmTheme",
-	"font_face": "Liberation Mono",
+	"color_scheme": "Packages/User/Color Highlighter/themes/Dracula (Flake8Lint) (SL).tmTheme",
+	"font_face": "Inconsolata",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
