@@ -1,11 +1,11 @@
 {
-	"color_scheme": "Packages/User/Color Highlighter/themes/Dracula (Flake8Lint) (SL).tmTheme",
-	"font_face": "Inconsolata",
+	"color_scheme": "Packages/User/1337 (Flake8Lint).tmTheme",
+	"font_face": "Liberation Mono",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[

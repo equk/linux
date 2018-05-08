@@ -1,4 +1,5 @@
 0_package_control_loader.sublime-package
+1337 Color Scheme.sublime-package
 A File Icon.sublime-package
 Boxy Theme.sublime-package
 BracketHighlighter.sublime-package

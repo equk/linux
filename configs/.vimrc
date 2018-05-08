@@ -66,6 +66,8 @@ set tw=79  " width of document (used by gd)
 set fo-=t  " don't automatically wrap text when typing
 set number " show line numbes
 
+set mouse-=a " disable visual mode on mouse select
+
 " highlight whitespace
 " ====================
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
