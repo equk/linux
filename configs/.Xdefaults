@@ -1,52 +1,45 @@
-URxvt.termName: rxvt
-URxvt.transparent: false
-URxvt.inheritPixmap: False
-URxvt.imLocale: pl_PL.UTF-8
-URxvt.scrollBar: false
-URxvt.saveLines: 10000
-URxvt.perl-ext-common:  default,matcher
-URxvt.matcher.button:   1 
-URxvt.urlLauncher:      firefox
+! special colors
+*.foreground:  #F8F8F2
+*.background:  #1E1E1F
+*.cursorColor: #FFFFFF
+! black
+*.color0:      #000000
+*.color8:      #555555
+! red
+*.color1:      #FF3333
+*.color9:      #FF5555
+! green
+*.color2:      #00DD00
+*.color10:     #55ff55
+! yellow
+*.color3:      #FFFF33
+*.color11:     #F1FA8C
+! blue
+*.color4:      #0000AA
+*.color12:     #5555FF
+! magenta
+*.color5:      #FF92D0
+*.color13:     #FF79C6
+! cyan
+*.color6:      #8BE9FD
+*.color14:     #55FFFF
+! white
+*.color7:      #BBBBBB
+*.color15:     #FFFFFF
+
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+
 URxvt.cursorBlink: true
-URxvt.geometry: 120x35
-URxvt.fading: 15%
-URxvt.shading: 75
-URxvt*font:                    xft:Monospace-9:antialias=true:hinting=true
-URxvt*boldFont:                xft:Monospace-9:antialias=true:bold:hinting=true
-URxvt*italicFont:              xft:Monospace-9:antialias=true:italic:autohint=true:hinting=true
-URxvt*bolditalicFont:          xft:Monospace-9:antialias=true:bold:italic:autohint=true:hinting=true
-!URxvt*background:      [80]#ece9e2
-!URxvt.foreground: [80]#3d352a
-urxvt.depth: 256
-urxvt.background: rgba:0000/0000/0000/ffff
-urxvt.foreground: rgba:ffff/ffff/ffff/ffff
-URxvt.tintColor: #d9d7d1
-URxvt.borderLess: false
 
+urxvt.depth: 32
+URxvt*background:      [80]#000000
 
-*foreground:     rgba:0000/0000/0000/ffff
-*background:     rgb:10/10/10
-!black
-*color0:         rgb:20/20/20
-*color8:         rgb:75/77/73
-!red
-*color1:         rgb:ff/06/00  
-*color9:         rgb:ef/29/29
-!green
-*color2:         rgb:ff/00/00
-*color10:        rgb:8a/e2/34
-!brown/yellow
-*color3:         rgb:c4/a0/00
-*color11:        rgb:fc/e9/4f
-!blue
-*color4:         rgb:34/65/a4
-*color12:        rgb:72/9f/cf
-!magenta
-*color5:         rgb:75/50/7b
-*color13:        rgb:ad/7f/a8
-!cyan
-*color6:         rgb:06/98/9a
-*color14:        rgb:34/e2/e2
-!white
-*color7:         rgb:d3/d7/cf
-*color15:        rgb:ee/ee/ec
+URxvt*transparent: false
+
+URxvt.font: xft:terminus-9:encoding=combined
+URxvt.letterSpace: -5
+
+*antialias:  true
+*autohint:   true
+
