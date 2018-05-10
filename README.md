@@ -10,13 +10,13 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.16.7-1-EQUK
+    Kernel: 4.16.8-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1272
+    Packages: 1267
     Window Manager: i3
     GTK2 theme: Adapta-Eta
     GTK2 icon theme: Faenza-Cupertino-Dark
-    GTK2 font name: Cantarell 11
+    GTK2 font name: Noto Sans 11
     RAM: 16GiB
     CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
     GPU: NVIDIA Geforce 560Ti 2048MB
@@ -51,7 +51,7 @@ I am on freenode: equilibriumuk
 * Image Editor: Gimp
 * Video Playback: VLC
 * Launcher: dmenu
-* Music Playback: Deadbeef
+* Music Playback: Deadbeef & Spotify Web
 * Email Client: Thunderbird + Enigmail
 * IRC: Hexchat / irssi
 
