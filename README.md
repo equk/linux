@@ -12,7 +12,7 @@
     OS: Arch Linux x86_64
     Kernel: 4.16.8-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1267
+    Packages: 1268
     Window Manager: i3
     GTK2 theme: Adapta-Eta
     GTK2 icon theme: Faenza-Cupertino-Dark
@@ -36,9 +36,9 @@
 
 Most of the files here are for maintaining Archlinux.
 
-Catch me on the archlinux or gentoo forum: equilibrium
+Catch me on the archlinux or gentoo forum: `equilibrium`
 
-I am on freenode: equilibriumuk
+I am on freenode: `equilibriumuk`
 
 ## Main Apps
 
