@@ -38,14 +38,15 @@ Most of the files here are for maintaining Archlinux.
 
 Catch me on the archlinux or gentoo forum: `equilibrium`
 
-I am on freenode: `equilibriumuk`
+My twitter: `@equilibriumuk`
 
 ## Main Apps
 
 * Web Browser: Google Chromium
 * File Manager: Thunar
+* Terminal: alacritty + tmux
 * Twitter Client: Tweetdeck Web
-* Desktop Stats: Conky
+* Desktop Stats: Conky + i3bar
 * Desktop Background: Nitrogen
 * Text & Code Editor: vim & sublime text
 * Image Editor: Gimp
