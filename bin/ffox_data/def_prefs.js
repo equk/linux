@@ -13,6 +13,7 @@
  *                  + Disable Geolocation
  *                  + Disable Google Safebrowsing
  *                  + Disable Pocket
+ *                  + Enable OMTC to fix tearing
  */
 
 user_pref("browser.cache.disk.capacity", 358400);
@@ -30,3 +31,4 @@ user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 user_pref("browser.pocket.enabled", false);
+user_pref("layers.acceleration.force-enabled", true);
