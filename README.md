@@ -58,7 +58,7 @@ My twitter: `@equilibriumuk`
 
 ## Screenshots
 
-![](https://raw.githubusercontent.com/equk/linux/master/screenshots/linux_02-05-2018_fakebusy.png)
+![](https://raw.githubusercontent.com/equk/linux/master/screenshots/linux_desktop.png)
 
 ### i3bar conky
 
