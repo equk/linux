@@ -154,4 +154,4 @@ if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then
 fi
 
 # set hardware accel for VDPAU to nvidia
-export VDPAU_DRIVER=nvidia
+# export VDPAU_DRIVER=nvidia
