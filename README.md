@@ -10,9 +10,9 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.16.12-2-EQUK
+    Kernel: 4.16.13-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1262
+    Packages: 1279
     Window Manager: i3
     GTK2 theme: Adapta-Eta
     GTK2 icon theme: la-capitaine-icon-theme-0.5.0
