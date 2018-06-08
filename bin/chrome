@@ -60,4 +60,4 @@ if [[ ! -e $profile_folder ]]; then
 fi
 
 # Execute chrome
-exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --enable-native-gpu-memory-buffers --ssl-version-min=tls1 --force-device-scale-factor=1  --disable-quic --enable-tab-audio-muting --enable-smooth-scrolling --disable-features=MaterialDesignBookmarks $1
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --ssl-version-min=tls1 --force-device-scale-factor=1  --disable-quic --enable-tab-audio-muting --enable-smooth-scrolling --disable-features=MaterialDesignBookmarks $1
