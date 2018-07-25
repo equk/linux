@@ -15,7 +15,7 @@ Jade.sublime-package
 JavaScriptNext - ES6 Syntax.sublime-package
 jQuery.sublime-package
 JsFormat.sublime-package
-MarkdownPreview.sublime-package
+MarkdownEditing.sublime-package
 Package Control.sublime-package
 PowerShell.sublime-package
 PyV8

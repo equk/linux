@@ -16,7 +16,6 @@ Diff
 Erlang
 get_packages.sh
 Go
-GoSublime
 Graphviz
 Groovy
 Haskell
