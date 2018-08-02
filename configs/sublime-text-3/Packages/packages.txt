@@ -3,6 +3,7 @@ ActionScript
 AppleScript
 ASCII Decorator
 ASP
+Babel
 backrefs
 Batch File
 C#
