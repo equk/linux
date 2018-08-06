@@ -27,6 +27,7 @@
 profile_folder="$HOME/.chrome_profiles/default"
 cache_folder="/tmp/chrome_cache"
 chrome_bin="/usr/bin/chromium"
+chromium_flags='--enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --enable-native-gpu-memory-buffers --ssl-version-min=tls1 --force-device-scale-factor=1  --disable-quic --enable-tab-audio-muting --enable-smooth-scrolling --disable-features=MaterialDesignBookmarks'
 
 ## run command
 
@@ -38,6 +39,13 @@ fi
 
 # Check for root ( quit if root :x )
 if [ $(whoami) = "root" ]; then
+    exit 1
+fi
+
+# Check for custom flags
+if [ -z ${chromium_flags+x} ]; then
+    echo "chromium_flags is not set";
+    echo "Exiting." >&2
     exit 1
 fi
 
@@ -60,4 +68,4 @@ if [[ ! -e $profile_folder ]]; then
 fi
 
 # Execute chrome
-exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder --enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --ssl-version-min=tls1 --force-device-scale-factor=1  --disable-quic --enable-tab-audio-muting --enable-smooth-scrolling --disable-features=MaterialDesignBookmarks $1
+exec $chrome_bin --user-data-dir=$profile_folder --disk-cache-dir=$cache_folder $chromium_flags $1
