@@ -2,7 +2,7 @@
 
 # Set Defaults
 export EDITOR="vim"
-export TERMINAL="xfce4-terminal"
+export TERMINAL="alacritty"
 export BROWSER="$HOME/bin/chrome"
 export HISTCONTROL="ignoredups"
 
@@ -106,7 +106,7 @@ alias pscan='proxychains nmap -sTV -PN -n -p21,22,25,80,3306,3389 '
 # start pcap split into 5min chunks (max 50min)
 alias pcap='sudo tcpdump -G 300 -w $HOME/pcaps/%Y-%m-%d_%H:%M.pcap -W 10'
 # http server for testing static content
-#alias http='python2 -m SimpleHTTPServer 8080'
+alias serve='python2 -m SimpleHTTPServer 8080'
 # minify style.css using cssutils from python
 alias cssminify='cssparse -m style.css > style.min.css'
 # update grub config
@@ -124,11 +124,9 @@ alias wgeto='wget -H -r --level=1 -k -p '
 alias header='http --headers '
 alias headers='http --headers '
 
-# atom aliases
-#alias atom='atom-beta'
-# temp sublime text aliases (while switching)
-#alias subl='atom'
-#alias subl3='atom'
+# list explicitly installed packages which are not dependencies
+# can use to cleanup packages - eg: python, ruby
+alias paclsnodep='pacman -Qetq | grep'
 
 # Extract
 function extract () {
@@ -248,8 +246,6 @@ fi
 
 # setup golang paths
 # main binary paths
-# export GOROOT=$HOME/go
-# export PATH=$PATH:$GOROOT/bin
 # go projects path
 export GOPATH=$HOME/golang
 # adding binary path for golang projects
