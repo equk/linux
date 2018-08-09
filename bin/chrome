@@ -27,7 +27,7 @@
 profile_folder="$HOME/.chrome_profiles/default"
 cache_folder="/tmp/chrome_cache"
 chrome_bin="/usr/bin/chromium"
-chromium_flags='--enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --enable-native-gpu-memory-buffers --ssl-version-min=tls1 --force-device-scale-factor=1  --disable-quic --enable-tab-audio-muting --enable-smooth-scrolling --disable-features=MaterialDesignBookmarks'
+chromium_flags='--enable-webgl --ignore-gpu-blacklist --enable-gpu-rasterization --enable-native-gpu-memory-buffers --ssl-version-min=tls1 --force-device-scale-factor=1  --disable-quic --enable-tab-audio-muting --enable-smooth-scrolling --enable-features=MarkHttpAs --disable-features=MaterialDesignBookmarks'
 
 ## run command
 
