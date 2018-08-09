@@ -12,7 +12,7 @@
     OS: Arch Linux x86_64
     Kernel: 4.17.11-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1293
+    Packages: 1204
     Window Manager: i3
     GTK2 theme: Adapta-Eta
     GTK2 icon theme: la-capitaine-icon-theme-0.5.0
