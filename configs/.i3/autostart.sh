@@ -17,3 +17,6 @@ xmodmap -e "keycode 135 = Super_R NoSymbol Super_R"
 rm -fr ~/.local/share/applications/wine-*
 # remove any application shortcuts for wine
 rm -fr ~/.local/share/applications/wine/Programs
+# set nvidia gpu fanspeed (requires coolbits 4+)
+nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=55"
+#
