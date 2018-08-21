@@ -1,7 +1,9 @@
 christian-kohler.path-intellisense
-eamodio.gitlens
+dbaeumer.vscode-eslint
+HookyQR.beautify
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 ms-vscode.Theme-1337
+rust-lang.rust
 xabikos.JavaScriptSnippets
