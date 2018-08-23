@@ -10,12 +10,12 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.17.11-1-EQUK
+    Kernel: 4.18.4-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1204
+    Packages: 1223
     Window Manager: i3
     GTK2 theme: Adapta-Eta
-    GTK2 icon theme: la-capitaine-icon-theme-0.5.0
+    GTK2 icon theme: Adwaita
     GTK2 font name: Noto Sans 10
     RAM: 16GiB
     CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
