@@ -1,3 +1,4 @@
+bungcip.better-toml
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 HookyQR.beautify
@@ -6,4 +7,5 @@ ms-vscode.cpptools
 ms-vscode.Go
 ms-vscode.Theme-1337
 rust-lang.rust
+serayuzgur.crates
 xabikos.JavaScriptSnippets
