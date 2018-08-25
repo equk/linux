@@ -1,3 +1,4 @@
+bierner.markdown-preview-github-styles
 bungcip.better-toml
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
@@ -6,6 +7,7 @@ ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 ms-vscode.Theme-1337
+ms-vscode.Theme-TomorrowKit
 rust-lang.rust
 serayuzgur.crates
 xabikos.JavaScriptSnippets

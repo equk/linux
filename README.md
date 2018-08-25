@@ -48,7 +48,7 @@ My twitter: `@equilibriumuk`
 * Twitter Client: Tweetdeck Web
 * Desktop Stats: Conky + i3bar
 * Desktop Background: Nitrogen
-* Text & Code Editor: vim & sublime text
+* Text & Code Editor: vim & vscode
 * Image Editor: Gimp
 * Video Playback: VLC
 * Launcher: dmenu
