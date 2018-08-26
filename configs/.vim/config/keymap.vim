@@ -4,7 +4,7 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
 inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
 set omnifunc=syntaxcomplete#Complete
-inoremap <tab> <c-r>=Smart_TabComplete()<CR>
+inoremap <tab> <c-r>=CleverTab()<CR>
 
 " Tab function taken from spf13
 function! CleverTab()
