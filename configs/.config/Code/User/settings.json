@@ -45,4 +45,16 @@
     "breadcrumbs.symbolPath": "on",
     "breadcrumbs.filePath": "off",
 
+    // Golang Debugging
+    "go.delveConfig": {
+        "useApiV1": false,
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 3,
+            "maxStringLen": 64,
+            "maxArrayValues": 64,
+            "maxStructFields": -1
+        }
+    }
+
 }
