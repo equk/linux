@@ -11,7 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " load plugins
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'powerline/powerline'
 Bundle 'fatih/vim-go'
 Bundle 'rust-lang/rust.vim'
 Bundle 'Shougo/neocomplete.vim'
@@ -20,6 +20,7 @@ Bundle 'ervandew/supertab'
 Bundle 'majutsushi/tagbar'
 Bundle 'tpope/vim-fugitive'
 Bundle 'pangloss/vim-javascript'
+Bundle 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
