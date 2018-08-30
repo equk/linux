@@ -29,6 +29,8 @@
     MONITORS: 2 x Dell P2414H
     Using xrandr for dual monitor configuration
 
+    KEYBOARD: 65% Mechanical ANSI (brown switches)
+
     SSD Speed (hdparm -tT):
     1518 MB in  3.00 seconds = 505.71 MB/sec
     SSD2 Speed (hdparm -tT):
