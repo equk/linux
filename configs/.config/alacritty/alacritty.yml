@@ -93,6 +93,12 @@ font:
     x: 0
     y: 0
 
+  # Scale the font size based on the monitor's DPI. This will lead to bigger text on HiDPI
+  # screens and make reading text a little easier.
+  # On X11 it is possible to change the DPI for each instance of alacritty by using
+  # `WINIT_HIDPI_FACTOR=1.0 alacritty` to scale the font.
+  scale_with_dpi: false
+
   # OS X only: use thin stroke font rendering. Thin strokes are suitable
   # for retina displays, but for non-retina you probably want this set to
   # false.
@@ -111,7 +117,7 @@ colors:
   primary:
     background: '0x000000'
     foreground: '0xf8f8f2'
- 
+
   # Normal colors
   normal:
     black:   '0x000000'
@@ -122,7 +128,7 @@ colors:
     magenta: '0xff92d0'
     cyan:    '0x8be9fd'
     white:   '0xbbbbbb'
- 
+
   # Bright colors
   bright:
     black:   '0x555555'
