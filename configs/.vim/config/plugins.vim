@@ -1,8 +1,12 @@
 " Settings for vim-powerline
 " ===========================
-set laststatus=2
+" set laststatus=2
 " let g:Powerline_symbols = 'fancy'
 " let g:Powerline_symbols = 'unicode'
+
+" Settings for vim-airline
+" ===========================
+let g:airline_theme = 'dark'
 
 " Settings for ctrlp
 " ===================
