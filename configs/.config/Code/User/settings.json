@@ -27,6 +27,11 @@
         80
     ],
 
+    // Cursor - 'block', 'line' or 'underline'
+    "editor.cursorStyle": "block",
+    "editor.cursorWidth": 0,
+    "editor.cursorBlinking": "visible",
+
     // Highlight gutter & current line
     "editor.renderLineHighlight": "all",
 
