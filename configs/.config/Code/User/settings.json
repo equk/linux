@@ -27,10 +27,21 @@
         80
     ],
 
+    // Color overrides
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#135564",
+        "editor.selectionHighlightBackground": "#991144",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editorCursor.foreground": "#eeeeee",
+        "editorCursor.background": "#111111",
+        "statusBar.background": "#135564",
+        "statusBar.foreground": "#ffffff"
+    },
+
     // Cursor - 'block', 'line' or 'underline'
-    "editor.cursorStyle": "block",
+    "editor.cursorStyle": "line",
     "editor.cursorWidth": 0,
-    "editor.cursorBlinking": "visible",
+    "editor.cursorBlinking": "blink",
 
     // Highlight gutter & current line
     "editor.renderLineHighlight": "all",
