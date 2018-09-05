@@ -36,7 +36,7 @@ My twitter: `@equilibriumuk`
 
 ## Main Apps
 
-* Web Browser: Mozilla Firefox / Google Chromium
+* Web Browser: Firefox / Chromium
 * File Manager: Thunar
 * Terminal: alacritty + tmux
 * Twitter Client: Tweetdeck Web
@@ -61,19 +61,3 @@ My twitter: `@equilibriumuk`
 ### tk_logout
 
 ![](https://raw.githubusercontent.com/equk/linux/master/screenshots/tk_logout_07062014.png)
-
----
-
-**Extended Info**
-
-    SanDisk Ultra II
-    Controller: Marvell 88SS9190
-    Memory: Sandisk 19nm
-    Cache: 5G SK Hynix DDR3L 1600 11-11-11
-    Firmware: X31200RL
-
-    Integral P Series 4 SSD
-    Cache: Nanya 256M DDR3L 1600 11-11-11
-    Controller: Phison PS3110-S10-X
-    Memory: Toshiba 15nm
-    Firmware: SAFM12.2
