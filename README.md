@@ -1,5 +1,7 @@
 # Linux
 
+:city_sunset: [screenshots](#screenshots)
+
             ,                       _     _ _
            /#\        __ _ _ __ ___| |__ | (_)_ __  _   ___  __
           /###\      / _` | '__/ __| '_ \| | | '_ \| | | \ \/ /
@@ -18,23 +20,13 @@
     GTK2 icon theme: Adwaita
     GTK2 font name: Noto Sans 10
     RAM: 16GiB
-    CPU: Intel(R) Core(TM) i5-2500K CPU @  4.80GHz
-    GPU: NVIDIA Geforce 560Ti 2048MB
-    SSD: SanDisk ULTRA II
-    SSD2: Integral P Series 4
-
-    STARTUP TIME: 2.618s (systemd-analyze)
-                  1.298s (kernel) + 1.320s (userspace)
+    CPU: Intel(R) Core(TM) i5
+    GPU: NVIDIA Geforce
 
     MONITORS: 2 x Dell P2414H
     Using xrandr for dual monitor configuration
 
     KEYBOARD: 65% Mechanical ANSI (brown switches)
-
-    SSD Speed (hdparm -tT):
-    1518 MB in  3.00 seconds = 505.71 MB/sec
-    SSD2 Speed (hdparm -tT):
-    1574 MB in  3.00 seconds = 524.12 MB/sec
 
 Most of the files here are for maintaining Archlinux.
 
@@ -44,7 +36,7 @@ My twitter: `@equilibriumuk`
 
 ## Main Apps
 
-* Web Browser: Google Chromium
+* Web Browser: Mozilla Firefox / Google Chromium
 * File Manager: Thunar
 * Terminal: alacritty + tmux
 * Twitter Client: Tweetdeck Web
