@@ -71,6 +71,11 @@
             "maxArrayValues": 64,
             "maxStructFields": -1
         }
-    }
+    },
 
+    // Toggle menubar with Alt
+    "window.menuBarVisibility": "toggle",
+
+    // Enable json Settings Editor
+    "workbench.settings.editor": "json"
 }
