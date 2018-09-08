@@ -287,3 +287,6 @@ export QEMU_AUDIO_DRV=alsa
 # 823M  ~/.atom
 # 494M atom-editor-bin
 alias atom='subl3'
+
+# display error message for chrome
+alias chrome='notify-send "No Chrome Here" "Use Firefox Instead" -i firefox'
