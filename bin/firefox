@@ -10,9 +10,8 @@
 ## variables
 
 profile_folder="$HOME/.ffox_profiles/default"
-ffox_bin="/usr/bin/firefox-aurora"
+ffox_bin="/usr/lib/firefox/firefox"
 ffox_prefs="$HOME/bin/ffox_data/def_prefs.js"
-sandbox_conf="$HOME/bin/ffox_data/firefox.profile"
 
 ## run command
 
@@ -27,6 +26,13 @@ if [ $(whoami) = "root" ]; then
     exit 1
 fi
 
+# Check if user namespaces is enabled (for sandbox)
+# Note: this is to enforce user namespaces for sandbox
+if [[ ! (-r /proc/sys/kernel/unprivileged_userns_clone && $(< /proc/sys/kernel/unprivileged_userns_clone) == 1 && -n $(zcat /proc/config.gz | grep CONFIG_USER_NS=y) ) ]]; then
+    echo "User namespaces are not detected as enabled on your system, this is required for sandbox"
+    exit 1
+fi
+
 # Create profile directory if it doesn't exist
 if [[ ! -e $profile_folder ]]; then
     mkdir -p $profile_folder
@@ -38,4 +44,4 @@ if [[ ! -e $profile_folder/prefs.js ]]; then
 fi
 
 # Execute firefox
-exec firejail --profile="$sandbox_conf" $ffox_bin --profile "$profile_folder" --new-instance
+exec $ffox_bin --profile "$profile_folder" --new-instance
