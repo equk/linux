@@ -12,6 +12,7 @@
 profile_folder="$HOME/.ffox_profiles/default"
 ffox_bin="/usr/lib/firefox/firefox"
 ffox_prefs="$HOME/bin/ffox_data/def_prefs.js"
+ffox_userChrome="$HOME/bin/ffox_data/userChrome.css"
 
 ## run command
 
@@ -41,6 +42,14 @@ fi
 # Copy custom preferences if none exist
 if [[ ! -e $profile_folder/prefs.js ]]; then
     cp $ffox_prefs $profile_folder/prefs.js
+fi
+
+# Copy custom userChrome style overrides if none exist
+if [[ ! -e $profile_folder/chrome/userChrome.css ]]; then
+    if [[ ! -e $profile_folder/chrome ]]; then
+        mkdir $profile_folder/chrome
+    fi
+    cp $ffox_userChrome $profile_folder/chrome/userChrome.css
 fi
 
 # Execute firefox
