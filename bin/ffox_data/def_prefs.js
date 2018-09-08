@@ -9,7 +9,7 @@
  *                  + Use RAM for cache (disable disk caching)
  *                  + PDFJS disabled
  *                  + 3rd party cookies blocked
- *                  + disable saving of passwords
+ *                  + Disable saving of passwords
  *                  + Disable network prefetching
  *                  + Disable search engine suggestions
  *                  + Disable Geolocation
@@ -22,6 +22,8 @@
  *                  + Disable clipboard event detection
  *                  + Disable matchos for locale
  *                  + Disable Mozilla telemetry
+ *                  + Enable Tracking Protection
+ *                  + Always Send Do Not Track
  */
 
 user_pref("browser.cache.disk.capacity", 358400);
@@ -51,3 +53,5 @@ user_pref("intl.locale.matchOS",false);
 user_pref("toolkit.telemetry.enabled",false);
 user_pref("toolkit.telemetry.unified",false);
 user_pref("network.http.referer.spoofSource",true);
+user_pref("privacy.trackingprotection.enabled",true);
+user_pref("privacy.donottrackheader.enabled",true);
