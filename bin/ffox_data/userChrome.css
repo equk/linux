@@ -1,5 +1,11 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+/* Move Find Bar To Top */
+.browserContainer>findbar {
+    -moz-box-ordinal-group: 0;
+}
+
+/* Add Padding To Items On Bookmarks Bar */
 toolbarbutton.bookmark-item {
     padding: 5px !important;
 }
