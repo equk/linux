@@ -12,7 +12,7 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.18.5-1-EQUK
+    Kernel: 4.18.6-1-EQUK
     Shell: /usr/bin/zsh
     Packages: 1224
     Window Manager: i3
@@ -36,7 +36,7 @@ My twitter: `@equilibriumuk`
 
 ## Main Apps
 
-* Web Browser: Firefox / Chromium
+* Web Browser: Firefox
 * File Manager: Thunar
 * Terminal: alacritty + tmux
 * Twitter Client: Tweetdeck Web
