@@ -147,6 +147,8 @@ for_window [class="Code"] floating disable, border 1pixel
 for_window [class="EVE"] floating disable, border 1pixel
 # linux shadowrun hongkong (native unity)
 for_window [title="SRHK"] floating disable, border 1pixel
+# linux dota 2 (windowed borderless fullscreen)
+for_window [class="dota2"] floating enable, border none, move position 0 0
 # alacritty terminal
 for_window [class="Alacritty"] floating disable, border 1pixel
 # chromiumos
