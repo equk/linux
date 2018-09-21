@@ -22,7 +22,6 @@ Bundle 'majutsushi/tagbar'
 Bundle 'tpope/vim-fugitive'
 Bundle 'pangloss/vim-javascript'
 Bundle 'airblade/vim-gitgutter'
-" Bundle 'powerline/powerline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
