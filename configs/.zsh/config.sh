@@ -96,7 +96,7 @@ bindkey "^[[B" history-beginning-search-forward
 alias update='yaourt -Syu'
 alias mem='free -mot; sync && echo -n 3 | sudo tee /proc/sys/vm/drop_caches; free -mot'
 alias diff='colordiff'
-alias xorg='sudo subl /etc/X11/xorg.conf'
+alias xorg='sudo vim /etc/X11/xorg.conf'
 alias nano='nano -w'
 alias ls='ls -hF --color=auto --group-directories-first '
 alias df='df -h -T'
@@ -176,6 +176,9 @@ alias pacbig='expac -s -H M "%-30n %m" | sort -rhk 2 | head -n 30'
 alias robomongo='robo3t'
 alias mongogui='robo3t'
 
+# systemd log view
+alias service-log='journalctl -b -u '
+
 function title() {
     local access
     local cmd
@@ -203,10 +206,6 @@ function title() {
 
 precmd_functions+='title'
 preexec_functions+='title'
-
-function zsh_stats() {
-  history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n20
-}
 
 ## smart urls
 autoload -U url-quote-magic
