@@ -272,7 +272,7 @@ export WINEPREFIX=$HOME/win32/
 export WINEARCH=win32
 
 # set hardware accel for VDPAU to nvidia
-export VDPAU_DRIVER=nvidia
+#export VDPAU_DRIVER=nvidia
 
 # alias for golang dnscrypt-proxy
 alias dnscrypt-edit='sudo vim /etc/dnscrypt-proxy/dnscrypt-proxy.toml'
