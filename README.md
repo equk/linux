@@ -12,7 +12,7 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.18.11-1-EQUK
+    Kernel: 4.18.12-1-EQUK
     Shell: /usr/bin/zsh
     Packages: 1229
     Window Manager: i3
@@ -20,7 +20,7 @@
     GTK2 icon theme: Adwaita
     GTK2 font name: Noto Sans 10
     RAM: 16GiB
-    CPU: Intel(R) Core(TM) i5
+    CPU: Intel Core i5
     GPU: AMD Radeon
 
     MONITORS: 2 x Dell P2414H
