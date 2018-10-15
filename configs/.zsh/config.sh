@@ -267,9 +267,9 @@ fi
 # disables prompt mangling in virtual_env/bin/activate
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
-# set wine to always run 32bit
-export WINEPREFIX=$HOME/win32/
-export WINEARCH=win32
+# set wine to always run 64bit
+export WINEPREFIX=$HOME/win64/
+export WINEARCH=win64
 
 # set hardware accel for VDPAU to nvidia
 #export VDPAU_DRIVER=nvidia
