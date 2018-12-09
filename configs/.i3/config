@@ -86,17 +86,17 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # set workspaces to specific monitor
-# DVI-1 is left monitor
-workspace 1 output DVI-1
-workspace 2 output DVI-0
-workspace 3 output DVI-1
-workspace 4 output DVI-0
-workspace 5 output DVI-1
-workspace 6 output DVI-0
-workspace 7 output DVI-1
-workspace 8 output DVI-0
-workspace 9 output DVI-1
-workspace 10 output DVI-0
+# DisplayPort-1 is left monitor
+workspace 1 output DisplayPort-1
+workspace 2 output DisplayPort-2
+workspace 3 output DisplayPort-1
+workspace 4 output DisplayPort-2
+workspace 5 output DisplayPort-1
+workspace 6 output DisplayPort-2
+workspace 7 output DisplayPort-1
+workspace 8 output DisplayPort-2
+workspace 9 output DisplayPort-1
+workspace 10 output DisplayPort-2
 
 # reload i3 configuration
 bindsym $mod+Shift+c reload
@@ -170,7 +170,7 @@ bar {
         mode dock
         position top
         workspace_buttons yes
-        tray_output DVI-1
+        tray_output DisplayPort-1
         font -*-terminus-medium-r-*-*-12-*-*-*-*-*-iso10646-*
         colors {
             # <bar>
