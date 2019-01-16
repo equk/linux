@@ -80,5 +80,8 @@
     "window.menuBarVisibility": "toggle",
 
     // Enable json Settings Editor
-    "workbench.settings.editor": "json"
+    "workbench.settings.editor": "json",
+
+    // Use Native Linux Titlebar
+    "window.titleBarStyle": "native"
 }
