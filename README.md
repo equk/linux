@@ -12,7 +12,7 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.20.0-1-EQUK
+    Kernel: 4.20.1-1-EQUK
     Shell: /usr/bin/zsh
     Packages: 1258
     Window Manager: i3
