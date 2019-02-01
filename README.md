@@ -12,16 +12,16 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.20.3-1-EQUK
+    Kernel: 4.20.6-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1259
+    Packages: 1278
     Window Manager: i3
     GTK2 theme: Adapta-Eta
     GTK2 icon theme: Adwaita
     GTK2 font name: Noto Sans 10
     RAM: 16GiB
     CPU: Intel Core i5
-    GPU: AMD Radeon
+    GPU: AMD VEGA (amdgpu)
 
     MONITORS: 2 x Dell P2414H
     Using xrandr for dual monitor configuration
