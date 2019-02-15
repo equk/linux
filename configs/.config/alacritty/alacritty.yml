@@ -30,8 +30,15 @@ window:
     y: 2
 
   # Window decorations
-  # Setting this to false will result in window without borders and title bar.
-  decorations: true
+  #
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  #
+  # Values for `decorations` (macOS only):
+  #     - transparent: Title bar, transparent background and title bar buttons
+  #     - buttonless: Title bar, transparent background, but no title bar buttons
+  decorations: full
 
 # Display tabs using this many cells (changes require restart)
 tabspaces: 8
@@ -97,7 +104,7 @@ font:
   # screens and make reading text a little easier.
   # On X11 it is possible to change the DPI for each instance of alacritty by using
   # `WINIT_HIDPI_FACTOR=1.0 alacritty` to scale the font.
-  scale_with_dpi: false
+  # scale_with_dpi: false
 
   # OS X only: use thin stroke font rendering. Thin strokes are suitable
   # for retina displays, but for non-retina you probably want this set to
@@ -109,7 +116,7 @@ render_timer: false
 
 # Use custom cursor colors. If true, display the cursor in the cursor.foreground
 # and cursor.background colors, otherwise invert the colors of the cursor.
-custom_cursor_colors: false
+#custom_cursor_colors: false
 
 # Colors (equilibriumuk)
 colors:
@@ -186,6 +193,7 @@ background_opacity: 0.85
 # - Copy (TODO)
 mouse_bindings:
   - { mouse: Middle, action: Paste }
+  - { mouse: Right, action: Paste }
 
 mouse:
   # Click settings
@@ -204,22 +212,23 @@ mouse:
   # scrolling for applications like `man`.
   #
   # To disable this completely, set `faux_scrollback_lines` to 0.
-  faux_scrollback_lines: 1
+  #faux_scrollback_lines: 1
+  faux_scrolling_lines: 1
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
 
 dynamic_title: true
 
-hide_cursor_when_typing: false
+#hide_cursor_when_typing: false
 
 # Style of the cursor
 #
-# Values for 'cursor_style':
+# Values for 'cursor.style':
 # - Block
 # - Underline
 # - Beam
-cursor_style: Block
+cursor.style: Block
 
 # Live config reload (changes require restart)
 live_config_reload: true
