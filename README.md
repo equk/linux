@@ -12,9 +12,9 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 4.20.13-1-EQUK
+    Kernel: 5.0.0-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1276
+    Packages: 1223
     Window Manager: i3
     GTK2 theme: Adapta-Eta
     GTK2 icon theme: Adwaita
