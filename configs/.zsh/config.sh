@@ -99,6 +99,7 @@ alias diff='colordiff'
 alias xorg='sudo vim /etc/X11/xorg.conf'
 alias nano='nano -w'
 alias ls='ls -hF --color=auto --group-directories-first '
+alias ll='ls -lhF --color=auto --group-directories-first '
 alias df='df -h -T'
 alias duf='du -skh * | sort -n'
 # quick nmap scan over socks

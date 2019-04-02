@@ -6,6 +6,9 @@ source $ZSH/config.sh
 if [ "x$DISPLAY" = "x" ]; then
     exec startx
 fi
+#if [ "x$DISPLAY" = "x" ]; then
+#    exec sway
+#fi
 # load everything in lib
 for config_file ($ZSH/lib/*.zsh); do
   source $config_file
