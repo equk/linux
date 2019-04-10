@@ -1,6 +1,7 @@
 bierner.markdown-preview-github-styles
 bungcip.better-toml
 christian-kohler.path-intellisense
+cmstead.jsrefactor
 dbaeumer.vscode-eslint
 HookyQR.beautify
 ms-python.python
