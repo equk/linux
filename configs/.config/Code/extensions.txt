@@ -10,6 +10,7 @@ ms-vscode.Go
 ms-vscode.Theme-1337
 ms-vscode.Theme-TomorrowKit
 PeterJausovec.vscode-docker
+plorefice.devicetree
 rust-lang.rust
 serayuzgur.crates
 xabikos.JavaScriptSnippets
