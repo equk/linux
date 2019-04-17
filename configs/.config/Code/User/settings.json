@@ -35,12 +35,12 @@
 
     // Color overrides
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#135564",
+        "editor.selectionBackground": "#0066aa",
         "editor.selectionHighlightBackground": "#991144",
         "editorLineNumber.activeForeground": "#ffffff",
         "editorCursor.foreground": "#eeeeee",
         "editorCursor.background": "#111111",
-        "statusBar.background": "#135564",
+        "statusBar.background": "#007ACC",
         "statusBar.foreground": "#ffffff"
     },
 
@@ -87,6 +87,10 @@
 
     // Use Native Linux Titlebar
     "window.titleBarStyle": "native",
+
+    // Ignore Extension Recommendations
     "extensions.ignoreRecommendations": false,
+
+    // Use Material Icon Theme
     "workbench.iconTheme": "material-icon-theme"
 }
