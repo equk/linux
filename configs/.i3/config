@@ -175,18 +175,18 @@ bar {
         colors {
             # <bar>
             background #222222
-            separator  #d70a53
+            separator  #C792EA
             statusline #999999
 
             # <workclass>       <border> <bg> <text>
-            focused_workspace   #da2263 #d70a53 #ffffff
+            focused_workspace   #D792EA #C792EA #ffffff
             active_workspace    #565656 #444444 #ffffff
             inactive_workspace  #373737 #222222 #888888
             urgent_workspace    #ec7ea4 #eb709b #ffffff
         }
 }
 
-client.focused          #da2263 #d70a53 #ffffff #eb709b
+client.focused          #D792EA #C792EA #ffffff #eb709b
 client.focused_inactive #565656 #444444 #ffffff #666666
 client.unfocused        #373737 #222222 #888888 #444444
 client.urgent           #ec7ea4 #eb709b #ffffff #eb709b
