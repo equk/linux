@@ -41,7 +41,7 @@ set noswapfile
 set cursorline
 set ruler
 set autoindent
-set smartindent 
+set smartindent
 
 " code completion
 set completeopt=menu

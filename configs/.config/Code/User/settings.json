@@ -7,7 +7,7 @@
     // Font options
     "editor.fontSize": 14,
     "editor.fontFamily": "Liberation Mono",
-    "workbench.colorTheme": "1337",
+    "workbench.colorTheme": "Night Owl",
     "workbench.activityBar.visible": false,
 
     // ESLint
@@ -87,5 +87,6 @@
 
     // Use Native Linux Titlebar
     "window.titleBarStyle": "native",
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "workbench.iconTheme": "material-icon-theme"
 }
