@@ -8,9 +8,9 @@
 
 font="monospace-10"
 font_color="#ffffff"
-background="#262626"
+background="#011627"
 highlight="#000000"
-highlight_bg="#dd1144"
+highlight_bg="#8655a8"
 
 # import zshrc (for paths etc)
 source $HOME/.zshrc
