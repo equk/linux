@@ -14,10 +14,10 @@
     OS: Arch Linux x86_64
     Kernel: 5.0.7-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1248
+    Packages: 1247
     Window Manager: i3
     GTK2 theme: Adapta-Eta
-    GTK2 icon theme: Adwaita
+    GTK2 icon theme: Luv
     GTK2 font name: Noto Sans 10
     RAM: 16GiB
     CPU: Intel Core i5
