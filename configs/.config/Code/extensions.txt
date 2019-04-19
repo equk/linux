@@ -9,6 +9,7 @@ ms-vscode.cpptools
 ms-vscode.Go
 ms-vscode.Theme-1337
 ms-vscode.Theme-TomorrowKit
+octref.vetur
 PeterJausovec.vscode-docker
 PKief.material-icon-theme
 plorefice.devicetree
