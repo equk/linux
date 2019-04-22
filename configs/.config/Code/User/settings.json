@@ -36,11 +36,9 @@
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#0066aa",
         "editor.selectionHighlightBackground": "#991144",
-        "editorLineNumber.activeForeground": "#ffffff",
-        "editorCursor.foreground": "#eeeeee",
-        "editorCursor.background": "#111111",
         "statusBar.background": "#007ACC",
-        "statusBar.foreground": "#ffffff"
+        "statusBar.foreground": "#ffffff",
+        "sideBar.border": "#8655a8"
     },
     // Cursor - 'block', 'line' or 'underline'
     "editor.cursorStyle": "line",
