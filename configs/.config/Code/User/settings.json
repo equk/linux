@@ -18,7 +18,8 @@
     // Format on save
     "editor.formatOnSave": true,
     "[javascript]": {
-        "editor.formatOnSave": false
+        "editor.formatOnSave": false,
+        "editor.tabSize": 2
     },
     "[html]": {
         "editor.formatOnSave": false
