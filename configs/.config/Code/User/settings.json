@@ -58,6 +58,10 @@
     "breadcrumbs.enabled": true,
     "breadcrumbs.symbolPath": "on",
     "breadcrumbs.filePath": "off",
+    // Golang
+    "go.useLanguageServer": true,
+    "go.lintOnSave": "file",
+    "go.testOnSave": false,
     // Golang Debugging
     "go.delveConfig": {
         "useApiV1": false,
