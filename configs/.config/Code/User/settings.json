@@ -5,6 +5,7 @@
     // Font options
     "editor.fontSize": 14,
     "editor.fontFamily": "Liberation Mono",
+    // Theme options
     "workbench.colorTheme": "Night Owl",
     "workbench.activityBar.visible": false,
     // ESLint
@@ -73,6 +74,8 @@
             "maxStructFields": -1
         }
     },
+    // Rust
+    "rust.unstable_features": false,
     // Toggle menubar with Alt
     "window.menuBarVisibility": "toggle",
     // Enable json Settings Editor
