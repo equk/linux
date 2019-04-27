@@ -5,6 +5,8 @@
     // Font options
     "editor.fontSize": 14,
     "editor.fontFamily": "Liberation Mono",
+    // Display whitespace chars for indent
+    "editor.renderWhitespace": "boundary",
     // Theme options
     "workbench.colorTheme": "Night Owl",
     "workbench.activityBar.visible": false,
