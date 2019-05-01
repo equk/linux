@@ -30,8 +30,11 @@
     "[scss]": {
         "editor.formatOnSave": false
     },
+    // Format Whitespace
     "files.trimTrailingWhitespace": true,
     "editor.trimAutoWhitespace": true,
+    // HTML Formatting
+    "html.format.wrapLineLength": 0,
     // Rulers
     "editor.rulers": [
         80
