@@ -3,7 +3,6 @@ bungcip.better-toml
 christian-kohler.path-intellisense
 cmstead.jsrefactor
 dbaeumer.vscode-eslint
-HookyQR.beautify
 JuanBlanco.solidity
 ms-python.python
 ms-vscode.cpptools
