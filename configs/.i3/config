@@ -161,6 +161,8 @@ for_window [class="qemu-system-x86_64" title="QEMU \(pheonixos-0\)"] floating di
 for_window [class="qemu-system-x86_64" title="QEMU \(windows10-0\)"] floating disable, border 1pixel
 # set all dialog windows to floating
 for_window [window_type="dialog"] floating enable
+# peek (desktop recording)
+for_window [class="Peek"] floating enable
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
