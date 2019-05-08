@@ -1,6 +1,0 @@
-{
-    "env": {
-        "GOPATH": "$HOME/golang",
-        "GOROOT": "$HOME/go"
-    }
-}
