@@ -101,5 +101,11 @@
         "js-beautify-html": {
             "wrap_attributes": "auto"
         }
-    }
+    },
+    // Reactjs
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // Show git changes in gutter
+    "scm.diffDecorationsGutterWidth": 2,
 }
