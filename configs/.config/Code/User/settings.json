@@ -96,12 +96,12 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     // Vetur vuejs
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "vetur.format.defaultFormatterOptions": {
-        "js-beautify-html": {
-            "wrap_attributes": "auto"
-        }
-    },
+    // disabled Vetur formatting as problematic
+    // first it would wrap text in the middle of elements
+    // then it started cuasing space-before-function-paren errors
+    // removing space in functions eg: main () would be main()
+    // also messes up comma-dangle by removing them !
+    "vetur.format.enable": false,
     // Reactjs
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
