@@ -10,6 +10,12 @@
     // Theme options
     "workbench.colorTheme": "Night Owl",
     "workbench.activityBar.visible": false,
+    // Disable prettier on javascript
+    "prettier.disableLanguages": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
     // ESLint
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
