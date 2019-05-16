@@ -3,6 +3,7 @@ bungcip.better-toml
 christian-kohler.path-intellisense
 cmstead.jsrefactor
 dbaeumer.vscode-eslint
+esbenp.prettier-vscode
 JamesBirtles.svelte-vscode
 JuanBlanco.solidity
 ms-python.python
