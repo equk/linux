@@ -13,43 +13,6 @@ tree {
     font-size: 13px;
 }
 
-#folderTree treechildren {
-  background-color: #eeeeee !important;
-  font-weight: bold;
-  font-size: 13px;
-  padding-top: 10px;
-}
-
-
-#folderTree treechildren::-moz-tree-row(odd) {
-  background-color: #eeeeee !important;
-}
-
-#folderTree treechildren::-moz-tree-row(even) {
-  background-color: #efefef !important;
-}
-
-
-#folderview-cycler-next {
-  list-style-image: url(chrome://messenger/skin/icons/arrow/arrow-right.png) !important;
-}
-
-#folderview-cycler-prev {
-  list-style-image: url(chrome://messenger/skin/icons/arrow/arrow-left.png) !important;
-}
-
-
-#folderPaneHeader {
-  background-color: #dddddd !important;
-}
-
-#folderview-cycler-next {
-  list-style-image: none !important;
-}
-#folderview-cycler-prev {
-  list-style-image: none !important;
-}
-
 treechildren::-moz-tree-cell(lc-FFFFFF) { border-bottom:1px solid #FFFFFF !important; background-color: #FFFFFF !important;}
 treechildren::-moz-tree-cell-text(lc-FFFFFF) { color: #000 !important; }
 treechildren::-moz-tree-cell(lc-FFFFFF, selected) { background-color: #FFFFFF !important; }
