@@ -30,8 +30,13 @@
         "editor.formatOnSave": false,
         "editor.tabSize": 2
     },
+    "[vue]": {
+        "editor.formatOnSave": false,
+        "editor.tabSize": 2
+    },
     "[html]": {
-        "editor.formatOnSave": false
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[scss]": {
         "editor.formatOnSave": false

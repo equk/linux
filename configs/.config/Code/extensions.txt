@@ -16,4 +16,5 @@ plorefice.devicetree
 rust-lang.rust
 sdras.night-owl
 serayuzgur.crates
+sysoev.language-stylus
 xabikos.JavaScriptSnippets
