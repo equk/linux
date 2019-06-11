@@ -12,9 +12,9 @@
      /`           `\
 
     OS: Arch Linux x86_64
-    Kernel: 5.1.5-2-EQUK
+    Kernel: 5.1.8-1-EQUK
     Shell: /usr/bin/zsh
-    Packages: 1258
+    Packages: 1260
     Window Manager: i3
     GTK2 theme: Adapta-Nokto-Eta
     GTK2 icon theme: Luv
@@ -36,19 +36,19 @@ My twitter: `@equilibriumuk`
 
 ## Main Apps
 
-* Web Browser: Firefox
-* File Manager: Thunar
-* Terminal: alacritty + tmux
-* Twitter Client: Tweetdeck Web
-* Desktop Stats: Conky + i3bar
-* Desktop Background: Nitrogen
-* Text & Code Editor: vim & vscode
-* Image Editor: Gimp
-* Video Playback: VLC
-* Launcher: dmenu
-* Music Playback: Deadbeef & Spotify Web
-* Email Client: Thunderbird + Enigmail
-* IRC: Hexchat / irssi
+- Web Browser: Firefox
+- File Manager: Thunar
+- Terminal: alacritty + tmux
+- Twitter Client: Tweetdeck Web
+- Desktop Stats: Conky + i3bar
+- Desktop Background: Nitrogen
+- Text & Code Editor: vim & vscode
+- Image Editor: Gimp
+- Video Playback: VLC
+- Launcher: dmenu
+- Music Playback: Deadbeef & Spotify Web
+- Email Client: Thunderbird + Enigmail
+- IRC: Hexchat / irssi
 
 ## Screenshots
 
