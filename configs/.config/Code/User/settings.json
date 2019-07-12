@@ -38,8 +38,7 @@
         "editor.tabSize": 2
     },
     "[html]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.formatOnSave": false
     },
     "[scss]": {
         "editor.formatOnSave": false
@@ -124,4 +123,10 @@
     },
     // Show git changes in gutter
     "scm.diffDecorationsGutterWidth": 2,
+    // markdown options
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.tabSize": 2
+    }
 }
